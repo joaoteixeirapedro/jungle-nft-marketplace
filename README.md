@@ -3,7 +3,7 @@
 Marketplace de NFTs desenvolvido para o desafio técnico de frontend da **Jungle Gaming**, com catálogo, detalhes e edições de NFTs, favoritos, carrinho persistente, cupons, checkout, recibos, perfil e carteiras. Contas, pagamentos, conexões de carteira e eventos em tempo real são simulados no navegador.
 
 - **Aplicação publicada:** [jungle-nft-marketplace-xi.vercel.app](https://jungle-nft-marketplace-xi.vercel.app).
-- **Código da entrega:** [repositório na branch `codex/marketplace-delivery`](https://github.com/joaoteixeirapedro/jungle-nft-marketplace/tree/codex/marketplace-delivery).
+- **Código da entrega:** [repositório na branch `main`](https://github.com/joaoteixeirapedro/jungle-nft-marketplace/tree/main).
 - **Referências:** [enunciado do desafio](docs/CHALLENGE_README.md) e [layout no Figma](https://www.figma.com/design/Ff0SksUi7UFtPWUO8kyNtw/Frontend-Challenge?node-id=0-1).
 
 ## Guia rápido para avaliação

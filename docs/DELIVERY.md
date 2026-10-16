@@ -5,7 +5,7 @@ O build final da aplicação foi validado em **16/10/2026**. O [enunciado](CHALL
 ## Publicação em produção
 
 - Aplicação: [jungle-nft-marketplace-xi.vercel.app](https://jungle-nft-marketplace-xi.vercel.app).
-- Código: [repositório na branch de entrega](https://github.com/joaoteixeirapedro/jungle-nft-marketplace/tree/codex/marketplace-delivery).
+- Código: [repositório na branch de entrega](https://github.com/joaoteixeirapedro/jungle-nft-marketplace/tree/main).
 - Deploy de produção na Vercel: [detalhes do build](https://vercel.com/joaoteixeirapedro/jungle-nft-marketplace/BnqMMUXhDhSkVKppViN6QsHrWkLi).
 
 A Vercel instalou as dependências pelo lockfile com `npm ci`, auditou 377 pacotes sem vulnerabilidades reportadas e executou `npm run build`. O preset Vite serve `dist/` com fallback de rotas da SPA. As três variáveis públicas `VITE_*` estão configuradas para produção; credenciais e arquivos locais de ambiente ficam fora do Git e do envio. Não é necessário backend, serviço privado, extensão de carteira ou gateway de pagamento.

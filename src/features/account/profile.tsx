@@ -72,7 +72,7 @@ export function AvatarEditor({ profile }: { profile: Profile }) {
       finally { if (current === generation.current) setReading(false) }
     }
     next.readAsDataURL(selected)
-  }} />{reading && <p role="status">Preparando imagem…</p>}{validation && <p id="avatar-validation" role="alert" className="account-error">{validation}</p>}{candidate && <div className="avatar-preview"><img className="collector-avatar" src={candidate} alt="Prévia do novo avatar" /><p>A imagem atual será mantida até a confirmação.</p><Button disabled={busy} onClick={() => { if (!client.isMutating({ mutationKey: ['profile', token] })) { setSuccess(''); save.mutate(candidate) } }}>{save.isPending ? 'Salvando avatar…' : 'Confirmar avatar'}</Button><button className="account-text-button" disabled={busy} onClick={cancel}>Cancelar imagem</button></div>}<Result error={save.error} success={success} /></section>
+  }} />{reading && <p role="status">Preparando imagem…</p>}{validation && <p id="avatar-validation" role="alert" className="account-error">{validation}</p>}{candidate && <div className="avatar-preview"><img className="collector-avatar" src={candidate} alt="Prévia do novo avatar" /><p>A imagem atual será mantida até a confirmação.</p><Button type="button" disabled={busy} onClick={() => { if (!client.isMutating({ mutationKey: ['profile', token] })) { setSuccess(''); save.mutate(candidate) } }}>{save.isPending ? 'Salvando avatar…' : 'Confirmar avatar'}</Button><button type="button" className="account-text-button" disabled={busy} onClick={cancel}>Cancelar imagem</button></div>}<Result error={save.error} success={success} /></section>
 }
 
 export function PasswordEditor() {
