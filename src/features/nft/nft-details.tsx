@@ -20,8 +20,8 @@ function Artwork({ nft, back }: { nft: NftDetail; back: ReturnType<typeof catalo
   useEffect(() => { if (expanded) dialog.current?.showModal() }, [expanded])
   return <div className="detail-gallery">
     <div className="detail-mobile-tools"><Link {...back} className="detail-back" aria-label="Voltar ao catálogo"><DesignIcon file="0e8e8.svg" /></Link><FavoriteButton nft={nft} variant="mobile" /></div>
-    <div className="detail-thumbnails" aria-label="Imagem do NFT"><button type="button" aria-label="Ampliar imagem do NFT" onClick={() => setExpanded(true)} disabled={!nft.image.src}><NftImage image={nft.image} eager sizes="70px" /></button></div>
-    <div className="detail-artwork"><NftImage key={nft.image.src} image={nft.image} eager sizes="(max-width: 767px) calc(100vw - 56px), 444px" /><button type="button" className="detail-zoom icon-button" aria-label="Ampliar imagem do NFT" onClick={() => setExpanded(true)} disabled={!nft.image.src}><DesignIcon file="9ae7b.svg" /></button></div>
+    <div className="detail-thumbnails" aria-label="Imagem do NFT"><button type="button" aria-label="Ampliar imagem do NFT" onClick={() => setExpanded(true)} disabled={!nft.image.src}><NftImage image={nft.image} sizes="98px" /></button></div>
+    <div className="detail-artwork"><NftImage key={nft.image.src} image={nft.image} priority sizes="(max-width: 767px) calc(100vw - 56px), (max-width: 1199px) calc((100vw - 72px) / 2 - 24px), 404px" /><button type="button" className="detail-zoom icon-button" aria-label="Ampliar imagem do NFT" onClick={() => setExpanded(true)} disabled={!nft.image.src}><DesignIcon file="9ae7b.svg" /></button></div>
     <dialog className="artwork-dialog" ref={dialog} aria-labelledby="artwork-title" onClose={() => setExpanded(false)}><h2 id="artwork-title">{nft.name}</h2><Button autoFocus variant="outline" onClick={() => dialog.current?.close()}>Fechar imagem</Button>{expanded && <NftImage image={nft.image} eager fullResolution />}</dialog>
   </div>
 }

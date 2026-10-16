@@ -3,7 +3,7 @@ import { createHash } from 'node:crypto'
 import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises'
 
 const names = ['8f387', '83794', '9add2', 'b7cfc']
-const widths = [320, 640, 1254]
+const widths = [160, 320, 480, 640, 960, 1254]
 const output = 'public/assets/artwork'
 const previousReport = JSON.parse(await readFile('docs/assets/optimization.json', 'utf8').catch(() => 'null'))
 await mkdir(output, { recursive: true })

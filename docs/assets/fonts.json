@@ -4,20 +4,41 @@
     "before": 78948,
     "optimized": "public/fonts/roboto-mono-regular.woff2",
     "after": 37608,
-    "cmapMetricsAndOutlinesIdentical": true
+    "cmapMetricsAndOutlinesIdentical": true,
+    "latin": {
+      "optimized": "public/fonts/roboto-mono-regular-latin.woff2",
+      "after": 20596,
+      "unicodeRange": "U+0000-024F,U+0300-036F,U+1E00-1EFF,U+2000-2BFF,U+FEFF,U+FFFD",
+      "codepoints": 511,
+      "cmapMetricsAndOutlinesIdentical": true
+    }
   },
   {
     "original": "assets/originals/fonts/roboto-mono-medium.ttf",
     "before": 78936,
     "optimized": "public/fonts/roboto-mono-medium.woff2",
     "after": 38744,
-    "cmapMetricsAndOutlinesIdentical": true
+    "cmapMetricsAndOutlinesIdentical": true,
+    "latin": {
+      "optimized": "public/fonts/roboto-mono-medium-latin.woff2",
+      "after": 21312,
+      "unicodeRange": "U+0000-024F,U+0300-036F,U+1E00-1EFF,U+2000-2BFF,U+FEFF,U+FFFD",
+      "codepoints": 511,
+      "cmapMetricsAndOutlinesIdentical": true
+    }
   },
   {
     "original": "assets/originals/fonts/roboto-mono-bold.ttf",
     "before": 79124,
     "optimized": "public/fonts/roboto-mono-bold.woff2",
     "after": 37712,
-    "cmapMetricsAndOutlinesIdentical": true
+    "cmapMetricsAndOutlinesIdentical": true,
+    "latin": {
+      "optimized": "public/fonts/roboto-mono-bold-latin.woff2",
+      "after": 20604,
+      "unicodeRange": "U+0000-024F,U+0300-036F,U+1E00-1EFF,U+2000-2BFF,U+FEFF,U+FFFD",
+      "codepoints": 511,
+      "cmapMetricsAndOutlinesIdentical": true
+    }
   }
 ]

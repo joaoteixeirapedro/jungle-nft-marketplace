@@ -10,8 +10,24 @@ export default defineConfig({
     transformIndexHtml: {
       order: 'post',
       handler(_html, { bundle }) {
-        // Fetch/compile in parallel; execution still waits for worker.start().
-        return Object.values(bundle ?? {}).filter((item) => item.type === 'chunk' && ['/src/mocks/browser.ts', '/src/app/app.tsx'].some((path) => item.facadeModuleId?.replaceAll('\\', '/').endsWith(path))).map((item) => ({ tag: 'link', attrs: { rel: 'modulepreload', crossorigin: '', href: `/${item.fileName}` }, injectTo: 'head' as const }))
+        // Include static dependencies: preloading only the entry chunks leaves a
+        // second network waterfall after MSW starts. This never executes modules.
+        const files = new Set<string>()
+        const preload = (file: string) => {
+          if (files.has(file)) return
+          const chunk = bundle?.[file]
+          if (chunk?.type !== 'chunk') return
+          files.add(file)
+          chunk.imports.forEach(preload)
+        }
+        Object.values(bundle ?? {}).forEach((item) => {
+          if (item.type === 'chunk' && ['/src/mocks/browser.ts', '/src/app/app.tsx'].some((path) => item.facadeModuleId?.replaceAll('\\', '/').endsWith(path))) preload(item.fileName)
+        })
+        return [...files].map((file) => ({
+          tag: 'link',
+          attrs: { rel: 'modulepreload', crossorigin: '', href: `/${file}` },
+          injectTo: 'head' as const,
+        }))
       },
     },
   }],

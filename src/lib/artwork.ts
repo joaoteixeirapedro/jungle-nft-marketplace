@@ -6,7 +6,7 @@ export function artworkProps(source: string, sizes: string) {
   if (!name) return { src: source }
   return {
     src: `/assets/artwork/${name}-1254.webp`,
-    srcSet: [320, 640, 1254].map((width) => `/assets/artwork/${name}-${width}.webp ${width}w`).join(', '),
+    srcSet: [160, 320, 480, 640, 960, 1254].map((width) => `/assets/artwork/${name}-${width}.webp ${width}w`).join(', '),
     sizes,
   }
 }

@@ -25,7 +25,7 @@ export function HomeHero() {
     </div>
     <div className="hero-art">
       {query.isPending ? <div className="shimmer hero-main-image" aria-label="Carregando destaque" /> : query.isError ? <div className="hero-image-error" role="alert"><p>Destaque indisponível.</p><Button variant="outline" onClick={() => void query.refetch()}>Recarregar destaque</Button></div> : nft?.image.src ? <Link to="/nfts/$nftId" params={{ nftId: nft.id }} search={search} aria-label={`Ver ${nft.name}`}><img {...artworkProps(nft.image.src, '(max-width: 399px) 126px, (max-width: 767px) 138px, (max-width: 999px) 300px, (max-width: 1199px) 360px, 450px')} alt={nft.image.alt} width="450" height="450" fetchPriority="high" className="hero-main-image" /></Link> : null}
-      {secondary.data?.image.src && <img className="hero-small-image" {...artworkProps(secondary.data.image.src, '58px')} alt="" width="58" height="58" />}
+      {secondary.data?.image.src && <img className="hero-small-image" {...artworkProps(secondary.data.image.src, '58px')} loading="lazy" alt="" width="58" height="58" />}
     </div>
     <DesignIcon file="c6c5e.svg" className="mobile-hero-dots" />
   </section>
