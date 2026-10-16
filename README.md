@@ -1,75 +1,74 @@
 # Kurio — NFT Marketplace
 
-Marketplace de NFTs desenvolvido para o desafio de Frontend Developer da Jungle Gaming. Inclui catálogo com busca e filtros, detalhes com seleção de edição, favoritos, carrinho, cupons, checkout, pedidos e conta do colecionador. Autenticação, carteiras e pagamentos são simulados no navegador.
+NFT marketplace built for the Jungle Gaming frontend challenge. It includes discovery, NFT details and editions, favorites, a persistent cart, coupons, checkout, order receipts, collector profiles, and wallets. Accounts, wallet connections, payments, and real-time events are simulated in the browser.
 
-## Tecnologias
+- **Live demo:** [jungle-nft-marketplace-xi.vercel.app](https://jungle-nft-marketplace-xi.vercel.app)
+- **Repository (delivery branch):** [joaoteixeirapedro/jungle-nft-marketplace](https://github.com/joaoteixeirapedro/jungle-nft-marketplace/tree/codex/marketplace-delivery)
 
-- React, TypeScript e Vite.
-- TanStack Router, TanStack Query e Axios.
-- Tailwind CSS e componentes shadcn/ui com Radix Slot.
-- MSW, `@mswjs/socket.io-binding` e Socket.IO Client.
-- Playwright, axe-core, testes de domínio com Node.js e Lighthouse.
+## Stack
 
-## Como executar
+React, TypeScript, Vite, TanStack Router, TanStack Query, Axios, Tailwind CSS, shadcn/ui with Radix Slot, MSW, Socket.IO Client, and `@mswjs/socket.io-binding`. Validation uses Playwright, axe-core, Node.js domain tests, and Lighthouse.
 
-Requisitos: **Node.js 24 ou superior** e npm. Não é necessário iniciar um backend nem configurar chaves de API ou extensões de carteira.
+## Run locally
+
+Use **Node.js 24 or later** and npm. No backend, API keys, browser wallet extension, or payment service is required.
 
 ```sh
 npm ci
 npm run dev
 ```
 
-Acesse [localhost:5173](http://127.0.0.1:5173). Para testar o build de produção localmente:
+Development runs at [127.0.0.1:5173](http://127.0.0.1:5173). To serve the production build:
 
 ```sh
 npm run build
 npm start
 ```
 
-O preview fica em [localhost:4173](http://127.0.0.1:4173).
+The preview runs at [127.0.0.1:4173](http://127.0.0.1:4173). `npm run preview` is equivalent.
 
-O arquivo [`.env.example`](.env.example) documenta os valores padrão. Copiá-lo para `.env` é opcional; mudanças exigem reiniciar o Vite ou gerar outro build.
+## Environment and deployment
 
-| Variável | Padrão |
+[`.env.example`](.env.example) documents the defaults; copying it to `.env` is optional. These public build-time settings require a rebuild after changes. Never put secrets in `VITE_*` variables.
+
+| Variable | Default |
 | --- | --- |
-| `VITE_ENABLE_MOCKS` | `true`; mantém a simulação ativa também no build |
+| `VITE_ENABLE_MOCKS` | `true`, including production builds |
 | `VITE_API_BASE_URL` | `/api` |
-| `VITE_SOCKET_URL` | `https://realtime.nft-marketplace.test`; origem interceptada pelo MSW |
+| `VITE_SOCKET_URL` | `https://realtime.nft-marketplace.test` |
 
-## Demonstração
+Vercel uses the Vite preset, `npm ci`, `npm run build`, and `dist`. [`vercel.json`](vercel.json) provides SPA rewrites for direct navigation/refresh and disables caching for the MSW worker. [`.vercelignore`](.vercelignore) excludes local dependencies, reports, original artwork, and environment files from uploads. Production was deployed with the three public variables above explicitly supplied at build time; the same values are also the application defaults.
 
-A aplicação ainda não possui uma URL pública. A configuração de deploy está preparada em `vercel.json`; a publicação permanece pendente.
+Socket.IO uses the real client with WebSocket transport, intercepted by MSW and its Socket.IO protocol binding. The reserved `.test` hostname is intentional: no Socket.IO server runs on Vercel. State belongs to each browser's simulation. BroadcastChannel synchronizes tabs of the same origin, not separate devices.
 
-## API simulada e contas de teste
+## Demo accounts and scenarios
 
-O MSW intercepta as requisições REST e a conexão WebSocket. O binding implementa o protocolo Socket.IO; o cliente usa somente o transporte `websocket`, sem polling ou servidor adicional.
-
-| Conta fictícia | Senha |
+| Fictional account | Password |
 | --- | --- |
 | `alice@example.test` | `Demo#2026` |
 | `bruno@example.test` | `Demo#2026` |
 
-As fixtures incluem 30 NFTs, 90 edições, três coleções e dados separados por conta. Alice possui carteiras e um pedido histórico. O cupom `WELCOME10` aplica 10% de desconto; `EXPIRED` exercita a expiração.
+Fixtures contain 30 NFTs, 90 editions, three collections, and separate account data. Alice has wallets and a historical order. `WELCOME10` applies a 10% discount; `EXPIRED` exercises coupon expiration.
 
-O banco simulado fica no `localStorage`; a sessão e a identificação do visitante ficam no `sessionStorage`. Os dados sobrevivem a refresh na mesma origem. Ao autenticar, o carrinho do visitante é incorporado à conta.
+The simulated database persists in `localStorage`; the session and guest identity use `sessionStorage`. Refresh preserves the session in the same tab. Signing in merges the guest cart into the account.
 
-No console do navegador, com a aplicação aberta:
+Run these commands in the browser console, locally or on the live demo:
 
 ```js
-// Selecionar um cenário, preservando o banco.
+// Select a scenario while preserving the database.
 await fetch('/api/__mock/scenario', {
   method: 'PUT',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({ scenario: 'payment-declined' }),
 })
 
-// Restaurar todas as fixtures e revogar as sessões simuladas.
+// Restore all fixtures and revoke simulated sessions.
 await fetch('/api/__mock/reset', { method: 'POST' })
 ```
 
-Após mudar o cenário, recarregue para renovar o cache. Depois do reset, autentique novamente. Há cenários de lentidão, respostas fora de ordem, falhas de rede, sessão expirada, mudança de preço/estoque e timeout após a criação do pedido. A [documentação dos cenários](docs/API_SIMULADA.md) explica como reproduzi-los, inclusive desconexão e recuperação do Socket.IO. Os [contratos REST e eventos](docs/API_CONTRACTS.md) detalham os recursos e os controles disponíveis.
+Reload after selecting a scenario to refresh the query cache. Sign in again after a reset. [Scenario instructions](docs/API_SIMULADA.md) cover slow/out-of-order responses, network/HTTP failures, session expiration, invalid coupons, price/stock changes, payment refusal, order timeouts, and Socket.IO interruption/recovery. [REST and event contracts](docs/API_CONTRACTS.md) document the controls and payloads.
 
-## Testes
+## Validation
 
 ```sh
 npm run typecheck
@@ -80,22 +79,27 @@ npm run build
 npm run test:e2e:production
 ```
 
-Os E2E iniciam o preview na porta **4173** e executam em Chromium desktop e mobile, com dados isolados. Encerre um preview manual nessa porta antes de rodá-los. `npm run test:e2e` testa o servidor de desenvolvimento na porta **5173**, que também deve estar livre.
+The **13 domain tests passed**, and the complete E2E suite passed **112/112 locally and 112/112 on the public Vercel URL**, with no retries, skips, or flaky results. Each suite runs 59 desktop and 53 mobile executions using isolated browser contexts, MSW handlers, and the Socket.IO client. Final results and Lighthouse scores are recorded in [delivery notes](docs/DELIVERY.md) and [machine-readable results](docs/DELIVERY_RESULTS.json).
 
-Relatórios e traces novos ficam em `playwright-report/` e `test-results/`, ignorados pelo Git. O [relatório HTML de entrega](docs/test-report/index.html) está versionado; para abri-lo, use `npx playwright show-report docs/test-report`.
+The production E2E command starts a preview on port 4173. Stop a manual preview first, or set `PLAYWRIGHT_PORT` to a free port. `npm run test:e2e` uses the development server on port 5173. To run the same suite against the live demo, set `PLAYWRIGHT_BASE_URL`; the configuration then skips the local server. In PowerShell:
 
-Para reproduzir o Lighthouse, mantenha `npm start` aberto em outro terminal e execute `npm run audit:lighthouse`. O comando realiza três medições por página e perfil. Os [relatórios HTML/JSON e medianas](docs/lighthouse/final-delivery/) estão preservados. Os resultados e as limitações conhecidas constam em [docs/DELIVERY.md](docs/DELIVERY.md).
+```powershell
+$env:PLAYWRIGHT_BASE_URL = 'https://jungle-nft-marketplace-xi.vercel.app'
+npm run test:e2e:production
+Remove-Item Env:PLAYWRIGHT_BASE_URL
+```
 
-## Notas técnicas
+New reports are generated under `playwright-report/production` or `playwright-report/public`; JSON results and failure traces are under `test-results/production` or `test-results/public`. Open the retained [local report](docs/test-report/index.html) with `npx playwright show-report docs/test-report`, or the [public report](docs/test-report/public/index.html) with `npx playwright show-report docs/test-report/public`. Eight visual baselines are versioned for Windows/Chromium; other operating systems need matching baselines or the same Windows environment.
 
-- `src/app` concentra bootstrap, providers e roteamento; `components`, `features`, `routes` e `hooks` organizam a interface. `services` contém os clientes HTTP/Socket.IO; `types` compartilha os contratos; `mocks` reúne handlers, fixtures e estado simulado. Os testes ficam em `tests/` e os assets distribuídos em `public/`.
-- TanStack Query gerencia consultas, mutations e invalidação. As chaves incluem parâmetros e identidade; requisições obsoletas são canceladas. Favoritos têm atualização otimista com rollback.
-- Preços trafegam como strings decimais e os cálculos usam inteiros em wei. A cotação da API é revalidada antes do pedido; a chave de idempotência permite recuperar uma compra após timeout sem duplicá-la.
-- Eventos `nft.updated` e `order.updated` são versionados. Duplicatas e versões antigas são descartadas; reconexões reconciliam os recursos ativos por REST. Logout e troca de conta limpam dados privados e subscriptions.
+For Lighthouse, keep `npm start` running and execute `npm run audit:lighthouse`. It measures Home and NFT details three times per desktop/mobile profile, using production assets and standard mocks. Set `AUDIT_URL` to audit another origin. [HTML/JSON reports and medians](docs/lighthouse/final-delivery/) record the actual scores, LCP, CLS, TBT, tool versions, and conditions. Audit settings are unchanged.
 
-As políticas de sessão, cache, persistência, compra e as adaptações do layout estão em [ARCHITECTURE.md](ARCHITECTURE.md). As artes e fontes são locais; os originais em `assets/originals/` são utilizados pelos scripts de otimização e não entram no build.
+## Implementation notes
 
-## Referências do desafio
+TanStack Query keys include parameters and session identity. Obsolete requests are canceled, private caches/subscriptions are cleared on account changes, and favorites use optimistic updates with rollback. ETH values travel as decimal strings and use integer wei calculations. Quotes are revalidated before purchase; persisted idempotency keys recover the same order after a timeout. Versioned Socket.IO events reject duplicates and older updates; reconnection reconciles active resources through REST.
 
-- [Enunciado da Jungle Gaming](https://github.com/junglegaming/frontend-challenge) e [cópia preservada](docs/CHALLENGE_README.md).
-- [Figma original](https://www.figma.com/design/Ff0SksUi7UFtPWUO8kyNtw/Frontend-Challenge?node-id=0-1) e [referências visuais e origem dos assets](docs/figma/README.md).
+[`ARCHITECTURE.md`](ARCHITECTURE.md) explains session, cart, cache, persistence, reconciliation, UX decisions, and Figma adaptations. Fonts and artwork are local. Originals in `assets/originals` support optional optimization scripts and are excluded from deployment.
+
+## Challenge references
+
+- [Jungle Gaming challenge](https://github.com/junglegaming/frontend-challenge) and [preserved brief](docs/CHALLENGE_README.md).
+- [Original Figma](https://www.figma.com/design/Ff0SksUi7UFtPWUO8kyNtw/Frontend-Challenge?node-id=0-1) and [visual references/assets](docs/figma/README.md).

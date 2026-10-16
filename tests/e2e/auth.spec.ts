@@ -185,6 +185,7 @@ test('favorito retorna do login sem salvar sozinho, isola contas e recupera expi
 test('falha transitória mantém sessão e logout sem confirmação remota é informado', async ({ page }) => {
   await page.goto('/login?redirect=%2Fprofile')
   await signIn(page)
+  await expect(page.locator('main')).toHaveAttribute('data-realtime-state', 'ready')
   const token = await page.evaluate(() => sessionStorage.getItem('jungle-marketplace.session')!)
   await scenario(page, 'slow')
   await page.reload()
@@ -199,6 +200,7 @@ test('falha transitória mantém sessão e logout sem confirmação remota é in
   await scenario(page, 'default')
   await page.getByRole('button', { name: 'Verificar novamente', exact: true }).click()
   await expect(page.getByTestId('account-identity')).toHaveText('alice')
+  await expect(page.locator('main')).toHaveAttribute('data-realtime-state', 'ready')
   await scenario(page, 'server-error')
   await page.locator('.account-page').getByRole('button', { name: 'Sair da conta', exact: true }).click()
   await expect(page).toHaveURL(/\/$/)
@@ -209,6 +211,9 @@ test('falha transitória mantém sessão e logout sem confirmação remota é in
   await page.getByRole('button', { name: 'Entendi' }).click()
   await page.goto('/login?redirect=%2Fprofile')
   await signIn(page)
+  // The dialog can close before the private route and its initial reconciliation finish.
+  await expect(page.locator('.account-page').getByRole('button', { name: 'Sair da conta', exact: true })).toBeVisible()
+  await expect(page.locator('main')).toHaveAttribute('data-realtime-state', 'ready')
   const current = await page.evaluate(() => sessionStorage.getItem('jungle-marketplace.session')!)
   await scenario(page, 'malformed-session')
   await page.locator('.account-page').getByRole('button', { name: 'Sair da conta', exact: true }).click()

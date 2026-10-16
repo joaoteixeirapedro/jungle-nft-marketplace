@@ -3,6 +3,8 @@ import { expect, test, type Page } from '@playwright/test'
 
 async function ready(page: Page) {
   await expect(page.locator('.shimmer').filter({ visible: true })).toHaveCount(0)
+  const realtime = page.locator('main[data-realtime-state]')
+  if (await realtime.count()) await expect(realtime).toHaveAttribute('data-realtime-state', 'ready')
   await page.evaluate(() => document.fonts.ready)
   await expect.poll(() => page.locator('img:visible').evaluateAll((images) => images.filter((image) => { const rect = image.getBoundingClientRect(); return rect.top < innerHeight && rect.bottom > 0 }).every((image) => (image as HTMLImageElement).complete && (image as HTMLImageElement).naturalWidth > 0))).toBe(true)
 }
@@ -21,6 +23,7 @@ test.beforeEach(async ({ page }) => {
   await expect(page.getByTestId('nft-card').first()).toBeVisible()
   const status = await page.evaluate(async () => (await fetch('/api/__mock/reset', { method: 'POST' })).status)
   expect(status).toBe(200)
+  await ready(page)
 })
 
 test('auditoria: baselines de início, detalhe e carrinho com dados estáveis', async ({ page }) => {

@@ -40,7 +40,11 @@ async function confirm(page: Page) {
 async function resume(page: Page) {
   await control(page, { action: 'resume' })
   const retry = page.getByRole('button', { name: 'Tentar reconectar', exact: true })
-  if (await retry.isVisible()) await retry.click()
+  if (await retry.isVisible()) await retry.click({ timeout: 1_000 }).catch(async (error: unknown) => {
+    // Automatic reconnection can remove the optional retry button between lookup and click.
+    if (await retry.isVisible()) throw error
+    await ready(page)
+  })
   await ready(page)
 }
 test.beforeEach(async ({ page }) => {

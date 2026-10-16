@@ -106,9 +106,13 @@ test('cupons e totais vêm da API com precisão em wei, substituição, expiraç
   }
   await scenario(page, 'coupon-expired')
   await page.reload()
+  await expect(page.locator('main')).toHaveAttribute('data-realtime-state', 'ready')
   await expect(page.locator('#coupon-status')).toContainText('Cupom expirado')
   await expect(proceed(page)).toBeDisabled()
+  await expect(page.locator('.cart-layout')).toHaveAttribute('aria-busy', 'false')
+  const removedCoupon = page.waitForResponse((response) => response.request().method() === 'DELETE' && new URL(response.url()).pathname === '/api/cart/coupon' && response.status() === 200)
   await page.getByRole('button', { name: 'Remover cupom', exact: true }).click()
+  await removedCoupon
   await quoteReady(page)
   await expect(page.getByTestId('cart-discount')).toHaveText('(-) 0.0 ETH')
   expect((await api<Cart>(page, '/cart')).data.couponCode).toBeNull()

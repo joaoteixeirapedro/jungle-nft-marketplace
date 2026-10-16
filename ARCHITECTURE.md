@@ -26,7 +26,7 @@ TanStack Router controla rotas, validação de buscas e proteção em `beforeLoa
 
 Login e cadastro abrem sobre a página pública de origem. O route masking exibe `/login` ou `/register` na URL, enquanto o estado tipado `authDialog` mantém a rota real montada, incluindo filtros, edição, quantidade e rolagem. O fundo fica `inert`; fechar restaura o foco ao acionador. Mobile mantém a composição de página inteira do Figma e restaura o contexto ao fechar. Acesso direto à autenticação, sem origem, usa a Home de fundo. Páginas privadas não ficam como fundo após expiração.
 
-Rotas secundárias são carregadas sob demanda. A hospedagem deve servir o fallback da SPA para rotas profundas; `vercel.json` prepara essa configuração. O deploy público continua pendente.
+Rotas secundárias são carregadas sob demanda. A aplicação está publicada em https://jungle-nft-marketplace-xi.vercel.app. `vercel.json` define o preset Vite, instalação com `npm ci`, build e fallback da SPA para acesso direto e refresh das rotas profundas. O worker MSW é servido sem cache. `.vercelignore` exclui arquivos de ambiente, dependências locais e evidências do pacote de publicação.
 
 ## REST, cache e sessão
 
@@ -46,7 +46,7 @@ Respostas 401 iniciam recuperação da sessão; 403 informa falta de permissão 
 
 ## Estado simulado e compra
 
-MSW intercepta REST e eventos no navegador, inclusive no build de demonstração. O worker oficial fica em `public/mockServiceWorker.js`. Requisições desconhecidas para `/api/*` geram erro; arquivos estáticos são liberados. Não há servidor Express, Socket.IO real ou proxy de backend.
+MSW intercepta REST e eventos no navegador, inclusive no build de demonstração. O worker oficial fica em `public/mockServiceWorker.js`. Requisições desconhecidas para `/api/*` geram erro; arquivos estáticos são liberados. O cliente Socket.IO é real, com o protocolo simulado pelo binding MSW; não há servidor Express, servidor Socket.IO remoto ou proxy de backend.
 
 O banco canônico em `localStorage` (`jungle-marketplace.mock.v1`) contém catálogo, contas, sessões, favoritos, carrinhos, carteiras, cotações, pedidos e registros de idempotência. Handlers compartilham o mesmo domínio e publicam eventos somente após persistir a transação. Web Locks serializa alterações entre abas; sem essa API, o fallback é uma fila por contexto e não garante exclusão entre abas. Testes de domínio usam memória.
 
@@ -94,4 +94,4 @@ O acesso ao contexto automatizado do Figma teve limitações de permissão/quota
 
 As suítes existentes cobrem domínio, REST/MSW, transporte Socket.IO, compra, conta, isolamento, erros e recuperação em Chromium desktop/mobile. Oito baselines de início, detalhe, carrinho e pagamento são versionadas junto dos testes. Relatórios finais, ambiente Lighthouse e pendências estão em [docs/DELIVERY.md](docs/DELIVERY.md).
 
-O deploy público exigido pelo enunciado ainda está pendente. As últimas medições Lighthouse ficaram abaixo da meta de performance na Home e no detalhe mobile; métricas e causas permanecem documentadas. Os relatórios Lighthouse identificam o build medido e não representam uma nova medição de alterações posteriores.
+O deploy público usa os mesmos assets e módulos do build local; a comparação de hashes e os resultados executados estão em `docs/DELIVERY_RESULTS.json`. A suíte existente pode validar a origem HTTPS com `PLAYWRIGHT_BASE_URL`, sem iniciar um servidor local. As evidências finais substituem os relatórios de builds anteriores; pontuações Lighthouse e eventuais limitações estão em `docs/DELIVERY.md`. Esta etapa de entrega não altera layout, funcionalidades, baselines visuais nem os perfis de auditoria.
