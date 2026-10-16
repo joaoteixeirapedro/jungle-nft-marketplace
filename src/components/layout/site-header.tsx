@@ -6,7 +6,7 @@ import { catalogReturn } from '@/features/nft/navigation'
 import { validateCatalogSearch } from '@/features/catalog/search'
 import { useAuth } from '@/features/auth/auth-context'
 import { useLogout } from '@/hooks/use-logout'
-import { safeAuthRedirect } from '@/lib/auth-navigation'
+import { AuthLink } from '@/features/auth/auth-link'
 import { useCart } from '@/features/cart/use-cart'
 
 function CartEntry({ mobile = false }: { mobile?: boolean }) {
@@ -18,11 +18,10 @@ function CartEntry({ mobile = false }: { mobile?: boolean }) {
 function AccountEntry() {
   const auth = useAuth()
   const logout = useLogout()
-  const href = useRouterState({ select: (state) => state.location.href })
   if (auth.status === 'checking') return <Button disabled aria-busy="true">Verificando sessão…</Button>
   if (auth.status === 'error') return <Button variant="outline" onClick={auth.retry}>Verificar sessão</Button>
   if (auth.status === 'authenticated' || auth.status === 'signing-out') return <div className="account-entry"><Button asChild><Link to="/profile" preload={false} aria-label={`Minha conta, ${auth.session?.user.username}`} >{auth.session?.user.avatarUrl && <img className="header-avatar" src={auth.session.user.avatarUrl} alt="Seu avatar" />}Minha conta</Link></Button><button className="icon-button" aria-label="Sair da conta" disabled={logout.pending} onClick={logout.logout}><DesignIcon file="62554.svg" /></button></div>
-  return <Button asChild><Link to="/login" search={{ redirect: safeAuthRedirect(href) }} data-auth-entry><DesignIcon file="62554.svg" />Entrar</Link></Button>
+  return <Button asChild><AuthLink data-auth-entry><DesignIcon file="62554.svg" />Entrar</AuthLink></Button>
 }
 
 export function SiteHeader() {
@@ -49,14 +48,13 @@ export function SiteHeader() {
 
 export function MobileNavigation() {
   const auth = useAuth()
-  const href = useRouterState({ select: (state) => state.location.href })
   return <nav aria-label="Navegação mobile" className="mobile-navigation">
     <Link to="/" aria-label="Início" activeOptions={{ exact: true }} activeProps={{ 'aria-current': 'page' }}><DesignIcon file="b096d.svg" /></Link>
-    <Link to="/favorites" preload={false} aria-label="Favoritos"><DesignIcon file="c40be.svg" /></Link>
+    {auth.status === 'anonymous' ? <AuthLink redirect="/favorites" aria-label="Favoritos"><DesignIcon file="c40be.svg" /></AuthLink> : <Link to="/favorites" preload={false} aria-label="Favoritos"><DesignIcon file="c40be.svg" /></Link>}
     <span className="mobile-navigation-background" aria-hidden="true"><DesignIcon file="3b81f.svg" /></span>
     <Link to="/marketplace" aria-label="Explorar mercado" className="mobile-explore"><DesignIcon file="b1ba5.svg" /><span className="bag-icon"><DesignIcon file="d5458.svg" /><DesignIcon file="ca931.svg" /><DesignIcon file="97351.svg" /><DesignIcon file="f7581.svg" /><DesignIcon file="db42b.svg" /></span></Link>
     <CartEntry mobile />
-    {auth.status === 'checking' || auth.status === 'error' ? <button aria-label={auth.status === 'checking' ? 'Verificando sessão' : 'Verificar sessão'} disabled={auth.status === 'checking'} onClick={auth.retry}><DesignIcon file="99dca.svg" /></button> : auth.status === 'authenticated' || auth.status === 'signing-out' ? <Link to="/profile" preload={false} aria-label="Minha conta">{auth.session?.user.avatarUrl ? <img className="mobile-account-avatar" src={auth.session.user.avatarUrl} alt="Seu avatar" /> : <DesignIcon file="99dca.svg" />}</Link> : <Link to="/login" search={{ redirect: safeAuthRedirect(href) }} aria-label="Entrar" data-auth-entry><DesignIcon file="99dca.svg" /></Link>}
+    {auth.status === 'checking' || auth.status === 'error' ? <button aria-label={auth.status === 'checking' ? 'Verificando sessão' : 'Verificar sessão'} disabled={auth.status === 'checking'} onClick={auth.retry}><DesignIcon file="99dca.svg" /></button> : auth.status === 'authenticated' || auth.status === 'signing-out' ? <Link to="/profile" preload={false} aria-label="Minha conta">{auth.session?.user.avatarUrl ? <img className="mobile-account-avatar" src={auth.session.user.avatarUrl} alt="Seu avatar" /> : <DesignIcon file="99dca.svg" />}</Link> : <AuthLink aria-label="Entrar" data-auth-entry><DesignIcon file="99dca.svg" /></AuthLink>}
   </nav>
 }
 

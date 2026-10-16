@@ -1,8 +1,8 @@
-# Contratos da API simulada — base do Prompt 3 e integrações até o Prompt 10
+# Contratos da API simulada
 
 Fonte: [README oficial, seções 3 a 7](https://github.com/junglegaming/frontend-challenge). Ele especifica recursos/comportamentos, mas não impõe caminhos, nomes de campos ou envelopes JSON. Os contratos abaixo são as escolhas da solução para cumprir esses requisitos. Tipos compartilhados: `src/types/marketplace.ts` e `src/types/diagnostics.ts`.
 
-Tudo é interceptado pelo **MSW no navegador**, inclusive Socket.IO. Não há backend separado. A base de dados do Prompt 3 sustenta as páginas implementadas nas etapas seguintes; atualizações de integração estão registradas ao final deste documento.
+Tudo é interceptado pelo **MSW no navegador**, inclusive Socket.IO. Não há backend separado. Os handlers compartilham o mesmo estado entre todas as telas e os controles de teste.
 
 ## Convenções e autenticação
 
@@ -53,7 +53,7 @@ Parâmetros combináveis do catálogo:
 | `sort` | `recent` (default), `price-asc`, `price-desc`, `name`; desempate estável por ID. |
 | `page`, `pageSize` | Inteiros; defaults 1 e 9. Page size máximo 100. Página além do fim retorna lista vazia com os mesmos totais. |
 
-Exemplo: `/api/nfts?category=art&network=ethereum&minPrice=1&maxPrice=6&sort=price-asc&page=1&pageSize=1` tem dois resultados distribuídos em duas páginas. A integração com search params e histórico da UI fica para os próximos prompts.
+Exemplo: `/api/nfts?category=art&network=ethereum&minPrice=1&maxPrice=6&sort=price-asc&page=1&pageSize=1` tem dois resultados distribuídos em duas páginas.
 
 ## Conta, sessão e perfil
 
@@ -197,23 +197,19 @@ Após reset, autentique novamente ou limpe o token local/recarregue para não re
 - Eventos só são publicados após persistir a transação. Os handlers não chamam React setters ou Query cache. Logout/expiração revoga a autorização de eventos privados mesmo que o socket continue aberto.
 - Banco único em `localStorage` (`jungle-marketplace.mock.v1`); sem BigInt ou senha em claro serializados. Transações síncronas sob Web Locks no navegador serializam acesso entre abas. Sem Web Locks, há fila por contexto; esse fallback não oferece exclusão entre abas. Node usa armazenamento/fila em memória nos testes de domínio.
 
-Deduplicação/ordenação e reconciliação avançada no frontend, guards, cache privado/atualização otimista, formulários e UI completa continuam nas próximas etapas. A fonte canônica, os envelopes versionados e o transporte já estão preparados e testados.
+As regras de deduplicação, reconciliação, sessão e cache estão em [ARCHITECTURE.md](../ARCHITECTURE.md). A reprodução dos cenários está em [API_SIMULADA.md](API_SIMULADA.md).
 
-## Verificação desta etapa
-
-`npm run test:data`: cinco testes de domínio. `npm run test:e2e:production`: 14 execuções no build — seis grupos de API em desktop e quatro testes de setup em desktop/mobile. API não é repetida em mobile porque não há novas interfaces nesta etapa. Typecheck, lint e build também foram executados. Ver relatório em `docs/API_SIMULADA.md`.
-
-## Integração de detalhes e favoritos — Prompt 5
+## Integração de detalhes e favoritos
 
 A UI de detalhes usa os contratos existentes, sem novos endpoints ou campos de negócio. `NftDetail.image` continua sendo a imagem real singular; não há galeria artificial. Favoritos usam GET/PUT/DELETE por sessão, persistindo no mesmo banco. A sessão do cliente tornou-se observável para invalidar dados privados; callbacks antigos não atualizam o cache da conta seguinte. Os cenários `server-error`, `network-error`, `transient-error`, `slow` e `out-of-order` de leitura de NFTs cobrem também `GET /nfts/:id`; `validation-error` existente pode testar rollback de adição aos favoritos. Controles de preço/estoque emitem o mesmo `nft.updated`, agora refletido na UI. Quantidades compartilham os limites 1..999 definidos em `src/lib/quantity.ts`.
 
-## Autenticação visual e sessão — Prompt 6
+## Autenticação visual e sessão
 
 GET de sessão é a referência global de identidade. Token continua em sessionStorage; login e cadastro retornam SessionResponse e autenticam, logout envia DELETE. O cliente valida a resposta, separa 401 de 403/5xx/rede e não persiste senhas ou outra cópia do perfil. Queries/mutations privadas são segregadas por sessão e canceladas/limpas na troca; os mesmos endpoints e contratos de negócio permanecem válidos.
 
-Os cenários network-error, server-error e transient-error passam também a cobrir /session e /accounts. malformed-session devolve uma resposta incompatível controlada para testar a rejeição pelo cliente, antes de criar sessão/conta. POST /session/expire continua disponível para expiração reproduzível; GET /session detecta a revogação após refresh. Em falha de logout a API não confirma a revogação, o cliente encerra localmente e informa essa limitação. Ver docs/PROMPT6.md para política completa e reprodução dos testes.
+Os cenários network-error, server-error e transient-error passam também a cobrir /session e /accounts. malformed-session devolve uma resposta incompatível controlada para testar a rejeição pelo cliente, antes de criar sessão/conta. POST /session/expire continua disponível para expiração reproduzível; GET /session detecta a revogação após refresh. Em falha de logout a API não confirma a revogação, o cliente encerra localmente e informa essa limitação. Ver [arquitetura](../ARCHITECTURE.md) para a política de sessão.
 
-## Carrinho visual — Prompt 7
+## Carrinho visual
 
 Os contratos anteriores foram preservados. A interface utiliza GET /cart, POST /cart/items, PATCH/DELETE /cart/items/:id, PUT/DELETE /cart/coupon e POST /quotes. IDs de linha são codificados na URL; a edição/quantidade escolhida vem do detalhe, não de um valor padrão do serviço. Imagem e coleção são consultadas em /nfts/:id, pois CartLine não duplica esses metadados.
 
@@ -221,23 +217,23 @@ server-error, network-error e transient-error cobrem agora também /cart (inclui
 
 Cancelamento HTTP após commit não desfaz a transação. A interface não repete automaticamente adição: reconcilia GET e orienta revisar os itens em caso de resposta perdida. Quotes são leituras validadas por POST e podem ser refeitas; não criam pedido/reserva. Cotação anterior não é reutilizada após mudança de identidade. nft.updated cancela as consultas de quote e invalida o carrinho pelo mesmo cliente Socket.IO já configurado.
 
-## Checkout visual — Prompt 8
+## Checkout visual
 
 Os contratos de pedidos, carteiras e quotes acima foram reutilizados sem novos campos obrigatórios. O checkout envia `{walletId,network}` em POST /quotes, revalida sessão, carteira, carrinho e cotação antes do envio, e usa CreateOrderRequest em POST /orders com Idempotency-Key. GET /orders, GET /orders/:id e GET /orders/:id/receipt sustentam consulta e resultado histórico. POST/DELETE /wallets/:id/connection simulam conexão e desconexão, sem extensão ou assinatura.
 
 A mesma chave e o mesmo corpo são preservados em sessionStorage por user.id antes do primeiro envio. Falhas ambíguas não geram nova chave; a recuperação explícita repete o POST idempotente existente. Pedidos e recibos continuam autoritativos no banco MSW. Refresh ou login não criam outra compra automaticamente. A UI só mostra o recibo quando o estado retornado é confirmed; pending é consultado por evento/GET e declined preserva o carrinho.
 
-server-error, network-error, transient-error e out-of-order passam a cobrir também /wallets e /orders, incluindo conexão e recibo. A política de latência, commit, timeout e replay do domínio não mudou. Não há handlers de negócio duplicados ou backend separado. Ver docs/PROMPT8.md para cache, recuperação, acessibilidade e limites.
+server-error, network-error, transient-error e out-of-order passam a cobrir também /wallets e /orders, incluindo conexão e recibo. A política de latência, commit, timeout e replay do domínio não mudou. Não há handlers de negócio duplicados ou backend separado. Ver [arquitetura](../ARCHITECTURE.md) para recuperação e limites.
 
-## Tempo real, replay e recuperação — Prompt 9
+## Tempo real, replay e recuperação
 
 Os envelopes nft.updated/order.updated acima não mudaram. Preservados id, resourceId, version, occurredAt, data e userId privado. A UI rejeita ID repetido e versão igual/inferior ao conhecido, cancela leituras afetadas e protege snapshots REST por versão. Pedidos terminais não regridem; recibos continuam imutáveis. Depois de server:ready, reconexão consulta recursos ativos e revalida quotes com os mesmos endpoints. server:ready não é autenticação/resultado de pagamento/replay automático. Não há POST /orders durante reconexão/refresh/evento.
 
 Novos controles somente no namespace de simulação: GET /__mock/realtime retorna held, connections, subscriptions e events autorizados; POST aceita action disconnect (hold boolean padrão true), resume ou replay (eventId, copies 1..5, delayMs 0..5000). Replay reenvia o envelope original pelo binding; não grava no domínio nem altera ID/versão. Evento ausente retorna 404 EVENT_NOT_FOUND; privado não autorizado, 403 FORBIDDEN. Os controles são voláteis por runtime e o histórico tem limite 256; reset limpa histórico/bloqueio, e refresh reinicia o runtime sem perder o banco/pedidos. Não são endpoints novos de negócio nem API de produção.
 
-Abas compatíveis da mesma origem encaminham os envelopes confirmados entre seus mocks via BroadcastChannel, mantendo a autorização antes da entrega Socket.IO. Sem esse recurso, dados ainda se reconciliam por REST/foco/reconexão. Autorização de pedidos é revalidada em cada entrega/replay. Não há rooms, binários, acks ou servidor real acrescentados. Ver docs/PROMPT9.md para políticas e testes.
+Abas compatíveis da mesma origem encaminham os envelopes confirmados entre seus mocks via BroadcastChannel, mantendo a autorização antes da entrega Socket.IO. Sem esse recurso, dados ainda se reconciliam por REST/foco/reconexão. Autorização de pedidos é revalidada em cada entrega/replay. Não há rooms, binários, acks ou servidor real acrescentados. Ver [cenários](API_SIMULADA.md) para reprodução e limites.
 
-## Integração da conta — Prompt 10
+## Integração da conta
 
 Os contratos anteriores são mantidos. GET/PATCH /profile, PATCH /profile/avatar, POST /profile/password e GET/POST/PATCH /wallets passam a atender às telas completas. Perfil envia somente os campos editados; senha responde {status:'ok'}, mantém a sessão atual e revoga outras. Avatar null remove, PNG/JPEG/WebP base64 até 1.048.576 bytes; a UI também verifica se a imagem pode ser decodificada. Sem upload remoto, dimensões mínimas ou formatos adicionais inventados.
 

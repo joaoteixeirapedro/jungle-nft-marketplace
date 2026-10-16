@@ -2,7 +2,7 @@ import { useEffect, useRef, useSyncExternalStore } from 'react'
 import { useNavigate, useRouter, useRouterState } from '@tanstack/react-router'
 import { useSessionToken } from '@/hooks/use-session-token'
 import { clearSessionIssue, getSessionIssue, subscribeSession } from '@/lib/session'
-import { safeAuthRedirect } from '@/lib/auth-navigation'
+import { authenticationNavigation } from './modal-navigation'
 import { useAvailability } from '@/hooks/use-availability'
 
 export function SessionNavigation() {
@@ -20,10 +20,10 @@ export function SessionNavigation() {
       void navigate({ to: '/', replace: true }).then(() => {
         if (issue === 'logout-failed') notice('A sessão local foi encerrada, mas a API não confirmou a revogação. A sessão simulada remota permanece sujeita à expiração. Tente novamente quando a conexão voltar.')
       })
-    } else if (!['/login', '/register'].includes(location.pathname)) {
-      void navigate({ to: '/login', search: { redirect: safeAuthRedirect(location.href), reason: issue }, replace: true })
+    } else if (!location.state.authDialog && !['/login', '/register'].includes(location.pathname)) {
+      void navigate({ ...authenticationNavigation(location, { reason: issue }), replace: true })
     }
-  }, [issue, location.href, location.pathname, navigate, notice])
+  }, [issue, location, navigate, notice])
   useEffect(() => {
     if (previous.current === token) return
     previous.current = token

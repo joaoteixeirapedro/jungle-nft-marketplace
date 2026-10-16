@@ -8,17 +8,20 @@
     "failed": 0
   },
   "playwright": {
-    "startTime": "2026-10-16T16:43:48.239Z",
-    "duration": 422387.471,
-    "expected": 106,
+    "startTime": "2026-10-16T17:37:52.449Z",
+    "duration": 388426.026,
+    "expected": 112,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0,
     "projects": {
-      "desktop": 56,
-      "mobile": 50
+      "chromium-desktop": 59,
+      "chromium-mobile": 53
     },
-    "axeScans": 26
+    "axeScans": 26,
+    "contextualLoginAccessibilityChecks": 2,
+    "htmlReport": "docs/test-report/index.html",
+    "buildIndexSha256": "0036e51b605334397869356621c4e82cfc131c2515df1850adebbe9f7a7a104f"
   },
   "assets": {
     "inventory": 114,
@@ -27,7 +30,8 @@
     "responsiveCaptures": 15,
     "originalArtworkBytes": 7959897,
     "fullResolutionWebpBytes": 5387774,
-    "allResponsiveArtworkBytes": 7235448
+    "allResponsiveArtworkBytes": 7235448,
+    "note": "Verificação de assets preservada; capturas intermediárias são saídas locais reproduzíveis e não são versionadas."
   },
   "lighthouse": {
     "runs": 12,
@@ -65,7 +69,7 @@
           "largest-contentful-paint": 5591.0448000000015,
           "first-contentful-paint": 3255.338775,
           "total-blocking-time": 282,
-          "cumulative-layout-shift": 0.0000854297950772858,
+          "cumulative-layout-shift": 8.54297950772858e-05,
           "speed-index": 3255.338775,
           "total-byte-weight": 315164
         }
@@ -84,7 +88,7 @@
           "largest-contentful-paint": 1337.7367499999998,
           "first-contentful-paint": 795.868375,
           "total-blocking-time": 0,
-          "cumulative-layout-shift": 0.00008974371027370461,
+          "cumulative-layout-shift": 8.974371027370461e-05,
           "speed-index": 795.868375,
           "total-byte-weight": 315164
         }
@@ -109,7 +113,8 @@
         }
       }
     ],
-    "indexSha256": "be3d40d43a39498b0c88c5d26d84d564843d796419f0627e83ee08fd0f4b9a55"
+    "indexSha256": "be3d40d43a39498b0c88c5d26d84d564843d796419f0627e83ee08fd0f4b9a55",
+    "note": "Medições preservadas, anteriores à alteração de login contextual. O hash identifica o build auditado; não foram refeitas nesta organização."
   },
   "deployment": {
     "published": false,

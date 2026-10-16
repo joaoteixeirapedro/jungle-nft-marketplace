@@ -1,10 +1,9 @@
 import { useId } from 'react'
-import { useNavigate, useRouterState } from '@tanstack/react-router'
 import { useIsMutating, useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { DesignIcon } from '@/components/ui/design-icon'
 import { useAuth } from '@/features/auth/auth-context'
 import { getSessionToken } from '@/lib/session'
-import { safeAuthRedirect } from '@/lib/auth-navigation'
+import { useAuthNavigation } from '@/features/auth/modal-navigation'
 import { ApiError } from '@/services/api/client'
 import { changeFavorite, favoritesKey, favoritesQuery, type Favorites } from '@/services/api/favorites'
 import type { Nft } from '@/types/marketplace'
@@ -13,8 +12,7 @@ export function FavoriteButton({ nft, variant = 'card' }: { nft: Nft; variant?: 
   const auth = useAuth()
   const token = auth.status === 'authenticated' ? auth.session!.token : null
   const client = useQueryClient()
-  const navigate = useNavigate()
-  const href = useRouterState({ select: (state) => state.location.href })
+  const openAuthentication = useAuthNavigation()
   const feedbackId = useId()
   const query = useQuery(favoritesQuery(token))
   const key = favoritesKey(token)
@@ -42,7 +40,7 @@ export function FavoriteButton({ nft, variant = 'card' }: { nft: Nft; variant?: 
   const error = mutation.error ?? query.error
   return <span className={`favorite-control favorite-${variant}`}>
     <button type="button" data-auth-entry={!token ? true : undefined} className={variant === 'card' ? 'nft-favorite' : 'detail-favorite'} aria-label={`${selected ? 'Remover dos favoritos' : 'Favoritar'} ${nft.name}`} aria-pressed={selected} aria-busy={pending || auth.status === 'checking'} aria-describedby={error ? feedbackId : undefined} disabled={auth.status === 'checking' || auth.status === 'error' || auth.status === 'signing-out' || (!!token && (pending || query.isPending || query.isError))} onClick={() => {
-      if (!token) { void navigate({ to: '/login', search: { redirect: safeAuthRedirect(href) } }); return }
+      if (!token) { void openAuthentication(); return }
       if (client.isMutating({ mutationKey: key })) return
       mutation.mutate(!selected)
     }}>

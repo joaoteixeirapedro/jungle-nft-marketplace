@@ -13,6 +13,7 @@ import type { Cart, Quote } from '@/types/marketplace'
 import '@/features/cart/cart.css'
 import { useQuoteExpiry } from '@/hooks/use-quote-expiry'
 import { realtimeState, useRealtimeState } from '@/services/socket/state'
+import { useAuthNavigation } from '@/features/auth/modal-navigation'
 
 function CartSkeleton() {
   return <div className="cart-layout" role="status" aria-label="Carregando carrinho" data-testid="cart-skeleton"><div className="cart-skeleton-items" aria-hidden="true">{[1, 2, 3].map((key) => <div className="shimmer" key={key} />)}</div><div className="cart-summary" aria-hidden="true"><div className="shimmer h-8" /><div className="shimmer h-32 my-6" /><div className="shimmer h-12" /></div><span className="sr-only">Carregando carrinho e resumo…</span></div>
@@ -44,6 +45,7 @@ function CartContents({ cart, refreshing, failed, onRemoved }: { cart: Cart; ref
   const { token, pending, auth } = useCart()
   const client = useQueryClient()
   const navigate = useNavigate()
+  const openAuthentication = useAuthNavigation()
   const change = useCartMutation((operation) => { if (operation.kind === 'remove') onRemoved() })
   const fingerprint = cartFingerprint(cart)
   const options = quoteQuery(token, fingerprint)
@@ -69,7 +71,7 @@ function CartContents({ cart, refreshing, failed, onRemoved }: { cart: Cart; ref
         setFeedback('Preço, disponibilidade ou cupom mudou. Revise e aceite os valores atuais antes de continuar.')
         return
       }
-      if (!token) { await navigate({ to: '/login', search: { redirect: '/cart' } }); return }
+      if (!token) { await openAuthentication({ redirect: '/cart' }); return }
       await navigate({ to: '/checkout' })
     },
     onError: async () => { if (token === getSessionToken()) await client.invalidateQueries({ queryKey: ['cart', token] }) },
