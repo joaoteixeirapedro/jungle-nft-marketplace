@@ -1,5 +1,5 @@
 import { Link } from '@tanstack/react-router'
-import { useState } from 'react'
+import { memo, useState } from 'react'
 import type { Nft } from '@/types/marketplace'
 import { FavoriteButton } from '@/features/favorites/favorite-button'
 import { useDetailSearch } from '@/features/nft/navigation'
@@ -14,7 +14,7 @@ export function NftImage({ image, eager = false, priority = false, sizes = '(max
   </div>
 }
 
-export function NftCard({ nft, collection, imageSizes }: { nft: Nft; collection?: string; imageSizes?: string }) {
+export const NftCard = memo(function NftCard({ nft, collection, imageSizes }: { nft: Nft; collection?: string; imageSizes?: string }) {
   const search = useDetailSearch()
   return <article className="nft-card" data-testid="nft-card" data-nft-id={nft.id}>
     <Link to="/nfts/$nftId" params={{ nftId: nft.id }} search={search} className="block rounded-lg">
@@ -29,7 +29,7 @@ export function NftCard({ nft, collection, imageSizes }: { nft: Nft; collection?
     {nft.attributes.rarity === 'rare' && <span className="rarity-badge">RARO</span>}
     <FavoriteButton nft={nft} />
   </article>
-}
+})
 
 export function NftSkeletons() {
   return <div className="nft-grid" aria-hidden="true" data-testid="catalog-skeleton">

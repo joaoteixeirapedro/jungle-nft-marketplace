@@ -1,7 +1,8 @@
 import assert from 'node:assert/strict'
 import test from 'node:test'
-import { EventVersions, newerOrder, newerResource } from '../../src/lib/resource-versions.ts'
+import { EventVersions, newerOrder, newerResource, shareCatalog, shareNft } from '../../src/lib/resource-versions.ts'
 import { createFixtures } from '../../src/mocks/data/marketplace.ts'
+import { nftDetail } from '../../src/mocks/domain/catalog.ts'
 
 test('event identity and resource versions reject duplicates, old messages and equal-version replays', () => {
   const versions = new EventVersions()
@@ -21,4 +22,14 @@ test('older REST snapshots and contradictory terminal order transitions are neve
   assert.equal(confirmed.status, 'confirmed')
   assert.equal(newerOrder(confirmed, { ...confirmed, status: 'pending', version: confirmed.version + 1 }), confirmed)
   assert.equal(newerOrder({ ...confirmed, status: 'declined' }, { ...confirmed, status: 'pending' }).status, 'declined')
+})
+
+test('unchanged REST snapshots reuse references without hiding newer NFT data', () => {
+  const nft = nftDetail(createFixtures(), 'nft-001')
+  const catalog = { items: [nft], pagination: { page: 1, pageSize: 9, totalItems: 1, totalPages: 1 } }
+  assert.equal(shareNft(nft, structuredClone(nft)), nft)
+  assert.equal(shareCatalog(catalog, structuredClone(catalog)), catalog)
+  const updated = { ...nft, version: nft.version + 1 }
+  assert.equal(shareNft(nft, updated).version, updated.version)
+  assert.equal(shareNft(updated, nft), updated)
 })

@@ -243,7 +243,7 @@ button[data-slot='button'] { min-height: 44px; }
   .catalog-search input { width: 0; min-width: 0; font-size: 14px; padding-left: 0; }
   .catalog-search [type='button'] { font-size: 10px; padding: 4px; width: 44px; white-space: normal; line-height: 14px; }
   .mobile-filter-toggle { display: inline-flex; width: 45px; height: 45px; padding: 0; flex-shrink: 0; border-radius: 14px; background: linear-gradient(137deg,rgba(210,138,76,.45) 24.6%,#d28a4c); }
-  .home-hero { height: 190px; padding: 12px 16px 24px; margin: 0; border-radius: 24px; overflow: hidden; background: url('/assets/figma/f545d.svg') no-repeat left top; }
+  .home-hero { height: 190px; padding: 12px 16px 24px; margin: 0; border-radius: 24px; overflow: hidden; background: url('../../public/assets/figma/f545d.svg?inline') no-repeat left top; }
   .hero-copy { position: relative; width: calc(100% - 138px); padding: 0 4px 0 0; align-self: start; }
   .hero-welcome { font-size: 12px; line-height: 16px; letter-spacing: 0; margin-bottom: 6px; }
   .home-hero h1 { font-size: 18px; line-height: 29px; }

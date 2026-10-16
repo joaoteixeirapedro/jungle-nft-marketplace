@@ -1,4 +1,5 @@
 import type { Cart, Nft, NftDetail, Order, PageResult } from '../types/marketplace.ts'
+import { replaceEqualDeep } from '@tanstack/react-query'
 
 export function newerResource<T extends { id: string; version: number }>(previous: T | undefined, incoming: T): T {
   return previous?.id === incoming.id && previous.version > incoming.version ? previous : incoming
@@ -7,12 +8,12 @@ export function newerOrder(previous: Order | undefined, incoming: Order): Order 
   if (previous?.id === incoming.id && previous.status !== 'pending' && previous.status !== incoming.status) return previous
   return newerResource(previous, incoming)
 }
-export const shareNft = (previous: unknown, incoming: unknown) => newerResource(previous as NftDetail | undefined, incoming as NftDetail)
+export const shareNft = (previous: unknown, incoming: unknown) => replaceEqualDeep(previous, newerResource(previous as NftDetail | undefined, incoming as NftDetail))
 export const shareOrder = (previous: unknown, incoming: unknown) => newerOrder(previous as Order | undefined, incoming as Order)
 export function shareCatalog(previous: unknown, incoming: unknown) {
   const before = previous as PageResult<Nft> | undefined
   const next = incoming as PageResult<Nft>
-  return { ...next, items: next.items.map((item) => newerResource(before?.items.find((old) => old.id === item.id), item)) }
+  return replaceEqualDeep(before, { ...next, items: next.items.map((item) => newerResource(before?.items.find((old) => old.id === item.id), item)) })
 }
 export function shareOrders(previous: unknown, incoming: unknown) {
   const before = previous as { items: Order[] } | undefined
