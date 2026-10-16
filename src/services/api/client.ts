@@ -2,6 +2,7 @@ import axios from 'axios'
 import { env } from '@/lib/env'
 import { getGuestId, getSessionToken, invalidateSession, subscribeSession } from '@/lib/session'
 import type { InternalAxiosRequestConfig } from 'axios'
+import { initializeMocks } from '@/app/bootstrap'
 
 const privateRequests = new Map<InternalAxiosRequestConfig, { token: string | null; controller: AbortController; cleanup: () => void }>()
 let observedToken = getSessionToken()
@@ -49,7 +50,8 @@ export const api = axios.create({
   headers: { Accept: 'application/json' },
 })
 
-api.interceptors.request.use((config) => {
+api.interceptors.request.use(async (config) => {
+  await initializeMocks()
   config.headers.set('X-Guest-Id', getGuestId())
   const token = getSessionToken()
   if (token && !config.headers.has('Authorization')) config.headers.set('Authorization', `Bearer ${token}`)

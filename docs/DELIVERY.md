@@ -1,54 +1,53 @@
-# Verificação da entrega
+# Delivery validation
 
-O [enunciado preservado](CHALLENGE_README.md) define os requisitos. Este documento reúne resultados verificáveis e pendências; os contratos e decisões estão em [API_CONTRACTS.md](API_CONTRACTS.md) e [ARCHITECTURE.md](../ARCHITECTURE.md).
+Final application build validated on 16 October 2026. The [challenge brief](CHALLENGE_README.md), [contracts](API_CONTRACTS.md), and [architecture](../ARCHITECTURE.md) describe the scope and implementation. This delivery step changes deployment configuration, existing test synchronization, and documentation/evidence. Application source, appearance, functionality, mocks, visual baselines, and Lighthouse profiles are unchanged.
 
-## Aplicação e testes
+## Production deployment
 
-O código inclui descoberta, autenticação, favoritos, carrinho, checkout, pedidos, perfil e carteiras. REST e eventos são interceptados pelo MSW; Socket.IO Client usa WebSocket com o binding, sem backend separado.
+- Application: [jungle-nft-marketplace-xi.vercel.app](https://jungle-nft-marketplace-xi.vercel.app).
+- Repository: [joaoteixeirapedro/jungle-nft-marketplace, delivery branch](https://github.com/joaoteixeirapedro/jungle-nft-marketplace/tree/codex/marketplace-delivery).
+- Vercel production deployment: [build details](https://vercel.com/joaoteixeirapedro/jungle-nft-marketplace/BnqMMUXhDhSkVKppViN6QsHrWkLi).
 
-Os scripts de TypeScript, lint e build passaram, assim como os **12 testes de domínio e os 112 E2E**, sem retries, skips ou falhas. Foram 59 execuções desktop e 53 mobile. As suítes cobrem precisão monetária, catálogo, quantidades, sessão, isolamento, idempotência, estoque, recibos e versões, incluindo o login sobre a página de origem, estados de falha, reconexão, teclado e responsividade. A auditoria anexou 26 resultados axe, além de duas verificações de acessibilidade do login contextual.
+Vercel installed from the lockfile with npm ci, audited 377 packages with zero reported vulnerabilities, and ran npm run build. The Vite preset serves dist with SPA rewrites. The three public VITE variables are configured for Production; credentials and local environment files are excluded from uploads and Git. No backend, private service, wallet extension, or payment gateway is required.
 
-O [relatório HTML](test-report/index.html) e o [resumo dos resultados](DELIVERY_RESULTS.json) identificam a última execução completa. As oito baselines versionadas ficam em `tests/e2e/audit.spec.ts-snapshots` e `tests/e2e/checkout.spec.ts-snapshots`; não foram atualizadas para esta organização. Novos relatórios e traces são gerados nos diretórios locais ignorados pelo Git. Traces de falha são retidos pelo Playwright quando houver falhas.
+Anonymous checks verified ten main routes and all **161 deployed files**, including artwork, fonts, JavaScript, CSS, and the MSW worker. Every file returned HTTP 200 and matched the local build's SHA-256. Direct routes serve the SPA, and browser tests verify refresh and not-found handling. The worker is served with Cache-Control: no-cache. [Machine-readable results](DELIVERY_RESULTS.json) retain the route checks, hashes, build identity, environment, and execution statistics.
 
-O [registro de checkout limpo](CLEAN_CHECKOUT.json) documenta uma execução anterior de `npm ci`, build e 12 testes de domínio, com o tree/hash do lockfile utilizado. Esse registro é histórico e não substitui os resultados da execução atual.
+The public E2E run verifies Home/catalog, registration/login, session recovery after refresh, favorites, cart/coupons, checkout, confirmed receipts, payment failures/idempotency, profile/wallet changes, and Socket.IO updates/reconnection. The Socket.IO client uses WebSocket through MSW and its protocol binding in the browser; no persistent Socket.IO server is hosted on Vercel. State is browser-local, with same-origin tab synchronization through BroadcastChannel.
 
-## Imagens e fontes
+## Tests
 
-As quatro artes originais de 1254 px somavam 7.959.897 bytes; as versões WebP completas somam 5.387.774 bytes, redução de 32,31%, com comparação RGBA sem diferenças. O conjunto distribuído de 12 variantes (320/640/1254 px) soma 7.235.448 bytes; o navegador escolhe a resolução adequada com `srcset` e `sizes`. Hero tem prioridade alta, imagens secundárias usam lazy loading e zoom usa a resolução completa.
+TypeScript, lint, and the production build passed. **13 domain tests passed**, with no failures or skips. The complete final existing E2E suite passed against both targets:
 
-Roboto Mono passou de 237.008 para 114.064 bytes em WOFF2, mantendo mapas, métricas e contornos. SVGs e pequenos PNGs originais foram preservados. Imagens e TTF de origem permanecem em `assets/originals`, usados pelos scripts e fora do build.
+| Target | Desktop | Mobile | Passed | Failed | Skipped | Flaky | Retries |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Local production preview | 59 | 53 | 112 | 0 | 0 | 0 | 0 |
+| Public Vercel URL | 59 | 53 | 112 | 0 | 0 | 0 | 0 |
 
-Evidências preservadas: [pesos e hashes](assets/optimization.json), [fontes](assets/fonts.json), [inventário e comparação no Chromium](assets/verification.json), [comparativo de 450 px](assets/comparison-450.png) e [miniatura do checkout](assets/checkout-thumbnail-comparison.png). As capturas intermediárias referidas pelo inventário são saídas locais reproduzíveis por `npm run assets:verify`, com o preview aberto; não duplicam as baselines no versionamento.
+Each run uses Chromium with 1440×900 desktop and 390×844 mobile viewports, two workers, isolated browser contexts, REST/MSW handlers, and the real Socket.IO client. Tests also inspect 768 px and other intermediate widths. Each complete run attaches 26 axe scans and performs two additional contextual-login accessibility checks. The eight existing visual baselines are unchanged. Reports: [local HTML](test-report/index.html) and [public HTML](test-report/public/index.html).
+
+The first public execution passed 109/112 tests. Three failures exposed tests switching failure scenarios or navigating away before initial Socket.IO/REST reconciliation completed. Existing tests now wait for the rendered account, reconciled state, and the coupon removal response. REST checks after refresh also wait for catalog data; the reconnect helper verifies successful automatic recovery when its optional retry button disappears. Assertions and browser-console checks remain in place, test retries stay at zero, and mocks/application behavior are unchanged. All six initially affected desktop/mobile checks passed before the final complete reruns. Diagnostic traces are retained: [session](test-report/public/initial-failures/session-readiness.zip), [coupon](test-report/public/initial-failures/coupon-readiness.zip), and [navigation](test-report/public/initial-failures/navigation-readiness.zip). Use npx playwright show-trace followed by the trace path.
+
+The historical clean-checkout record was removed because it described an earlier build. The final Vercel clean installation and current build are recorded above and in DELIVERY_RESULTS.json. Older Lighthouse and E2E reports were replaced in their existing directories; only the local/public final HTML reports and three useful failure traces are retained.
 
 ## Lighthouse
 
-As medições abaixo foram feitas em **16/10/2026, antes da alteração de login contextual**. Foram preservadas, sem atribuí-las a um build posterior. Cada relatório registra ambiente, configuração e versão; o [resumo](lighthouse/final-delivery/summary.json) identifica o hash do HTML medido. Há três execuções por página/perfil, com todos os 12 HTMLs e 12 JSONs exigidos pelo desafio.
+The existing audit script ran **three measurements per page/profile** against the public production build at https://jungle-nft-marketplace-xi.vercel.app, with fresh browser storage, the default mocks, actual fonts/artwork, and no concurrent E2E runs. The official desktop/mobile profiles and all audit settings are unchanged. After an unexpected browser-driver shutdown following the three Home desktop measurements, the remaining combinations were run in separate invocations of the same script; no successful measurements were discarded or selected by score. All 12 HTML and 12 JSON reports replace the prior build's evidence in [lighthouse/final-delivery](lighthouse/final-delivery/); the [summary](lighthouse/final-delivery/summary.json) records environment, warnings, raw runs, medians, and the matching build hash.
 
-| Página/perfil | Performance | Acessibilidade | Boas práticas | SEO | LCP mediano | CLS mediano | TBT mediano |
+| Page/profile | Performance | Accessibility | Best practices | SEO | Median LCP | Median CLS | Median TBT |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Home desktop | 83 | 100 | 100 | 92 | 2,43 s | 0,00067 | 19,5 ms |
-| Home mobile | 67 | 100 | 100 | 92 | 5,59 s | 0,00009 | 282 ms |
-| Detalhe desktop | 96 | 100 | 100 | 92 | 1,34 s | 0,00009 | 0 ms |
-| Detalhe mobile | 75 | 100 | 100 | 92 | 4,62 s | 0 | 183 ms |
+| Home desktop | 100 | 100 | 100 | 92 | 0.56 s | 0.00014 | 1.5 ms |
+| Home mobile | 94 | 100 | 100 | 92 | 2.65 s | 0.00000 | 113.0 ms |
+| NFT details desktop | 100 | 100 | 100 | 92 | 0.59 s | 0.00003 | 0.0 ms |
+| NFT details mobile | 94 | 100 | 100 | 92 | 2.64 s | 0.00000 | 128.0 ms |
 
-Ambiente: Windows, Node 24.19.0, Lighthouse 13.5.0, Playwright 1.64.1 e Chromium 156.0.0.0. Build de produção servido em `127.0.0.1:4174`, cenário padrão dos mocks, armazenamento novo por execução e sem E2E concorrentes.
+Environment: Windows 10.0.19045, Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz, 6 logical processors, 16 GiB RAM, Node v24.19.0, Playwright 1.64.1, Lighthouse 13.5.0, Chromium 156.0.0.0. Desktop uses 1350×940, DPR 1, CPU 1×, RTT 40 ms, and 10,240 Kbps; mobile uses 412×823, DPR 1.75, CPU 4×, RTT 150 ms, and 1,638.4 Kbps, with simulated throttling. Full conditions are in each JSON report. The public origin adds real delivery/network conditions to the production build.
 
-Perfis oficiais com throttling simulado: desktop 1350×940, DPR 1, CPU 1×, RTT 40 ms e 10.240 Kbps; mobile 412×823, DPR 1,75, CPU 4×, RTT 150 ms e 1.638,4 Kbps. Os JSONs contêm os parâmetros completos.
+All four page/profile combinations meet the performance target of 90. No assets or functionality were omitted, and no performance or design changes were made during this delivery step. Service Worker interception can undercount network transfer sizes in Lighthouse; the separate public hash manifest verifies that all actual build assets remain available.
 
-A meta de performance 90 foi atingida somente no detalhe desktop. Inicializar MSW/binding, executar React e consultar o catálogo antes de descobrir a imagem principal permanecem no caminho crítico. No mobile, os relatórios apontam execução de JavaScript/CPU e código não utilizado. As metas de acessibilidade, boas práticas e SEO foram atingidas nas quatro combinações. Não foram omitidos assets, APIs ou eventos para melhorar a pontuação.
+## Assets, accessibility, and remaining limitations
 
-O Service Worker faz a transferência de alguns recursos aparecer como zero no Lighthouse; `total-byte-weight` subconta esse tráfego. A verificação separada de imagens soma corpos recebidos pelo Chromium, por URL. Não representa o tráfego HTTP total comprimido. A auditoria de navegação não mede INP de usuários reais.
+Original artwork, local fonts, asset pipeline evidence in [assets](assets/), and [Figma references](figma/README.md) are preserved. The final deployed-file comparison replaces reliance on historical asset inventories when identifying the published build. Layout, typography, image variants, and interactions were not edited.
 
-## Limites visuais e acessibilidade
+Keyboard, focus, forms, reduced motion, zoom/reflow, responsive widths, and automated accessibility checks passed in the recorded E2E scenarios. These checks do not assert complete WCAG certification or pixel equality with every Figma frame; existing adaptations remain documented in ARCHITECTURE.md.
 
-As [referências do Figma](figma/README.md), os assets originais e as baselines permitem revisar a composição. Validações, estoque, cotação e feedback exigem adaptações de altura; perfil, carteiras e recibo possuem versões mobile adaptadas. Essas decisões estão na arquitetura. Não se declara igualdade integral de pixels com todos os frames.
-
-A suíte cobre larguras intermediárias, movimento reduzido, operação por teclado, controle de foco, labels e erros. Axe complementa as verificações manuais; resultado sem violações nos cenários executados não constitui certificação WCAG.
-
-## Pendências
-
-- **Publicação:** o deploy obrigatório do desafio ainda não foi realizado. O repositório está no [GitHub](https://github.com/joaoteixeirapedro/jungle-nft-marketplace); `vercel.json` prepara build, fallback SPA e worker. Quando publicado, será necessário conferir rotas profundas, refresh, assets, sessão, compra e eventos na origem HTTPS.
-- **Performance:** Home e detalhe mobile permanecem abaixo de 90 nas medições preservadas. Uma nova auditoria deve acompanhar uma entrega pública ou futuras mudanças de performance.
-- **Fidelidade visual:** permanecem as adaptações e limitações de comparação documentadas, sem alegação de correspondência absoluta.
-
-A demonstração não integra blockchain ou pagamentos reais. Os dados simulados são inspecionáveis no navegador e não constituem autenticação de produção.
+The remaining limitations are OS-specific Windows/Chromium screenshot baselines and browser-local simulation rather than shared multi-device state. Public deployment and the essential public flow checks are complete. Transactions, credentials, wallet connections, and payments are deliberately fictional.

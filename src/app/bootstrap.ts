@@ -1,6 +1,12 @@
 import { env } from '@/lib/env'
 
-export async function initializeMocks() {
+let initialization: Promise<void> | undefined
+
+export function initializeMocks() {
+  return initialization ??= startMocks()
+}
+
+async function startMocks() {
   if (!env.mocksEnabled) return
 
   const { worker } = await import('@/mocks/browser')
