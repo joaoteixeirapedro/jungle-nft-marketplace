@@ -8,11 +8,12 @@ import { lighthouseConfig } from '../lighthouse.config.mjs'
 const base = process.env.AUDIT_URL ?? 'http://127.0.0.1:4173'
 const phase = process.env.AUDIT_PHASE ?? 'final-delivery'
 const runs = Number(process.env.AUDIT_RUNS ?? 3)
-const directory = `docs/lighthouse/${phase}`
+const directory = process.env.AUDIT_OUTPUT_DIR ?? `docs/lighthouse/${phase}`
+const pages = process.env.AUDIT_ROUTES ? JSON.parse(process.env.AUDIT_ROUTES) : [['home', '/'], ['detail', '/nfts/nft-001']]
 const buildIndexSha256 = createHash('sha256').update(await readFile('dist/index.html')).digest('hex')
 await mkdir(directory, { recursive: true })
 const results = []
-for (const [page, path] of [['home', '/'], ['detail', '/nfts/nft-001']]) {
+for (const [page, path] of pages) {
   for (const profile of ['desktop', 'mobile']) {
     for (let run = 1; run <= runs; run++) {
       const chrome = await launch({ chromePath: chromium.executablePath(), chromeFlags: ['--headless', '--no-first-run', '--disable-extensions'] })
@@ -42,7 +43,7 @@ for (const [page, path] of [['home', '/'], ['detail', '/nfts/nft-001']]) {
 }
 const median = (values) => values.toSorted((a, b) => a - b)[Math.floor(values.length / 2)]
 const medians = []
-for (const page of ['home', 'detail']) for (const profile of ['desktop', 'mobile']) {
+for (const [page] of pages) for (const profile of ['desktop', 'mobile']) {
   const rows = results.filter((row) => row.page === page && row.profile === profile)
   medians.push({ page, profile, runs: rows.length,
     scores: Object.fromEntries(Object.keys(rows[0].scores).map((key) => [key, median(rows.map((row) => row.scores[key]))])),

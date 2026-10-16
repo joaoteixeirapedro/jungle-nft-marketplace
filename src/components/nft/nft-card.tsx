@@ -5,11 +5,11 @@ import { FavoriteButton } from '@/features/favorites/favorite-button'
 import { useDetailSearch } from '@/features/nft/navigation'
 import { artworkProps } from '@/lib/artwork'
 
-export function NftImage({ image, eager = false, sizes = '(max-width: 767px) calc((100vw - 80px) / 2), (max-width: 999px) calc((100vw - 330px) / 2), (max-width: 1199px) calc((100vw - 388px) / 3), 256px', fullResolution = false }: { image: Nft['image']; eager?: boolean; sizes?: string; fullResolution?: boolean }) {
+export function NftImage({ image, eager = false, priority = false, sizes = '(max-width: 767px) calc((100vw - 80px) / 2), (max-width: 999px) calc((100vw - 330px) / 2), (max-width: 1199px) calc((100vw - 388px) / 3), 256px', fullResolution = false }: { image: Nft['image']; eager?: boolean; priority?: boolean; sizes?: string; fullResolution?: boolean }) {
   const [failed, setFailed] = useState(false)
   return <div className="nft-image">
     {image.src && !failed
-      ? <img {...(fullResolution ? { src: image.src } : artworkProps(image.src, sizes))} alt={image.alt} loading={eager ? 'eager' : 'lazy'} width="400" height="400" onError={() => setFailed(true)} />
+      ? <img {...(fullResolution ? { src: image.src } : artworkProps(image.src, sizes))} alt={image.alt} loading={eager || priority ? 'eager' : 'lazy'} fetchPriority={priority ? 'high' : undefined} width="400" height="400" onError={() => setFailed(true)} />
       : <span className="text-center text-xs text-muted-foreground">Imagem oficial indisponível</span>}
   </div>
 }

@@ -3,8 +3,11 @@
   "encoder": "sharp 0.35.5; libwebp 1.6.0",
   "lossless": true,
   "widths": [
+    160,
     320,
+    480,
     640,
+    960,
     1254
   ],
   "images": [
@@ -16,6 +19,13 @@
       "sha256": "f20b58b99de12b6eceede2090607e4b999275bba95de7674bb14f26b59666b21",
       "variants": [
         {
+          "path": "public/assets/artwork/8f387-160.webp",
+          "width": 160,
+          "bytes": 27944,
+          "sha256": "996050536109dea1e354131e43f6439ab065f262674e4cb52f465253fb16474b",
+          "fullResolutionPixelsIdentical": null
+        },
+        {
           "path": "public/assets/artwork/8f387-320.webp",
           "width": 320,
           "bytes": 95278,
@@ -23,10 +33,24 @@
           "fullResolutionPixelsIdentical": null
         },
         {
+          "path": "public/assets/artwork/8f387-480.webp",
+          "width": 480,
+          "bytes": 207544,
+          "sha256": "8e6031bcb32ff1baa32a2a9acd67341829aede87943f774a3184e57fe706b895",
+          "fullResolutionPixelsIdentical": null
+        },
+        {
           "path": "public/assets/artwork/8f387-640.webp",
           "width": 640,
           "bytes": 362188,
           "sha256": "085ed4abddb43c5ebc98e3b0713b1a6dea6d4d2dac447c0bb0b769059970b6cd",
+          "fullResolutionPixelsIdentical": null
+        },
+        {
+          "path": "public/assets/artwork/8f387-960.webp",
+          "width": 960,
+          "bytes": 808352,
+          "sha256": "a1b15c002abcf32bfeefb6558e62b46a5f7a737913400d6a9efbdc3b1aecf7d6",
           "fullResolutionPixelsIdentical": null
         },
         {
@@ -46,6 +70,13 @@
       "sha256": "9b25d8d72395aa62f919f6ad33b95b7ba7bbfee6049e95cf159a319b03ecb8d9",
       "variants": [
         {
+          "path": "public/assets/artwork/83794-160.webp",
+          "width": 160,
+          "bytes": 25272,
+          "sha256": "3bdf915880541d5e10dd24252b704c275c6fb5fec36dfe76d502b60644b258ba",
+          "fullResolutionPixelsIdentical": null
+        },
+        {
           "path": "public/assets/artwork/83794-320.webp",
           "width": 320,
           "bytes": 90528,
@@ -53,10 +84,24 @@
           "fullResolutionPixelsIdentical": null
         },
         {
+          "path": "public/assets/artwork/83794-480.webp",
+          "width": 480,
+          "bytes": 210266,
+          "sha256": "97a52c1b6d632e8935e307a931afab7f9b91d9f5dd7c92474641c34ad4dc4a45",
+          "fullResolutionPixelsIdentical": null
+        },
+        {
           "path": "public/assets/artwork/83794-640.webp",
           "width": 640,
           "bytes": 369784,
           "sha256": "3407a7c6cd56250ab197020d7e61cf441cb0b4344bc53d0b9d0be874368b5186",
+          "fullResolutionPixelsIdentical": null
+        },
+        {
+          "path": "public/assets/artwork/83794-960.webp",
+          "width": 960,
+          "bytes": 844008,
+          "sha256": "16565bd8e336f2e8a525e7a2349ab0805ee5e54b7a79ea2fc50811dd75966681",
           "fullResolutionPixelsIdentical": null
         },
         {
@@ -76,6 +121,13 @@
       "sha256": "326df4c1c08c31c88b9f407e51be3991e46667183af62aa1501927adc76f52b5",
       "variants": [
         {
+          "path": "public/assets/artwork/9add2-160.webp",
+          "width": 160,
+          "bytes": 25188,
+          "sha256": "26a9aa050ae502520b059ee40a25e6d96477f709e52aea1485c91363b4ed25b6",
+          "fullResolutionPixelsIdentical": null
+        },
+        {
           "path": "public/assets/artwork/9add2-320.webp",
           "width": 320,
           "bytes": 89608,
@@ -83,10 +135,24 @@
           "fullResolutionPixelsIdentical": null
         },
         {
+          "path": "public/assets/artwork/9add2-480.webp",
+          "width": 480,
+          "bytes": 202126,
+          "sha256": "6b601d0d265a047d5e2144f2c2180935ece98fad971560e3ad95ed60ac7fb3dd",
+          "fullResolutionPixelsIdentical": null
+        },
+        {
           "path": "public/assets/artwork/9add2-640.webp",
           "width": 640,
           "bytes": 358680,
           "sha256": "1637181ad509c8d548c07a3fd0bd28b187d973790e4a69e2d199ac8187cb7ac3",
+          "fullResolutionPixelsIdentical": null
+        },
+        {
+          "path": "public/assets/artwork/9add2-960.webp",
+          "width": 960,
+          "bytes": 834786,
+          "sha256": "5719d86c80d930df701d34c0b49d957d04a40e63e95970e87e189f4afdbde3a8",
           "fullResolutionPixelsIdentical": null
         },
         {
@@ -106,6 +172,13 @@
       "sha256": "2a42ba5adc341c3d0e1ad6905058e2762d995fc988113a7cd28b0d15f6a4ba28",
       "variants": [
         {
+          "path": "public/assets/artwork/b7cfc-160.webp",
+          "width": 160,
+          "bytes": 27872,
+          "sha256": "f049522c3c3a491fdc22ef673a0689d0a3e60b165aa224118711b0bdbf43a4f3",
+          "fullResolutionPixelsIdentical": null
+        },
+        {
           "path": "public/assets/artwork/b7cfc-320.webp",
           "width": 320,
           "bytes": 99350,
@@ -113,10 +186,24 @@
           "fullResolutionPixelsIdentical": null
         },
         {
+          "path": "public/assets/artwork/b7cfc-480.webp",
+          "width": 480,
+          "bytes": 220890,
+          "sha256": "52e52870194c69f7c332a3b748f91d30a3fdb6f51f692c993fec6233df7321b1",
+          "fullResolutionPixelsIdentical": null
+        },
+        {
           "path": "public/assets/artwork/b7cfc-640.webp",
           "width": 640,
           "bytes": 382258,
           "sha256": "a3df03e0c82b51b54a16aaeb36867887a348a14e3dd2da1dc9f2eeb4018166b6",
+          "fullResolutionPixelsIdentical": null
+        },
+        {
+          "path": "public/assets/artwork/b7cfc-960.webp",
+          "width": 960,
+          "bytes": 840702,
+          "sha256": "ae085aa1548fad104f2368014d50a805589fd1458028b016c040441850e0184f",
           "fullResolutionPixelsIdentical": null
         },
         {

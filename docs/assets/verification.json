@@ -1,5 +1,5 @@
 {
-  "base": "http://127.0.0.1:4174",
+  "base": "http://127.0.0.1:4173",
   "pixelComparisons": [
     {
       "name": "8f387",
@@ -30,217 +30,207 @@
       "screenshot": "docs/assets/home-390-dpr1.png",
       "images": [
         {
-          "source": "http://127.0.0.1:4174/assets/figma/ce4db.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/ce4db.svg",
           "naturalWidth": 22,
           "renderedWidth": 22
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/bc3bf.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/bc3bf.svg",
           "naturalWidth": 16,
           "renderedWidth": 16.140625
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/bf307.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/bf307.svg",
           "naturalWidth": 10,
           "renderedWidth": 11.484375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-160.webp",
           "naturalWidth": 125,
           "renderedWidth": 126
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-160.webp",
           "naturalWidth": 57,
           "renderedWidth": 58
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/c6c5e.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/c6c5e.svg",
           "naturalWidth": 33,
           "renderedWidth": 33
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b096d.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b096d.svg",
           "naturalWidth": 16,
           "renderedWidth": 15.828125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/c40be.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/c40be.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/3b81f.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/3b81f.svg",
           "naturalWidth": 474,
           "renderedWidth": 474
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b1ba5.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b1ba5.svg",
           "naturalWidth": 65,
           "renderedWidth": 65
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/d5458.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/d5458.svg",
           "naturalWidth": 27,
           "renderedWidth": 26.8125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/ca931.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/ca931.svg",
           "naturalWidth": 10,
           "renderedWidth": 10.375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/97351.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/97351.svg",
           "naturalWidth": 10,
           "renderedWidth": 10.375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/f7581.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/f7581.svg",
           "naturalWidth": 10,
           "renderedWidth": 10.34375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/db42b.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/db42b.svg",
           "naturalWidth": 10,
           "renderedWidth": 10.3125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/352b3.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/352b3.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/99dca.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/99dca.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         }
       ],
       "overflow": false,
       "errors": [],
-      "requestedImageBytes": 400839,
+      "requestedImageBytes": 122738,
       "assets": {
-        "http://127.0.0.1:4174/assets/figma/ba93b.svg": 250,
-        "http://127.0.0.1:4174/assets/figma/f545d.svg": 1409,
-        "http://127.0.0.1:4174/assets/figma/c0c08.svg": 1449,
-        "http://127.0.0.1:4174/assets/figma/bd8c9.svg": 1073,
-        "http://127.0.0.1:4174/assets/figma/62554.svg": 786,
-        "http://127.0.0.1:4174/assets/figma/bf307.svg": 568,
-        "http://127.0.0.1:4174/assets/figma/a11b7.svg": 375,
-        "http://127.0.0.1:4174/assets/figma/ce4db.svg": 919,
-        "http://127.0.0.1:4174/assets/figma/c6c5e.svg": 393,
-        "http://127.0.0.1:4174/assets/figma/bc3bf.svg": 1177,
-        "http://127.0.0.1:4174/assets/figma/99280.svg": 477,
-        "http://127.0.0.1:4174/assets/figma/b8b84.svg": 677,
-        "http://127.0.0.1:4174/assets/figma/68d8c.svg": 577,
-        "http://127.0.0.1:4174/assets/figma/d48dd.svg": 1723,
-        "http://127.0.0.1:4174/assets/figma/ca2da.svg": 1188,
-        "http://127.0.0.1:4174/assets/figma/b4111.svg": 1288,
-        "http://127.0.0.1:4174/assets/figma/b096d.svg": 958,
-        "http://127.0.0.1:4174/assets/figma/c40be.svg": 925,
-        "http://127.0.0.1:4174/assets/figma/b1ba5.svg": 486,
-        "http://127.0.0.1:4174/assets/figma/d5458.svg": 873,
-        "http://127.0.0.1:4174/assets/figma/ca931.svg": 881,
-        "http://127.0.0.1:4174/assets/figma/3b81f.svg": 1216,
-        "http://127.0.0.1:4174/assets/figma/97351.svg": 934,
-        "http://127.0.0.1:4174/assets/figma/f7581.svg": 746,
-        "http://127.0.0.1:4174/assets/figma/db42b.svg": 795,
-        "http://127.0.0.1:4174/assets/figma/99dca.svg": 783,
-        "http://127.0.0.1:4174/assets/figma/352b3.svg": 1211,
-        "http://127.0.0.1:4174/assets/artwork/8f387-320.webp": 95278,
-        "http://127.0.0.1:4174/assets/figma/364ee.svg": 1938,
-        "http://127.0.0.1:4174/assets/artwork/83794-320.webp": 90528,
-        "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp": 99350,
-        "http://127.0.0.1:4174/assets/artwork/9add2-320.webp": 89608
+        "http://127.0.0.1:4173/assets/figma/ba93b.svg": 250,
+        "http://127.0.0.1:4173/assets/figma/f545d.svg": 1409,
+        "http://127.0.0.1:4173/assets/figma/ce4db.svg": 919,
+        "http://127.0.0.1:4173/assets/figma/bc3bf.svg": 1177,
+        "http://127.0.0.1:4173/assets/figma/c6c5e.svg": 393,
+        "http://127.0.0.1:4173/assets/figma/bf307.svg": 568,
+        "http://127.0.0.1:4173/assets/figma/b096d.svg": 958,
+        "http://127.0.0.1:4173/assets/figma/f7581.svg": 746,
+        "http://127.0.0.1:4173/assets/figma/c40be.svg": 925,
+        "http://127.0.0.1:4173/assets/figma/3b81f.svg": 1216,
+        "http://127.0.0.1:4173/assets/figma/b1ba5.svg": 486,
+        "http://127.0.0.1:4173/assets/figma/db42b.svg": 795,
+        "http://127.0.0.1:4173/assets/figma/d5458.svg": 873,
+        "http://127.0.0.1:4173/assets/figma/ca931.svg": 881,
+        "http://127.0.0.1:4173/assets/figma/97351.svg": 934,
+        "http://127.0.0.1:4173/assets/figma/99dca.svg": 783,
+        "http://127.0.0.1:4173/assets/figma/352b3.svg": 1211,
+        "http://127.0.0.1:4173/assets/artwork/8f387-160.webp": 27944,
+        "http://127.0.0.1:4173/assets/figma/364ee.svg": 1938,
+        "http://127.0.0.1:4173/assets/artwork/83794-160.webp": 25272,
+        "http://127.0.0.1:4173/assets/artwork/9add2-160.webp": 25188,
+        "http://127.0.0.1:4173/assets/artwork/b7cfc-160.webp": 27872
       }
     },
     {
@@ -250,192 +240,184 @@
       "screenshot": "docs/assets/catalog-390-dpr1.png",
       "images": [
         {
-          "source": "http://127.0.0.1:4174/assets/figma/ce4db.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/ce4db.svg",
           "naturalWidth": 22,
           "renderedWidth": 22
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/bc3bf.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/bc3bf.svg",
           "naturalWidth": 16,
           "renderedWidth": 16.140625
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b096d.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b096d.svg",
           "naturalWidth": 16,
           "renderedWidth": 15.828125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/c40be.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/c40be.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/3b81f.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/3b81f.svg",
           "naturalWidth": 474,
           "renderedWidth": 474
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b1ba5.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b1ba5.svg",
           "naturalWidth": 65,
           "renderedWidth": 65
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/d5458.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/d5458.svg",
           "naturalWidth": 27,
           "renderedWidth": 26.8125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/ca931.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/ca931.svg",
           "naturalWidth": 10,
           "renderedWidth": 10.375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/97351.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/97351.svg",
           "naturalWidth": 10,
           "renderedWidth": 10.375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/f7581.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/f7581.svg",
           "naturalWidth": 10,
           "renderedWidth": 10.34375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/db42b.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/db42b.svg",
           "naturalWidth": 10,
           "renderedWidth": 10.3125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/352b3.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/352b3.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/99dca.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/99dca.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         }
       ],
       "overflow": false,
       "errors": [],
-      "requestedImageBytes": 397517,
+      "requestedImageBytes": 120368,
       "assets": {
-        "http://127.0.0.1:4174/assets/figma/bd8c9.svg": 1073,
-        "http://127.0.0.1:4174/assets/figma/c0c08.svg": 1449,
-        "http://127.0.0.1:4174/assets/figma/62554.svg": 786,
-        "http://127.0.0.1:4174/assets/figma/ce4db.svg": 919,
-        "http://127.0.0.1:4174/assets/figma/bc3bf.svg": 1177,
-        "http://127.0.0.1:4174/assets/figma/99280.svg": 477,
-        "http://127.0.0.1:4174/assets/figma/d48dd.svg": 1723,
-        "http://127.0.0.1:4174/assets/figma/b4111.svg": 1288,
-        "http://127.0.0.1:4174/assets/figma/b8b84.svg": 677,
-        "http://127.0.0.1:4174/assets/figma/ca2da.svg": 1188,
-        "http://127.0.0.1:4174/assets/figma/99dca.svg": 783,
-        "http://127.0.0.1:4174/assets/figma/b096d.svg": 958,
-        "http://127.0.0.1:4174/assets/figma/ba93b.svg": 250,
-        "http://127.0.0.1:4174/assets/figma/c40be.svg": 925,
-        "http://127.0.0.1:4174/assets/figma/3b81f.svg": 1216,
-        "http://127.0.0.1:4174/assets/figma/b1ba5.svg": 486,
-        "http://127.0.0.1:4174/assets/figma/d5458.svg": 873,
-        "http://127.0.0.1:4174/assets/figma/ca931.svg": 881,
-        "http://127.0.0.1:4174/assets/figma/97351.svg": 934,
-        "http://127.0.0.1:4174/assets/figma/f7581.svg": 746,
-        "http://127.0.0.1:4174/assets/figma/db42b.svg": 795,
-        "http://127.0.0.1:4174/assets/figma/352b3.svg": 1211,
-        "http://127.0.0.1:4174/assets/figma/364ee.svg": 1938,
-        "http://127.0.0.1:4174/assets/artwork/8f387-320.webp": 95278,
-        "http://127.0.0.1:4174/assets/artwork/83794-320.webp": 90528,
-        "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp": 99350,
-        "http://127.0.0.1:4174/assets/artwork/9add2-320.webp": 89608
+        "http://127.0.0.1:4173/assets/figma/ba93b.svg": 250,
+        "http://127.0.0.1:4173/assets/figma/ce4db.svg": 919,
+        "http://127.0.0.1:4173/assets/figma/bc3bf.svg": 1177,
+        "http://127.0.0.1:4173/assets/figma/db42b.svg": 795,
+        "http://127.0.0.1:4173/assets/figma/b096d.svg": 958,
+        "http://127.0.0.1:4173/assets/figma/c40be.svg": 925,
+        "http://127.0.0.1:4173/assets/figma/3b81f.svg": 1216,
+        "http://127.0.0.1:4173/assets/figma/b1ba5.svg": 486,
+        "http://127.0.0.1:4173/assets/figma/352b3.svg": 1211,
+        "http://127.0.0.1:4173/assets/figma/99dca.svg": 783,
+        "http://127.0.0.1:4173/assets/figma/d5458.svg": 873,
+        "http://127.0.0.1:4173/assets/figma/ca931.svg": 881,
+        "http://127.0.0.1:4173/assets/figma/97351.svg": 934,
+        "http://127.0.0.1:4173/assets/figma/f7581.svg": 746,
+        "http://127.0.0.1:4173/assets/artwork/8f387-160.webp": 27944,
+        "http://127.0.0.1:4173/assets/figma/364ee.svg": 1938,
+        "http://127.0.0.1:4173/assets/artwork/83794-160.webp": 25272,
+        "http://127.0.0.1:4173/assets/artwork/9add2-160.webp": 25188,
+        "http://127.0.0.1:4173/assets/artwork/b7cfc-160.webp": 27872
       }
     },
     {
@@ -445,138 +427,123 @@
       "screenshot": "docs/assets/detail-390-dpr1.png",
       "images": [
         {
-          "source": "http://127.0.0.1:4174/assets/figma/0e8e8.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/0e8e8.svg",
           "naturalWidth": 13,
           "renderedWidth": 7.3125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/e84fc.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/e84fc.svg",
           "naturalWidth": 16,
           "renderedWidth": 16
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-480.webp",
           "naturalWidth": 334,
           "renderedWidth": 334
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/9ae7b.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/9ae7b.svg",
           "naturalWidth": 30,
           "renderedWidth": 30
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/091e2.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/091e2.svg",
           "naturalWidth": 36,
           "renderedWidth": 36
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/a9dab.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/a9dab.svg",
           "naturalWidth": 42,
           "renderedWidth": 42
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/c4842.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/c4842.svg",
           "naturalWidth": 46,
           "renderedWidth": 45.609375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/dd0fb.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/dd0fb.svg",
           "naturalWidth": 16,
           "renderedWidth": 16
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/f8641.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/f8641.svg",
           "naturalWidth": 16,
           "renderedWidth": 16
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/3c537.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/3c537.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "",
-          "naturalWidth": 0,
-          "renderedWidth": 155
-        },
-        {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
-          "naturalWidth": 28,
-          "renderedWidth": 28
-        },
-        {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-160.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "",
-          "naturalWidth": 0,
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-480.webp",
+          "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
+          "naturalWidth": 28,
+          "renderedWidth": 28
+        },
+        {
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-160.webp",
+          "naturalWidth": 155,
+          "renderedWidth": 155
+        },
+        {
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         }
       ],
       "overflow": false,
       "errors": [],
-      "requestedImageBytes": 669979,
+      "requestedImageBytes": 269267,
       "assets": {
-        "http://127.0.0.1:4174/assets/figma/bd8c9.svg": 1073,
-        "http://127.0.0.1:4174/assets/figma/c0c08.svg": 1449,
-        "http://127.0.0.1:4174/assets/figma/62554.svg": 786,
-        "http://127.0.0.1:4174/assets/figma/99280.svg": 477,
-        "http://127.0.0.1:4174/assets/figma/b8b84.svg": 677,
-        "http://127.0.0.1:4174/assets/figma/d48dd.svg": 1723,
-        "http://127.0.0.1:4174/assets/figma/ca2da.svg": 1188,
-        "http://127.0.0.1:4174/assets/figma/b4111.svg": 1288,
-        "http://127.0.0.1:4174/assets/artwork/8f387-320.webp": 95278,
-        "http://127.0.0.1:4174/assets/figma/0e8e8.svg": 450,
-        "http://127.0.0.1:4174/assets/figma/e84fc.svg": 1758,
-        "http://127.0.0.1:4174/assets/figma/9ae7b.svg": 1159,
-        "http://127.0.0.1:4174/assets/figma/a9dab.svg": 539,
-        "http://127.0.0.1:4174/assets/figma/c4842.svg": 545,
-        "http://127.0.0.1:4174/assets/figma/091e2.svg": 355,
-        "http://127.0.0.1:4174/assets/figma/7d18c.svg": 279,
-        "http://127.0.0.1:4174/assets/figma/dd0fb.svg": 280,
-        "http://127.0.0.1:4174/assets/figma/a4abe.svg": 534,
-        "http://127.0.0.1:4174/assets/figma/bec29.svg": 1222,
-        "http://127.0.0.1:4174/assets/figma/fbcbd.svg": 1234,
-        "http://127.0.0.1:4174/assets/figma/a803c.svg": 334,
-        "http://127.0.0.1:4174/assets/figma/f8641.svg": 344,
-        "http://127.0.0.1:4174/assets/figma/3c537.svg": 1211,
-        "http://127.0.0.1:4174/assets/figma/d427d.svg": 1792,
-        "http://127.0.0.1:4174/assets/artwork/8f387-640.webp": 362188,
-        "http://127.0.0.1:4174/assets/figma/364ee.svg": 1938,
-        "http://127.0.0.1:4174/assets/artwork/83794-320.webp": 90528,
-        "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp": 99350
+        "http://127.0.0.1:4173/assets/artwork/8f387-480.webp": 207544,
+        "http://127.0.0.1:4173/assets/figma/0e8e8.svg": 450,
+        "http://127.0.0.1:4173/assets/figma/091e2.svg": 355,
+        "http://127.0.0.1:4173/assets/figma/a9dab.svg": 539,
+        "http://127.0.0.1:4173/assets/figma/c4842.svg": 545,
+        "http://127.0.0.1:4173/assets/figma/9ae7b.svg": 1159,
+        "http://127.0.0.1:4173/assets/figma/e84fc.svg": 1758,
+        "http://127.0.0.1:4173/assets/figma/dd0fb.svg": 280,
+        "http://127.0.0.1:4173/assets/figma/f8641.svg": 344,
+        "http://127.0.0.1:4173/assets/figma/3c537.svg": 1211,
+        "http://127.0.0.1:4173/assets/artwork/83794-160.webp": 25272,
+        "http://127.0.0.1:4173/assets/artwork/b7cfc-160.webp": 27872,
+        "http://127.0.0.1:4173/assets/figma/364ee.svg": 1938
       }
     },
     {
@@ -586,217 +553,208 @@
       "screenshot": "docs/assets/home-390-dpr2.png",
       "images": [
         {
-          "source": "http://127.0.0.1:4174/assets/figma/ce4db.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/ce4db.svg",
           "naturalWidth": 22,
           "renderedWidth": 22
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/bc3bf.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/bc3bf.svg",
           "naturalWidth": 16,
           "renderedWidth": 16.140625
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/bf307.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/bf307.svg",
           "naturalWidth": 10,
           "renderedWidth": 11.484375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-320.webp",
           "naturalWidth": 125,
           "renderedWidth": 126
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-160.webp",
           "naturalWidth": 57,
           "renderedWidth": 58
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/c6c5e.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/c6c5e.svg",
           "naturalWidth": 33,
           "renderedWidth": 33
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b096d.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b096d.svg",
           "naturalWidth": 16,
           "renderedWidth": 15.828125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/c40be.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/c40be.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/3b81f.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/3b81f.svg",
           "naturalWidth": 474,
           "renderedWidth": 474
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b1ba5.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b1ba5.svg",
           "naturalWidth": 65,
           "renderedWidth": 65
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/d5458.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/d5458.svg",
           "naturalWidth": 27,
           "renderedWidth": 26.8125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/ca931.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/ca931.svg",
           "naturalWidth": 10,
           "renderedWidth": 10.375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/97351.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/97351.svg",
           "naturalWidth": 10,
           "renderedWidth": 10.375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/f7581.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/f7581.svg",
           "naturalWidth": 10,
           "renderedWidth": 10.34375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/db42b.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/db42b.svg",
           "naturalWidth": 10,
           "renderedWidth": 10.3125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/352b3.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/352b3.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/99dca.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/99dca.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         }
       ],
       "overflow": false,
       "errors": [],
-      "requestedImageBytes": 400839,
+      "requestedImageBytes": 416498,
       "assets": {
-        "http://127.0.0.1:4174/assets/figma/ba93b.svg": 250,
-        "http://127.0.0.1:4174/assets/figma/bd8c9.svg": 1073,
-        "http://127.0.0.1:4174/assets/figma/f545d.svg": 1409,
-        "http://127.0.0.1:4174/assets/figma/c0c08.svg": 1449,
-        "http://127.0.0.1:4174/assets/figma/ce4db.svg": 919,
-        "http://127.0.0.1:4174/assets/figma/62554.svg": 786,
-        "http://127.0.0.1:4174/assets/figma/bf307.svg": 568,
-        "http://127.0.0.1:4174/assets/figma/c6c5e.svg": 393,
-        "http://127.0.0.1:4174/assets/figma/a11b7.svg": 375,
-        "http://127.0.0.1:4174/assets/figma/bc3bf.svg": 1177,
-        "http://127.0.0.1:4174/assets/figma/99280.svg": 477,
-        "http://127.0.0.1:4174/assets/figma/68d8c.svg": 577,
-        "http://127.0.0.1:4174/assets/figma/b8b84.svg": 677,
-        "http://127.0.0.1:4174/assets/figma/d48dd.svg": 1723,
-        "http://127.0.0.1:4174/assets/figma/b4111.svg": 1288,
-        "http://127.0.0.1:4174/assets/figma/ca2da.svg": 1188,
-        "http://127.0.0.1:4174/assets/figma/b096d.svg": 958,
-        "http://127.0.0.1:4174/assets/figma/c40be.svg": 925,
-        "http://127.0.0.1:4174/assets/figma/b1ba5.svg": 486,
-        "http://127.0.0.1:4174/assets/figma/d5458.svg": 873,
-        "http://127.0.0.1:4174/assets/figma/ca931.svg": 881,
-        "http://127.0.0.1:4174/assets/figma/3b81f.svg": 1216,
-        "http://127.0.0.1:4174/assets/figma/97351.svg": 934,
-        "http://127.0.0.1:4174/assets/figma/f7581.svg": 746,
-        "http://127.0.0.1:4174/assets/figma/db42b.svg": 795,
-        "http://127.0.0.1:4174/assets/figma/99dca.svg": 783,
-        "http://127.0.0.1:4174/assets/figma/352b3.svg": 1211,
-        "http://127.0.0.1:4174/assets/artwork/8f387-320.webp": 95278,
-        "http://127.0.0.1:4174/assets/artwork/83794-320.webp": 90528,
-        "http://127.0.0.1:4174/assets/artwork/9add2-320.webp": 89608,
-        "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp": 99350,
-        "http://127.0.0.1:4174/assets/figma/364ee.svg": 1938
+        "http://127.0.0.1:4173/assets/figma/ba93b.svg": 250,
+        "http://127.0.0.1:4173/assets/figma/f545d.svg": 1409,
+        "http://127.0.0.1:4173/assets/figma/ce4db.svg": 919,
+        "http://127.0.0.1:4173/assets/figma/bf307.svg": 568,
+        "http://127.0.0.1:4173/assets/figma/c6c5e.svg": 393,
+        "http://127.0.0.1:4173/assets/figma/b096d.svg": 958,
+        "http://127.0.0.1:4173/assets/figma/c40be.svg": 925,
+        "http://127.0.0.1:4173/assets/figma/bc3bf.svg": 1177,
+        "http://127.0.0.1:4173/assets/figma/b1ba5.svg": 486,
+        "http://127.0.0.1:4173/assets/figma/d5458.svg": 873,
+        "http://127.0.0.1:4173/assets/figma/ca931.svg": 881,
+        "http://127.0.0.1:4173/assets/figma/97351.svg": 934,
+        "http://127.0.0.1:4173/assets/figma/f7581.svg": 746,
+        "http://127.0.0.1:4173/assets/figma/3b81f.svg": 1216,
+        "http://127.0.0.1:4173/assets/figma/db42b.svg": 795,
+        "http://127.0.0.1:4173/assets/figma/99dca.svg": 783,
+        "http://127.0.0.1:4173/assets/figma/352b3.svg": 1211,
+        "http://127.0.0.1:4173/assets/artwork/8f387-320.webp": 95278,
+        "http://127.0.0.1:4173/assets/artwork/83794-320.webp": 90528,
+        "http://127.0.0.1:4173/assets/artwork/9add2-320.webp": 89608,
+        "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp": 99350,
+        "http://127.0.0.1:4173/assets/artwork/83794-160.webp": 25272,
+        "http://127.0.0.1:4173/assets/figma/364ee.svg": 1938
       }
     },
     {
@@ -806,192 +764,184 @@
       "screenshot": "docs/assets/catalog-390-dpr2.png",
       "images": [
         {
-          "source": "http://127.0.0.1:4174/assets/figma/ce4db.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/ce4db.svg",
           "naturalWidth": 22,
           "renderedWidth": 22
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/bc3bf.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/bc3bf.svg",
           "naturalWidth": 16,
           "renderedWidth": 16.140625
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b096d.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b096d.svg",
           "naturalWidth": 16,
           "renderedWidth": 15.828125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/c40be.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/c40be.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/3b81f.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/3b81f.svg",
           "naturalWidth": 474,
           "renderedWidth": 474
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b1ba5.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b1ba5.svg",
           "naturalWidth": 65,
           "renderedWidth": 65
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/d5458.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/d5458.svg",
           "naturalWidth": 27,
           "renderedWidth": 26.8125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/ca931.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/ca931.svg",
           "naturalWidth": 10,
           "renderedWidth": 10.375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/97351.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/97351.svg",
           "naturalWidth": 10,
           "renderedWidth": 10.375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/f7581.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/f7581.svg",
           "naturalWidth": 10,
           "renderedWidth": 10.34375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/db42b.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/db42b.svg",
           "naturalWidth": 10,
           "renderedWidth": 10.3125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/352b3.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/352b3.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/99dca.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/99dca.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         }
       ],
       "overflow": false,
       "errors": [],
-      "requestedImageBytes": 397517,
+      "requestedImageBytes": 388856,
       "assets": {
-        "http://127.0.0.1:4174/assets/figma/bd8c9.svg": 1073,
-        "http://127.0.0.1:4174/assets/figma/c0c08.svg": 1449,
-        "http://127.0.0.1:4174/assets/figma/62554.svg": 786,
-        "http://127.0.0.1:4174/assets/figma/ce4db.svg": 919,
-        "http://127.0.0.1:4174/assets/figma/bc3bf.svg": 1177,
-        "http://127.0.0.1:4174/assets/figma/99280.svg": 477,
-        "http://127.0.0.1:4174/assets/figma/d48dd.svg": 1723,
-        "http://127.0.0.1:4174/assets/figma/b4111.svg": 1288,
-        "http://127.0.0.1:4174/assets/figma/b8b84.svg": 677,
-        "http://127.0.0.1:4174/assets/figma/ca2da.svg": 1188,
-        "http://127.0.0.1:4174/assets/figma/b096d.svg": 958,
-        "http://127.0.0.1:4174/assets/figma/c40be.svg": 925,
-        "http://127.0.0.1:4174/assets/figma/3b81f.svg": 1216,
-        "http://127.0.0.1:4174/assets/figma/b1ba5.svg": 486,
-        "http://127.0.0.1:4174/assets/figma/352b3.svg": 1211,
-        "http://127.0.0.1:4174/assets/figma/99dca.svg": 783,
-        "http://127.0.0.1:4174/assets/figma/ba93b.svg": 250,
-        "http://127.0.0.1:4174/assets/figma/d5458.svg": 873,
-        "http://127.0.0.1:4174/assets/figma/ca931.svg": 881,
-        "http://127.0.0.1:4174/assets/figma/97351.svg": 934,
-        "http://127.0.0.1:4174/assets/figma/f7581.svg": 746,
-        "http://127.0.0.1:4174/assets/figma/db42b.svg": 795,
-        "http://127.0.0.1:4174/assets/figma/364ee.svg": 1938,
-        "http://127.0.0.1:4174/assets/artwork/8f387-320.webp": 95278,
-        "http://127.0.0.1:4174/assets/artwork/83794-320.webp": 90528,
-        "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp": 99350,
-        "http://127.0.0.1:4174/assets/artwork/9add2-320.webp": 89608
+        "http://127.0.0.1:4173/assets/figma/ba93b.svg": 250,
+        "http://127.0.0.1:4173/assets/figma/ce4db.svg": 919,
+        "http://127.0.0.1:4173/assets/figma/bc3bf.svg": 1177,
+        "http://127.0.0.1:4173/assets/figma/b096d.svg": 958,
+        "http://127.0.0.1:4173/assets/figma/c40be.svg": 925,
+        "http://127.0.0.1:4173/assets/figma/3b81f.svg": 1216,
+        "http://127.0.0.1:4173/assets/figma/b1ba5.svg": 486,
+        "http://127.0.0.1:4173/assets/figma/d5458.svg": 873,
+        "http://127.0.0.1:4173/assets/figma/ca931.svg": 881,
+        "http://127.0.0.1:4173/assets/figma/97351.svg": 934,
+        "http://127.0.0.1:4173/assets/figma/f7581.svg": 746,
+        "http://127.0.0.1:4173/assets/figma/db42b.svg": 795,
+        "http://127.0.0.1:4173/assets/figma/352b3.svg": 1211,
+        "http://127.0.0.1:4173/assets/figma/99dca.svg": 783,
+        "http://127.0.0.1:4173/assets/artwork/8f387-320.webp": 95278,
+        "http://127.0.0.1:4173/assets/figma/364ee.svg": 1938,
+        "http://127.0.0.1:4173/assets/artwork/83794-320.webp": 90528,
+        "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp": 99350,
+        "http://127.0.0.1:4173/assets/artwork/9add2-320.webp": 89608
       }
     },
     {
@@ -1001,138 +951,124 @@
       "screenshot": "docs/assets/detail-390-dpr2.png",
       "images": [
         {
-          "source": "http://127.0.0.1:4174/assets/figma/0e8e8.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/0e8e8.svg",
           "naturalWidth": 13,
           "renderedWidth": 7.3125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/e84fc.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/e84fc.svg",
           "naturalWidth": 16,
           "renderedWidth": 16
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-1254.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-960.webp",
           "naturalWidth": 334,
           "renderedWidth": 334
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/9ae7b.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/9ae7b.svg",
           "naturalWidth": 30,
           "renderedWidth": 30
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/091e2.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/091e2.svg",
           "naturalWidth": 36,
           "renderedWidth": 36
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/a9dab.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/a9dab.svg",
           "naturalWidth": 42,
           "renderedWidth": 42
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/c4842.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/c4842.svg",
           "naturalWidth": 46,
           "renderedWidth": 45.609375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/dd0fb.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/dd0fb.svg",
           "naturalWidth": 16,
           "renderedWidth": 16
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/f8641.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/f8641.svg",
           "naturalWidth": 16,
           "renderedWidth": 16
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/3c537.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/3c537.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-1254.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp",
           "naturalWidth": 155,
           "renderedWidth": 155
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/364ee.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/364ee.svg",
           "naturalWidth": 28,
           "renderedWidth": 28
         }
       ],
       "overflow": false,
       "errors": [],
-      "requestedImageBytes": 1584081,
+      "requestedImageBytes": 1102087,
       "assets": {
-        "http://127.0.0.1:4174/assets/figma/bd8c9.svg": 1073,
-        "http://127.0.0.1:4174/assets/figma/c0c08.svg": 1449,
-        "http://127.0.0.1:4174/assets/figma/62554.svg": 786,
-        "http://127.0.0.1:4174/assets/figma/b4111.svg": 1288,
-        "http://127.0.0.1:4174/assets/figma/99280.svg": 477,
-        "http://127.0.0.1:4174/assets/figma/b8b84.svg": 677,
-        "http://127.0.0.1:4174/assets/figma/d48dd.svg": 1723,
-        "http://127.0.0.1:4174/assets/figma/ca2da.svg": 1188,
-        "http://127.0.0.1:4174/assets/artwork/8f387-320.webp": 95278,
-        "http://127.0.0.1:4174/assets/figma/a9dab.svg": 539,
-        "http://127.0.0.1:4174/assets/figma/0e8e8.svg": 450,
-        "http://127.0.0.1:4174/assets/figma/091e2.svg": 355,
-        "http://127.0.0.1:4174/assets/figma/e84fc.svg": 1758,
-        "http://127.0.0.1:4174/assets/figma/9ae7b.svg": 1159,
-        "http://127.0.0.1:4174/assets/figma/c4842.svg": 545,
-        "http://127.0.0.1:4174/assets/figma/f8641.svg": 344,
-        "http://127.0.0.1:4174/assets/figma/a803c.svg": 334,
-        "http://127.0.0.1:4174/assets/figma/dd0fb.svg": 280,
-        "http://127.0.0.1:4174/assets/figma/7d18c.svg": 279,
-        "http://127.0.0.1:4174/assets/figma/a4abe.svg": 534,
-        "http://127.0.0.1:4174/assets/figma/d427d.svg": 1792,
-        "http://127.0.0.1:4174/assets/figma/3c537.svg": 1211,
-        "http://127.0.0.1:4174/assets/figma/bec29.svg": 1222,
-        "http://127.0.0.1:4174/assets/figma/fbcbd.svg": 1234,
-        "http://127.0.0.1:4174/assets/artwork/8f387-1254.webp": 1276290,
-        "http://127.0.0.1:4174/assets/figma/364ee.svg": 1938,
-        "http://127.0.0.1:4174/assets/artwork/83794-320.webp": 90528,
-        "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp": 99350
+        "http://127.0.0.1:4173/assets/figma/0e8e8.svg": 450,
+        "http://127.0.0.1:4173/assets/figma/091e2.svg": 355,
+        "http://127.0.0.1:4173/assets/figma/a9dab.svg": 539,
+        "http://127.0.0.1:4173/assets/figma/e84fc.svg": 1758,
+        "http://127.0.0.1:4173/assets/figma/9ae7b.svg": 1159,
+        "http://127.0.0.1:4173/assets/figma/c4842.svg": 545,
+        "http://127.0.0.1:4173/assets/artwork/83794-320.webp": 90528,
+        "http://127.0.0.1:4173/assets/figma/dd0fb.svg": 280,
+        "http://127.0.0.1:4173/assets/figma/f8641.svg": 344,
+        "http://127.0.0.1:4173/assets/figma/364ee.svg": 1938,
+        "http://127.0.0.1:4173/assets/figma/3c537.svg": 1211,
+        "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp": 99350,
+        "http://127.0.0.1:4173/assets/artwork/8f387-320.webp": 95278,
+        "http://127.0.0.1:4173/assets/artwork/8f387-960.webp": 808352
       }
     },
     {
@@ -1142,188 +1078,167 @@
       "screenshot": "docs/assets/home-768-dpr1.png",
       "images": [
         {
-          "source": "http://127.0.0.1:4174/assets/figma/bd8c9.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/bd8c9.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/c0c08.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/c0c08.svg",
           "naturalWidth": 24,
           "renderedWidth": 24
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/62554.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/62554.svg",
           "naturalWidth": 18,
           "renderedWidth": 17.765625
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/a11b7.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/a11b7.svg",
           "naturalWidth": 40,
           "renderedWidth": 40
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-320.webp",
           "naturalWidth": 299,
           "renderedWidth": 300
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 310,
           "renderedWidth": 210
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-320.webp",
           "naturalWidth": 219,
           "renderedWidth": 219
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 219,
           "renderedWidth": 219
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-320.webp",
           "naturalWidth": 219,
           "renderedWidth": 219
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 219,
           "renderedWidth": 219
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 219,
           "renderedWidth": 219
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-320.webp",
           "naturalWidth": 219,
           "renderedWidth": 219
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp",
           "naturalWidth": 219,
           "renderedWidth": 219
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp",
           "naturalWidth": 219,
           "renderedWidth": 219
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-320.webp",
           "naturalWidth": 219,
           "renderedWidth": 219
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-320.webp",
           "naturalWidth": 292,
           "renderedWidth": 344.953125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/68d8c.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/68d8c.svg",
           "naturalWidth": 586,
           "renderedWidth": 586
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-320.webp",
           "naturalWidth": 292,
           "renderedWidth": 344.953125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/68d8c.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/68d8c.svg",
           "naturalWidth": 586,
           "renderedWidth": 586
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-320.webp",
           "naturalWidth": 268,
           "renderedWidth": 340
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-320.webp",
           "naturalWidth": 268,
           "renderedWidth": 340
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 268,
           "renderedWidth": 340
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp",
           "naturalWidth": 268,
           "renderedWidth": 340
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/99280.svg",
-          "naturalWidth": 32,
+          "source": "",
+          "naturalWidth": 0,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/d48dd.svg",
-          "naturalWidth": 32,
+          "source": "",
+          "naturalWidth": 0,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b4111.svg",
-          "naturalWidth": 32,
+          "source": "",
+          "naturalWidth": 0,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b8b84.svg",
-          "naturalWidth": 32,
+          "source": "",
+          "naturalWidth": 0,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/ca2da.svg",
-          "naturalWidth": 32,
+          "source": "",
+          "naturalWidth": 0,
           "renderedWidth": 32
         }
       ],
       "overflow": false,
       "errors": [],
-      "requestedImageBytes": 402566,
+      "requestedImageBytes": 382410,
       "assets": {
-        "http://127.0.0.1:4174/assets/figma/57141.svg": 265,
-        "http://127.0.0.1:4174/assets/figma/66cfd.svg": 261,
-        "http://127.0.0.1:4174/assets/figma/2ac35.svg": 277,
-        "http://127.0.0.1:4174/assets/figma/7c6d1.svg": 280,
-        "http://127.0.0.1:4174/assets/figma/5053c.svg": 273,
-        "http://127.0.0.1:4174/assets/figma/ba93b.svg": 250,
-        "http://127.0.0.1:4174/assets/figma/7e373.svg": 371,
-        "http://127.0.0.1:4174/assets/figma/62554.svg": 786,
-        "http://127.0.0.1:4174/assets/figma/c0c08.svg": 1449,
-        "http://127.0.0.1:4174/assets/figma/bd8c9.svg": 1073,
-        "http://127.0.0.1:4174/assets/figma/c6c5e.svg": 393,
-        "http://127.0.0.1:4174/assets/figma/a11b7.svg": 375,
-        "http://127.0.0.1:4174/assets/figma/bf307.svg": 568,
-        "http://127.0.0.1:4174/assets/figma/ce4db.svg": 919,
-        "http://127.0.0.1:4174/assets/figma/68d8c.svg": 577,
-        "http://127.0.0.1:4174/assets/figma/bc3bf.svg": 1177,
-        "http://127.0.0.1:4174/assets/figma/99280.svg": 477,
-        "http://127.0.0.1:4174/assets/figma/b8b84.svg": 677,
-        "http://127.0.0.1:4174/assets/figma/d48dd.svg": 1723,
-        "http://127.0.0.1:4174/assets/figma/b4111.svg": 1288,
-        "http://127.0.0.1:4174/assets/figma/ca2da.svg": 1188,
-        "http://127.0.0.1:4174/assets/figma/c40be.svg": 925,
-        "http://127.0.0.1:4174/assets/figma/b096d.svg": 958,
-        "http://127.0.0.1:4174/assets/figma/b1ba5.svg": 486,
-        "http://127.0.0.1:4174/assets/figma/d5458.svg": 873,
-        "http://127.0.0.1:4174/assets/figma/ca931.svg": 881,
-        "http://127.0.0.1:4174/assets/figma/97351.svg": 934,
-        "http://127.0.0.1:4174/assets/figma/f7581.svg": 746,
-        "http://127.0.0.1:4174/assets/figma/3b81f.svg": 1216,
-        "http://127.0.0.1:4174/assets/figma/db42b.svg": 795,
-        "http://127.0.0.1:4174/assets/figma/99dca.svg": 783,
-        "http://127.0.0.1:4174/assets/figma/352b3.svg": 1211,
-        "http://127.0.0.1:4174/assets/artwork/8f387-320.webp": 95278,
-        "http://127.0.0.1:4174/assets/artwork/9add2-320.webp": 89608,
-        "http://127.0.0.1:4174/assets/figma/364ee.svg": 1938,
-        "http://127.0.0.1:4174/assets/artwork/83794-320.webp": 90528,
-        "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp": 99350,
-        "http://127.0.0.1:4174/assets/figma/f545d.svg": 1409
+        "http://127.0.0.1:4173/assets/figma/57141.svg": 265,
+        "http://127.0.0.1:4173/assets/figma/66cfd.svg": 261,
+        "http://127.0.0.1:4173/assets/figma/2ac35.svg": 277,
+        "http://127.0.0.1:4173/assets/figma/7e373.svg": 371,
+        "http://127.0.0.1:4173/assets/figma/7c6d1.svg": 280,
+        "http://127.0.0.1:4173/assets/figma/5053c.svg": 273,
+        "http://127.0.0.1:4173/assets/figma/ba93b.svg": 250,
+        "http://127.0.0.1:4173/assets/figma/bd8c9.svg": 1073,
+        "http://127.0.0.1:4173/assets/figma/62554.svg": 786,
+        "http://127.0.0.1:4173/assets/figma/a11b7.svg": 375,
+        "http://127.0.0.1:4173/assets/figma/c0c08.svg": 1449,
+        "http://127.0.0.1:4173/assets/figma/68d8c.svg": 577,
+        "http://127.0.0.1:4173/assets/artwork/8f387-320.webp": 95278,
+        "http://127.0.0.1:4173/assets/artwork/9add2-320.webp": 89608,
+        "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp": 99350,
+        "http://127.0.0.1:4173/assets/artwork/83794-320.webp": 90528,
+        "http://127.0.0.1:4173/assets/figma/f545d.svg": 1409
       }
     },
     {
@@ -1333,138 +1248,125 @@
       "screenshot": "docs/assets/catalog-768-dpr1.png",
       "images": [
         {
-          "source": "http://127.0.0.1:4174/assets/figma/bd8c9.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/bd8c9.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/c0c08.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/c0c08.svg",
           "naturalWidth": 24,
           "renderedWidth": 24
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/62554.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/62554.svg",
           "naturalWidth": 18,
           "renderedWidth": 17.765625
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/ce4db.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/ce4db.svg",
           "naturalWidth": 22,
           "renderedWidth": 22
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 310,
           "renderedWidth": 210
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-320.webp",
           "naturalWidth": 219,
           "renderedWidth": 219
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 219,
           "renderedWidth": 219
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-320.webp",
           "naturalWidth": 219,
           "renderedWidth": 219
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 219,
           "renderedWidth": 219
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 219,
           "renderedWidth": 219
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-320.webp",
           "naturalWidth": 219,
           "renderedWidth": 219
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp",
           "naturalWidth": 219,
           "renderedWidth": 219
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp",
           "naturalWidth": 219,
           "renderedWidth": 219
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-320.webp",
           "naturalWidth": 219,
           "renderedWidth": 219
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/99280.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/99280.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/d48dd.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/d48dd.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b4111.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b4111.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b8b84.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b8b84.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/ca2da.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/ca2da.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         }
       ],
       "overflow": false,
       "errors": [],
-      "requestedImageBytes": 399244,
+      "requestedImageBytes": 386321,
       "assets": {
-        "http://127.0.0.1:4174/assets/figma/bd8c9.svg": 1073,
-        "http://127.0.0.1:4174/assets/figma/c0c08.svg": 1449,
-        "http://127.0.0.1:4174/assets/figma/62554.svg": 786,
-        "http://127.0.0.1:4174/assets/figma/ce4db.svg": 919,
-        "http://127.0.0.1:4174/assets/figma/bc3bf.svg": 1177,
-        "http://127.0.0.1:4174/assets/figma/99280.svg": 477,
-        "http://127.0.0.1:4174/assets/figma/d48dd.svg": 1723,
-        "http://127.0.0.1:4174/assets/figma/b4111.svg": 1288,
-        "http://127.0.0.1:4174/assets/figma/b8b84.svg": 677,
-        "http://127.0.0.1:4174/assets/figma/ca2da.svg": 1188,
-        "http://127.0.0.1:4174/assets/figma/b096d.svg": 958,
-        "http://127.0.0.1:4174/assets/figma/c40be.svg": 925,
-        "http://127.0.0.1:4174/assets/figma/3b81f.svg": 1216,
-        "http://127.0.0.1:4174/assets/figma/b1ba5.svg": 486,
-        "http://127.0.0.1:4174/assets/figma/d5458.svg": 873,
-        "http://127.0.0.1:4174/assets/figma/ca931.svg": 881,
-        "http://127.0.0.1:4174/assets/figma/7c6d1.svg": 280,
-        "http://127.0.0.1:4174/assets/figma/5053c.svg": 273,
-        "http://127.0.0.1:4174/assets/figma/ba93b.svg": 250,
-        "http://127.0.0.1:4174/assets/figma/7e373.svg": 371,
-        "http://127.0.0.1:4174/assets/figma/97351.svg": 934,
-        "http://127.0.0.1:4174/assets/figma/f7581.svg": 746,
-        "http://127.0.0.1:4174/assets/figma/db42b.svg": 795,
-        "http://127.0.0.1:4174/assets/figma/352b3.svg": 1211,
-        "http://127.0.0.1:4174/assets/figma/99dca.svg": 783,
-        "http://127.0.0.1:4174/assets/figma/57141.svg": 265,
-        "http://127.0.0.1:4174/assets/figma/66cfd.svg": 261,
-        "http://127.0.0.1:4174/assets/figma/2ac35.svg": 277,
-        "http://127.0.0.1:4174/assets/figma/364ee.svg": 1938,
-        "http://127.0.0.1:4174/assets/artwork/8f387-320.webp": 95278,
-        "http://127.0.0.1:4174/assets/artwork/9add2-320.webp": 89608,
-        "http://127.0.0.1:4174/assets/artwork/83794-320.webp": 90528,
-        "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp": 99350
+        "http://127.0.0.1:4173/assets/figma/57141.svg": 265,
+        "http://127.0.0.1:4173/assets/figma/66cfd.svg": 261,
+        "http://127.0.0.1:4173/assets/figma/2ac35.svg": 277,
+        "http://127.0.0.1:4173/assets/figma/7c6d1.svg": 280,
+        "http://127.0.0.1:4173/assets/figma/5053c.svg": 273,
+        "http://127.0.0.1:4173/assets/figma/ba93b.svg": 250,
+        "http://127.0.0.1:4173/assets/figma/7e373.svg": 371,
+        "http://127.0.0.1:4173/assets/figma/bd8c9.svg": 1073,
+        "http://127.0.0.1:4173/assets/figma/c0c08.svg": 1449,
+        "http://127.0.0.1:4173/assets/figma/62554.svg": 786,
+        "http://127.0.0.1:4173/assets/figma/ce4db.svg": 919,
+        "http://127.0.0.1:4173/assets/figma/99280.svg": 477,
+        "http://127.0.0.1:4173/assets/figma/b8b84.svg": 677,
+        "http://127.0.0.1:4173/assets/figma/d48dd.svg": 1723,
+        "http://127.0.0.1:4173/assets/figma/b4111.svg": 1288,
+        "http://127.0.0.1:4173/assets/figma/ca2da.svg": 1188,
+        "http://127.0.0.1:4173/assets/artwork/83794-320.webp": 90528,
+        "http://127.0.0.1:4173/assets/artwork/8f387-320.webp": 95278,
+        "http://127.0.0.1:4173/assets/artwork/9add2-320.webp": 89608,
+        "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp": 99350
       }
     },
     {
@@ -1474,165 +1376,159 @@
       "screenshot": "docs/assets/detail-768-dpr1.png",
       "images": [
         {
-          "source": "http://127.0.0.1:4174/assets/figma/bd8c9.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/bd8c9.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/c0c08.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/c0c08.svg",
           "naturalWidth": 24,
           "renderedWidth": 24
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/62554.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/62554.svg",
           "naturalWidth": 18,
           "renderedWidth": 17.765625
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
-          "naturalWidth": 69,
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-160.webp",
+          "naturalWidth": 97,
           "renderedWidth": 98
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-640.webp",
-          "naturalWidth": 444,
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-480.webp",
+          "naturalWidth": 324,
           "renderedWidth": 316
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/9ae7b.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/9ae7b.svg",
           "naturalWidth": 30,
           "renderedWidth": 30
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/091e2.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/091e2.svg",
           "naturalWidth": 36,
           "renderedWidth": 36
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/a9dab.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/a9dab.svg",
           "naturalWidth": 42,
           "renderedWidth": 42
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/c4842.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/c4842.svg",
           "naturalWidth": 46,
           "renderedWidth": 45.609375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/7d18c.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/7d18c.svg",
           "naturalWidth": 26,
           "renderedWidth": 26.390625
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/a803c.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/a803c.svg",
           "naturalWidth": 26,
           "renderedWidth": 26.390625
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/d427d.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/d427d.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/a4abe.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/a4abe.svg",
           "naturalWidth": 15,
           "renderedWidth": 15
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/bec29.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/bec29.svg",
           "naturalWidth": 18,
           "renderedWidth": 18
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/fbcbd.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/fbcbd.svg",
           "naturalWidth": 16,
           "renderedWidth": 15.953125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 210,
           "renderedWidth": 211.296875
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp",
           "naturalWidth": 210,
           "renderedWidth": 211.296875
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 210,
           "renderedWidth": 211.296875
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-480.webp",
           "naturalWidth": 210,
           "renderedWidth": 211.296875
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp",
           "naturalWidth": 210,
           "renderedWidth": 211.296875
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/99280.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/99280.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/d48dd.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/d48dd.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b4111.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b4111.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b8b84.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b8b84.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/ca2da.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/ca2da.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         }
       ],
       "overflow": false,
       "errors": [],
-      "requestedImageBytes": 670505,
+      "requestedImageBytes": 442546,
       "assets": {
-        "http://127.0.0.1:4174/assets/figma/bd8c9.svg": 1073,
-        "http://127.0.0.1:4174/assets/figma/c0c08.svg": 1449,
-        "http://127.0.0.1:4174/assets/figma/62554.svg": 786,
-        "http://127.0.0.1:4174/assets/figma/99280.svg": 477,
-        "http://127.0.0.1:4174/assets/figma/57141.svg": 265,
-        "http://127.0.0.1:4174/assets/figma/66cfd.svg": 261,
-        "http://127.0.0.1:4174/assets/figma/d48dd.svg": 1723,
-        "http://127.0.0.1:4174/assets/figma/b4111.svg": 1288,
-        "http://127.0.0.1:4174/assets/figma/b8b84.svg": 677,
-        "http://127.0.0.1:4174/assets/figma/ca2da.svg": 1188,
-        "http://127.0.0.1:4174/assets/artwork/8f387-320.webp": 95278,
-        "http://127.0.0.1:4174/assets/figma/0e8e8.svg": 450,
-        "http://127.0.0.1:4174/assets/figma/091e2.svg": 355,
-        "http://127.0.0.1:4174/assets/figma/a9dab.svg": 539,
-        "http://127.0.0.1:4174/assets/figma/e84fc.svg": 1758,
-        "http://127.0.0.1:4174/assets/figma/9ae7b.svg": 1159,
-        "http://127.0.0.1:4174/assets/figma/c4842.svg": 545,
-        "http://127.0.0.1:4174/assets/figma/7d18c.svg": 279,
-        "http://127.0.0.1:4174/assets/figma/a803c.svg": 334,
-        "http://127.0.0.1:4174/assets/figma/dd0fb.svg": 280,
-        "http://127.0.0.1:4174/assets/figma/f8641.svg": 344,
-        "http://127.0.0.1:4174/assets/figma/d427d.svg": 1792,
-        "http://127.0.0.1:4174/assets/figma/a4abe.svg": 534,
-        "http://127.0.0.1:4174/assets/figma/3c537.svg": 1211,
-        "http://127.0.0.1:4174/assets/figma/bec29.svg": 1222,
-        "http://127.0.0.1:4174/assets/figma/fbcbd.svg": 1234,
-        "http://127.0.0.1:4174/assets/artwork/8f387-640.webp": 362188,
-        "http://127.0.0.1:4174/assets/figma/364ee.svg": 1938,
-        "http://127.0.0.1:4174/assets/artwork/83794-320.webp": 90528,
-        "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp": 99350
+        "http://127.0.0.1:4173/assets/figma/66cfd.svg": 261,
+        "http://127.0.0.1:4173/assets/figma/57141.svg": 265,
+        "http://127.0.0.1:4173/assets/figma/bd8c9.svg": 1073,
+        "http://127.0.0.1:4173/assets/figma/c0c08.svg": 1449,
+        "http://127.0.0.1:4173/assets/figma/62554.svg": 786,
+        "http://127.0.0.1:4173/assets/figma/99280.svg": 477,
+        "http://127.0.0.1:4173/assets/figma/b4111.svg": 1288,
+        "http://127.0.0.1:4173/assets/figma/b8b84.svg": 677,
+        "http://127.0.0.1:4173/assets/figma/ca2da.svg": 1188,
+        "http://127.0.0.1:4173/assets/figma/d48dd.svg": 1723,
+        "http://127.0.0.1:4173/assets/artwork/8f387-480.webp": 207544,
+        "http://127.0.0.1:4173/assets/artwork/8f387-160.webp": 27944,
+        "http://127.0.0.1:4173/assets/figma/091e2.svg": 355,
+        "http://127.0.0.1:4173/assets/figma/a9dab.svg": 539,
+        "http://127.0.0.1:4173/assets/figma/9ae7b.svg": 1159,
+        "http://127.0.0.1:4173/assets/figma/c4842.svg": 545,
+        "http://127.0.0.1:4173/assets/figma/7d18c.svg": 279,
+        "http://127.0.0.1:4173/assets/figma/a803c.svg": 334,
+        "http://127.0.0.1:4173/assets/figma/a4abe.svg": 534,
+        "http://127.0.0.1:4173/assets/figma/d427d.svg": 1792,
+        "http://127.0.0.1:4173/assets/figma/bec29.svg": 1222,
+        "http://127.0.0.1:4173/assets/figma/fbcbd.svg": 1234,
+        "http://127.0.0.1:4173/assets/artwork/83794-320.webp": 90528,
+        "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp": 99350
       }
     },
     {
@@ -1642,189 +1538,173 @@
       "screenshot": "docs/assets/home-1440-dpr1.png",
       "images": [
         {
-          "source": "http://127.0.0.1:4174/assets/figma/bd8c9.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/bd8c9.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/c0c08.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/c0c08.svg",
           "naturalWidth": 24,
           "renderedWidth": 24
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/62554.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/62554.svg",
           "naturalWidth": 18,
           "renderedWidth": 17.765625
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/a11b7.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/a11b7.svg",
           "naturalWidth": 40,
           "renderedWidth": 40
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-640.webp",
-          "naturalWidth": 450,
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-480.webp",
+          "naturalWidth": 449,
           "renderedWidth": 450
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 310,
           "renderedWidth": 310
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-320.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-320.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.34375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-320.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.34375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-320.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.34375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-320.webp",
           "naturalWidth": 292,
           "renderedWidth": 287.125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/68d8c.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/68d8c.svg",
           "naturalWidth": 586,
           "renderedWidth": 586
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-320.webp",
           "naturalWidth": 292,
           "renderedWidth": 287.125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/68d8c.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/68d8c.svg",
           "naturalWidth": 586,
           "renderedWidth": 586
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-320.webp",
           "naturalWidth": 268,
           "renderedWidth": 282
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-320.webp",
           "naturalWidth": 268,
           "renderedWidth": 282
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 268,
           "renderedWidth": 282
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp",
           "naturalWidth": 268,
           "renderedWidth": 282
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/99280.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/99280.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/d48dd.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/d48dd.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b4111.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b4111.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b8b84.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b8b84.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/ca2da.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/ca2da.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         }
       ],
       "overflow": false,
       "errors": [],
-      "requestedImageBytes": 764754,
+      "requestedImageBytes": 595307,
       "assets": {
-        "http://127.0.0.1:4174/assets/figma/66cfd.svg": 261,
-        "http://127.0.0.1:4174/assets/figma/57141.svg": 265,
-        "http://127.0.0.1:4174/assets/figma/2ac35.svg": 277,
-        "http://127.0.0.1:4174/assets/figma/7e373.svg": 371,
-        "http://127.0.0.1:4174/assets/figma/7c6d1.svg": 280,
-        "http://127.0.0.1:4174/assets/figma/5053c.svg": 273,
-        "http://127.0.0.1:4174/assets/figma/ba93b.svg": 250,
-        "http://127.0.0.1:4174/assets/figma/bd8c9.svg": 1073,
-        "http://127.0.0.1:4174/assets/figma/62554.svg": 786,
-        "http://127.0.0.1:4174/assets/figma/bc3bf.svg": 1177,
-        "http://127.0.0.1:4174/assets/figma/bf307.svg": 568,
-        "http://127.0.0.1:4174/assets/figma/ce4db.svg": 919,
-        "http://127.0.0.1:4174/assets/figma/c0c08.svg": 1449,
-        "http://127.0.0.1:4174/assets/figma/a11b7.svg": 375,
-        "http://127.0.0.1:4174/assets/figma/c6c5e.svg": 393,
-        "http://127.0.0.1:4174/assets/figma/68d8c.svg": 577,
-        "http://127.0.0.1:4174/assets/figma/99280.svg": 477,
-        "http://127.0.0.1:4174/assets/figma/b8b84.svg": 677,
-        "http://127.0.0.1:4174/assets/figma/d48dd.svg": 1723,
-        "http://127.0.0.1:4174/assets/figma/ca2da.svg": 1188,
-        "http://127.0.0.1:4174/assets/figma/b4111.svg": 1288,
-        "http://127.0.0.1:4174/assets/figma/c40be.svg": 925,
-        "http://127.0.0.1:4174/assets/figma/b096d.svg": 958,
-        "http://127.0.0.1:4174/assets/figma/b1ba5.svg": 486,
-        "http://127.0.0.1:4174/assets/figma/d5458.svg": 873,
-        "http://127.0.0.1:4174/assets/figma/3b81f.svg": 1216,
-        "http://127.0.0.1:4174/assets/figma/ca931.svg": 881,
-        "http://127.0.0.1:4174/assets/figma/f7581.svg": 746,
-        "http://127.0.0.1:4174/assets/figma/db42b.svg": 795,
-        "http://127.0.0.1:4174/assets/figma/97351.svg": 934,
-        "http://127.0.0.1:4174/assets/figma/99dca.svg": 783,
-        "http://127.0.0.1:4174/assets/figma/352b3.svg": 1211,
-        "http://127.0.0.1:4174/assets/artwork/83794-320.webp": 90528,
-        "http://127.0.0.1:4174/assets/artwork/9add2-320.webp": 89608,
-        "http://127.0.0.1:4174/assets/artwork/8f387-320.webp": 95278,
-        "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp": 99350,
-        "http://127.0.0.1:4174/assets/figma/364ee.svg": 1938,
-        "http://127.0.0.1:4174/assets/artwork/8f387-640.webp": 362188,
-        "http://127.0.0.1:4174/assets/figma/f545d.svg": 1409
+        "http://127.0.0.1:4173/assets/figma/2ac35.svg": 277,
+        "http://127.0.0.1:4173/assets/figma/57141.svg": 265,
+        "http://127.0.0.1:4173/assets/figma/66cfd.svg": 261,
+        "http://127.0.0.1:4173/assets/figma/7c6d1.svg": 280,
+        "http://127.0.0.1:4173/assets/figma/5053c.svg": 273,
+        "http://127.0.0.1:4173/assets/figma/ba93b.svg": 250,
+        "http://127.0.0.1:4173/assets/figma/7e373.svg": 371,
+        "http://127.0.0.1:4173/assets/figma/bd8c9.svg": 1073,
+        "http://127.0.0.1:4173/assets/figma/c0c08.svg": 1449,
+        "http://127.0.0.1:4173/assets/figma/62554.svg": 786,
+        "http://127.0.0.1:4173/assets/figma/a11b7.svg": 375,
+        "http://127.0.0.1:4173/assets/artwork/8f387-320.webp": 95278,
+        "http://127.0.0.1:4173/assets/figma/68d8c.svg": 577,
+        "http://127.0.0.1:4173/assets/artwork/9add2-320.webp": 89608,
+        "http://127.0.0.1:4173/assets/artwork/83794-320.webp": 90528,
+        "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp": 99350,
+        "http://127.0.0.1:4173/assets/figma/99280.svg": 477,
+        "http://127.0.0.1:4173/assets/figma/d48dd.svg": 1723,
+        "http://127.0.0.1:4173/assets/figma/b4111.svg": 1288,
+        "http://127.0.0.1:4173/assets/figma/b8b84.svg": 677,
+        "http://127.0.0.1:4173/assets/figma/ca2da.svg": 1188,
+        "http://127.0.0.1:4173/assets/artwork/8f387-480.webp": 207544,
+        "http://127.0.0.1:4173/assets/figma/f545d.svg": 1409
       }
     },
     {
@@ -1834,138 +1714,125 @@
       "screenshot": "docs/assets/catalog-1440-dpr1.png",
       "images": [
         {
-          "source": "http://127.0.0.1:4174/assets/figma/bd8c9.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/bd8c9.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/c0c08.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/c0c08.svg",
           "naturalWidth": 24,
           "renderedWidth": 24
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/62554.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/62554.svg",
           "naturalWidth": 18,
           "renderedWidth": 17.765625
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/ce4db.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/ce4db.svg",
           "naturalWidth": 22,
           "renderedWidth": 22
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 310,
           "renderedWidth": 310
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-320.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-320.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.34375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-320.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.34375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-320.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.34375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/99280.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/99280.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/d48dd.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/d48dd.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b4111.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b4111.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b8b84.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b8b84.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/ca2da.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/ca2da.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         }
       ],
       "overflow": false,
       "errors": [],
-      "requestedImageBytes": 399244,
+      "requestedImageBytes": 386321,
       "assets": {
-        "http://127.0.0.1:4174/assets/figma/bd8c9.svg": 1073,
-        "http://127.0.0.1:4174/assets/figma/c0c08.svg": 1449,
-        "http://127.0.0.1:4174/assets/figma/b8b84.svg": 677,
-        "http://127.0.0.1:4174/assets/figma/ca2da.svg": 1188,
-        "http://127.0.0.1:4174/assets/figma/b096d.svg": 958,
-        "http://127.0.0.1:4174/assets/figma/c40be.svg": 925,
-        "http://127.0.0.1:4174/assets/figma/3b81f.svg": 1216,
-        "http://127.0.0.1:4174/assets/figma/b1ba5.svg": 486,
-        "http://127.0.0.1:4174/assets/figma/62554.svg": 786,
-        "http://127.0.0.1:4174/assets/figma/ce4db.svg": 919,
-        "http://127.0.0.1:4174/assets/figma/bc3bf.svg": 1177,
-        "http://127.0.0.1:4174/assets/figma/99280.svg": 477,
-        "http://127.0.0.1:4174/assets/figma/d48dd.svg": 1723,
-        "http://127.0.0.1:4174/assets/figma/b4111.svg": 1288,
-        "http://127.0.0.1:4174/assets/figma/d5458.svg": 873,
-        "http://127.0.0.1:4174/assets/figma/ca931.svg": 881,
-        "http://127.0.0.1:4174/assets/figma/97351.svg": 934,
-        "http://127.0.0.1:4174/assets/figma/f7581.svg": 746,
-        "http://127.0.0.1:4174/assets/figma/db42b.svg": 795,
-        "http://127.0.0.1:4174/assets/figma/352b3.svg": 1211,
-        "http://127.0.0.1:4174/assets/figma/99dca.svg": 783,
-        "http://127.0.0.1:4174/assets/figma/57141.svg": 265,
-        "http://127.0.0.1:4174/assets/figma/66cfd.svg": 261,
-        "http://127.0.0.1:4174/assets/figma/2ac35.svg": 277,
-        "http://127.0.0.1:4174/assets/figma/7c6d1.svg": 280,
-        "http://127.0.0.1:4174/assets/figma/5053c.svg": 273,
-        "http://127.0.0.1:4174/assets/figma/ba93b.svg": 250,
-        "http://127.0.0.1:4174/assets/figma/7e373.svg": 371,
-        "http://127.0.0.1:4174/assets/figma/364ee.svg": 1938,
-        "http://127.0.0.1:4174/assets/artwork/83794-320.webp": 90528,
-        "http://127.0.0.1:4174/assets/artwork/8f387-320.webp": 95278,
-        "http://127.0.0.1:4174/assets/artwork/9add2-320.webp": 89608,
-        "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp": 99350
+        "http://127.0.0.1:4173/assets/figma/57141.svg": 265,
+        "http://127.0.0.1:4173/assets/figma/66cfd.svg": 261,
+        "http://127.0.0.1:4173/assets/figma/2ac35.svg": 277,
+        "http://127.0.0.1:4173/assets/figma/7c6d1.svg": 280,
+        "http://127.0.0.1:4173/assets/figma/5053c.svg": 273,
+        "http://127.0.0.1:4173/assets/figma/ba93b.svg": 250,
+        "http://127.0.0.1:4173/assets/figma/7e373.svg": 371,
+        "http://127.0.0.1:4173/assets/figma/bd8c9.svg": 1073,
+        "http://127.0.0.1:4173/assets/figma/c0c08.svg": 1449,
+        "http://127.0.0.1:4173/assets/figma/62554.svg": 786,
+        "http://127.0.0.1:4173/assets/figma/99280.svg": 477,
+        "http://127.0.0.1:4173/assets/figma/d48dd.svg": 1723,
+        "http://127.0.0.1:4173/assets/figma/b4111.svg": 1288,
+        "http://127.0.0.1:4173/assets/figma/b8b84.svg": 677,
+        "http://127.0.0.1:4173/assets/figma/ca2da.svg": 1188,
+        "http://127.0.0.1:4173/assets/figma/ce4db.svg": 919,
+        "http://127.0.0.1:4173/assets/artwork/8f387-320.webp": 95278,
+        "http://127.0.0.1:4173/assets/artwork/83794-320.webp": 90528,
+        "http://127.0.0.1:4173/assets/artwork/9add2-320.webp": 89608,
+        "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp": 99350
       }
     },
     {
@@ -1975,165 +1842,159 @@
       "screenshot": "docs/assets/detail-1440-dpr1.png",
       "images": [
         {
-          "source": "http://127.0.0.1:4174/assets/figma/bd8c9.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/bd8c9.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/c0c08.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/c0c08.svg",
           "naturalWidth": 24,
           "renderedWidth": 24
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/62554.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/62554.svg",
           "naturalWidth": 18,
           "renderedWidth": 17.765625
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
-          "naturalWidth": 69,
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-160.webp",
+          "naturalWidth": 97,
           "renderedWidth": 98
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-640.webp",
-          "naturalWidth": 444,
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-480.webp",
+          "naturalWidth": 404,
           "renderedWidth": 404
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/9ae7b.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/9ae7b.svg",
           "naturalWidth": 30,
           "renderedWidth": 30
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/091e2.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/091e2.svg",
           "naturalWidth": 36,
           "renderedWidth": 36
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/a9dab.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/a9dab.svg",
           "naturalWidth": 42,
           "renderedWidth": 42
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/c4842.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/c4842.svg",
           "naturalWidth": 46,
           "renderedWidth": 45.609375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/7d18c.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/7d18c.svg",
           "naturalWidth": 26,
           "renderedWidth": 26.390625
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/a803c.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/a803c.svg",
           "naturalWidth": 26,
           "renderedWidth": 26.390625
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/d427d.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/d427d.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/a4abe.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/a4abe.svg",
           "naturalWidth": 15,
           "renderedWidth": 15
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/bec29.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/bec29.svg",
           "naturalWidth": 18,
           "renderedWidth": 18
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/fbcbd.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/fbcbd.svg",
           "naturalWidth": 16,
           "renderedWidth": 15.953125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 213,
           "renderedWidth": 212.796875
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp",
           "naturalWidth": 213,
           "renderedWidth": 212.796875
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-320.webp",
           "naturalWidth": 213,
           "renderedWidth": 212.796875
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-480.webp",
           "naturalWidth": 213,
           "renderedWidth": 212.796875
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp",
           "naturalWidth": 213,
           "renderedWidth": 212.8125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/99280.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/99280.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/d48dd.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/d48dd.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b4111.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b4111.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b8b84.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b8b84.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/ca2da.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/ca2da.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         }
       ],
       "overflow": false,
       "errors": [],
-      "requestedImageBytes": 670505,
+      "requestedImageBytes": 442546,
       "assets": {
-        "http://127.0.0.1:4174/assets/figma/bd8c9.svg": 1073,
-        "http://127.0.0.1:4174/assets/figma/c0c08.svg": 1449,
-        "http://127.0.0.1:4174/assets/figma/62554.svg": 786,
-        "http://127.0.0.1:4174/assets/figma/99280.svg": 477,
-        "http://127.0.0.1:4174/assets/figma/d48dd.svg": 1723,
-        "http://127.0.0.1:4174/assets/figma/b4111.svg": 1288,
-        "http://127.0.0.1:4174/assets/figma/b8b84.svg": 677,
-        "http://127.0.0.1:4174/assets/figma/ca2da.svg": 1188,
-        "http://127.0.0.1:4174/assets/figma/57141.svg": 265,
-        "http://127.0.0.1:4174/assets/figma/66cfd.svg": 261,
-        "http://127.0.0.1:4174/assets/artwork/8f387-320.webp": 95278,
-        "http://127.0.0.1:4174/assets/figma/0e8e8.svg": 450,
-        "http://127.0.0.1:4174/assets/figma/091e2.svg": 355,
-        "http://127.0.0.1:4174/assets/figma/a9dab.svg": 539,
-        "http://127.0.0.1:4174/assets/figma/e84fc.svg": 1758,
-        "http://127.0.0.1:4174/assets/figma/9ae7b.svg": 1159,
-        "http://127.0.0.1:4174/assets/figma/c4842.svg": 545,
-        "http://127.0.0.1:4174/assets/figma/f8641.svg": 344,
-        "http://127.0.0.1:4174/assets/figma/a803c.svg": 334,
-        "http://127.0.0.1:4174/assets/figma/7d18c.svg": 279,
-        "http://127.0.0.1:4174/assets/figma/3c537.svg": 1211,
-        "http://127.0.0.1:4174/assets/figma/d427d.svg": 1792,
-        "http://127.0.0.1:4174/assets/figma/dd0fb.svg": 280,
-        "http://127.0.0.1:4174/assets/figma/a4abe.svg": 534,
-        "http://127.0.0.1:4174/assets/figma/fbcbd.svg": 1234,
-        "http://127.0.0.1:4174/assets/figma/bec29.svg": 1222,
-        "http://127.0.0.1:4174/assets/artwork/8f387-640.webp": 362188,
-        "http://127.0.0.1:4174/assets/figma/364ee.svg": 1938,
-        "http://127.0.0.1:4174/assets/artwork/83794-320.webp": 90528,
-        "http://127.0.0.1:4174/assets/artwork/b7cfc-320.webp": 99350
+        "http://127.0.0.1:4173/assets/figma/57141.svg": 265,
+        "http://127.0.0.1:4173/assets/figma/66cfd.svg": 261,
+        "http://127.0.0.1:4173/assets/figma/bd8c9.svg": 1073,
+        "http://127.0.0.1:4173/assets/figma/c0c08.svg": 1449,
+        "http://127.0.0.1:4173/assets/figma/b8b84.svg": 677,
+        "http://127.0.0.1:4173/assets/figma/ca2da.svg": 1188,
+        "http://127.0.0.1:4173/assets/figma/62554.svg": 786,
+        "http://127.0.0.1:4173/assets/figma/99280.svg": 477,
+        "http://127.0.0.1:4173/assets/figma/d48dd.svg": 1723,
+        "http://127.0.0.1:4173/assets/figma/b4111.svg": 1288,
+        "http://127.0.0.1:4173/assets/artwork/8f387-160.webp": 27944,
+        "http://127.0.0.1:4173/assets/figma/091e2.svg": 355,
+        "http://127.0.0.1:4173/assets/figma/a9dab.svg": 539,
+        "http://127.0.0.1:4173/assets/figma/c4842.svg": 545,
+        "http://127.0.0.1:4173/assets/figma/7d18c.svg": 279,
+        "http://127.0.0.1:4173/assets/figma/9ae7b.svg": 1159,
+        "http://127.0.0.1:4173/assets/figma/a803c.svg": 334,
+        "http://127.0.0.1:4173/assets/figma/a4abe.svg": 534,
+        "http://127.0.0.1:4173/assets/figma/d427d.svg": 1792,
+        "http://127.0.0.1:4173/assets/figma/bec29.svg": 1222,
+        "http://127.0.0.1:4173/assets/figma/fbcbd.svg": 1234,
+        "http://127.0.0.1:4173/assets/artwork/8f387-480.webp": 207544,
+        "http://127.0.0.1:4173/assets/artwork/83794-320.webp": 90528,
+        "http://127.0.0.1:4173/assets/artwork/b7cfc-320.webp": 99350
       }
     },
     {
@@ -2143,189 +2004,173 @@
       "screenshot": "docs/assets/home-1440-dpr2.png",
       "images": [
         {
-          "source": "http://127.0.0.1:4174/assets/figma/bd8c9.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/bd8c9.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/c0c08.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/c0c08.svg",
           "naturalWidth": 24,
           "renderedWidth": 24
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/62554.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/62554.svg",
           "naturalWidth": 18,
           "renderedWidth": 17.765625
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/a11b7.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/a11b7.svg",
           "naturalWidth": 40,
           "renderedWidth": 40
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-1254.webp",
-          "naturalWidth": 450,
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-960.webp",
+          "naturalWidth": 449,
           "renderedWidth": 450
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-640.webp",
           "naturalWidth": 310,
           "renderedWidth": 310
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-640.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-640.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-640.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.34375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-640.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-640.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-640.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.34375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-640.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-640.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-640.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.34375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-640.webp",
           "naturalWidth": 292,
           "renderedWidth": 287.125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/68d8c.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/68d8c.svg",
           "naturalWidth": 586,
           "renderedWidth": 586
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-640.webp",
           "naturalWidth": 292,
           "renderedWidth": 287.125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/68d8c.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/68d8c.svg",
           "naturalWidth": 586,
           "renderedWidth": 586
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-640.webp",
           "naturalWidth": 268,
           "renderedWidth": 282
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-640.webp",
           "naturalWidth": 268,
           "renderedWidth": 282
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-640.webp",
           "naturalWidth": 268,
           "renderedWidth": 282
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-640.webp",
           "naturalWidth": 268,
           "renderedWidth": 282
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/99280.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/99280.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/d48dd.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/d48dd.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b4111.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b4111.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b8b84.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b8b84.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/ca2da.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/ca2da.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         }
       ],
       "overflow": false,
       "errors": [],
-      "requestedImageBytes": 2777002,
+      "requestedImageBytes": 2294261,
       "assets": {
-        "http://127.0.0.1:4174/assets/figma/66cfd.svg": 261,
-        "http://127.0.0.1:4174/assets/figma/57141.svg": 265,
-        "http://127.0.0.1:4174/assets/figma/2ac35.svg": 277,
-        "http://127.0.0.1:4174/assets/figma/7c6d1.svg": 280,
-        "http://127.0.0.1:4174/assets/figma/5053c.svg": 273,
-        "http://127.0.0.1:4174/assets/figma/ba93b.svg": 250,
-        "http://127.0.0.1:4174/assets/figma/7e373.svg": 371,
-        "http://127.0.0.1:4174/assets/figma/bd8c9.svg": 1073,
-        "http://127.0.0.1:4174/assets/figma/62554.svg": 786,
-        "http://127.0.0.1:4174/assets/figma/c0c08.svg": 1449,
-        "http://127.0.0.1:4174/assets/figma/ce4db.svg": 919,
-        "http://127.0.0.1:4174/assets/figma/bf307.svg": 568,
-        "http://127.0.0.1:4174/assets/figma/bc3bf.svg": 1177,
-        "http://127.0.0.1:4174/assets/figma/a11b7.svg": 375,
-        "http://127.0.0.1:4174/assets/figma/68d8c.svg": 577,
-        "http://127.0.0.1:4174/assets/figma/c6c5e.svg": 393,
-        "http://127.0.0.1:4174/assets/figma/99280.svg": 477,
-        "http://127.0.0.1:4174/assets/figma/b8b84.svg": 677,
-        "http://127.0.0.1:4174/assets/figma/b096d.svg": 958,
-        "http://127.0.0.1:4174/assets/figma/d48dd.svg": 1723,
-        "http://127.0.0.1:4174/assets/figma/b4111.svg": 1288,
-        "http://127.0.0.1:4174/assets/figma/ca2da.svg": 1188,
-        "http://127.0.0.1:4174/assets/figma/c40be.svg": 925,
-        "http://127.0.0.1:4174/assets/figma/b1ba5.svg": 486,
-        "http://127.0.0.1:4174/assets/figma/ca931.svg": 881,
-        "http://127.0.0.1:4174/assets/figma/d5458.svg": 873,
-        "http://127.0.0.1:4174/assets/figma/97351.svg": 934,
-        "http://127.0.0.1:4174/assets/figma/3b81f.svg": 1216,
-        "http://127.0.0.1:4174/assets/figma/f7581.svg": 746,
-        "http://127.0.0.1:4174/assets/figma/db42b.svg": 795,
-        "http://127.0.0.1:4174/assets/figma/99dca.svg": 783,
-        "http://127.0.0.1:4174/assets/figma/352b3.svg": 1211,
-        "http://127.0.0.1:4174/assets/artwork/8f387-640.webp": 362188,
-        "http://127.0.0.1:4174/assets/artwork/9add2-640.webp": 358680,
-        "http://127.0.0.1:4174/assets/artwork/83794-640.webp": 369784,
-        "http://127.0.0.1:4174/assets/artwork/b7cfc-640.webp": 382258,
-        "http://127.0.0.1:4174/assets/figma/364ee.svg": 1938,
-        "http://127.0.0.1:4174/assets/artwork/8f387-1254.webp": 1276290,
-        "http://127.0.0.1:4174/assets/figma/f545d.svg": 1409
+        "http://127.0.0.1:4173/assets/figma/57141.svg": 265,
+        "http://127.0.0.1:4173/assets/figma/66cfd.svg": 261,
+        "http://127.0.0.1:4173/assets/figma/2ac35.svg": 277,
+        "http://127.0.0.1:4173/assets/figma/7c6d1.svg": 280,
+        "http://127.0.0.1:4173/assets/figma/5053c.svg": 273,
+        "http://127.0.0.1:4173/assets/figma/ba93b.svg": 250,
+        "http://127.0.0.1:4173/assets/figma/7e373.svg": 371,
+        "http://127.0.0.1:4173/assets/figma/62554.svg": 786,
+        "http://127.0.0.1:4173/assets/figma/bd8c9.svg": 1073,
+        "http://127.0.0.1:4173/assets/figma/c0c08.svg": 1449,
+        "http://127.0.0.1:4173/assets/figma/a11b7.svg": 375,
+        "http://127.0.0.1:4173/assets/figma/68d8c.svg": 577,
+        "http://127.0.0.1:4173/assets/figma/99280.svg": 477,
+        "http://127.0.0.1:4173/assets/figma/b4111.svg": 1288,
+        "http://127.0.0.1:4173/assets/figma/d48dd.svg": 1723,
+        "http://127.0.0.1:4173/assets/figma/b8b84.svg": 677,
+        "http://127.0.0.1:4173/assets/figma/ca2da.svg": 1188,
+        "http://127.0.0.1:4173/assets/artwork/b7cfc-640.webp": 382258,
+        "http://127.0.0.1:4173/assets/artwork/83794-640.webp": 369784,
+        "http://127.0.0.1:4173/assets/artwork/9add2-640.webp": 358680,
+        "http://127.0.0.1:4173/assets/artwork/8f387-640.webp": 362188,
+        "http://127.0.0.1:4173/assets/artwork/8f387-960.webp": 808352,
+        "http://127.0.0.1:4173/assets/figma/f545d.svg": 1409
       }
     },
     {
@@ -2335,138 +2180,125 @@
       "screenshot": "docs/assets/catalog-1440-dpr2.png",
       "images": [
         {
-          "source": "http://127.0.0.1:4174/assets/figma/bd8c9.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/bd8c9.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/c0c08.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/c0c08.svg",
           "naturalWidth": 24,
           "renderedWidth": 24
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/62554.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/62554.svg",
           "naturalWidth": 18,
           "renderedWidth": 17.765625
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/ce4db.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/ce4db.svg",
           "naturalWidth": 22,
           "renderedWidth": 22
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-640.webp",
           "naturalWidth": 310,
           "renderedWidth": 310
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-640.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-640.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-640.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.34375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-640.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/83794-640.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/9add2-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/9add2-640.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.34375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-640.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/b7cfc-640.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.328125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-640.webp",
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-640.webp",
           "naturalWidth": 256,
           "renderedWidth": 255.34375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/99280.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/99280.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/d48dd.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/d48dd.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b4111.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b4111.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b8b84.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b8b84.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/ca2da.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/ca2da.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         }
       ],
       "overflow": false,
       "errors": [],
-      "requestedImageBytes": 1497390,
+      "requestedImageBytes": 1484467,
       "assets": {
-        "http://127.0.0.1:4174/assets/figma/bd8c9.svg": 1073,
-        "http://127.0.0.1:4174/assets/figma/c0c08.svg": 1449,
-        "http://127.0.0.1:4174/assets/figma/62554.svg": 786,
-        "http://127.0.0.1:4174/assets/figma/ce4db.svg": 919,
-        "http://127.0.0.1:4174/assets/figma/bc3bf.svg": 1177,
-        "http://127.0.0.1:4174/assets/figma/99280.svg": 477,
-        "http://127.0.0.1:4174/assets/figma/d48dd.svg": 1723,
-        "http://127.0.0.1:4174/assets/figma/b4111.svg": 1288,
-        "http://127.0.0.1:4174/assets/figma/b8b84.svg": 677,
-        "http://127.0.0.1:4174/assets/figma/ca2da.svg": 1188,
-        "http://127.0.0.1:4174/assets/figma/b096d.svg": 958,
-        "http://127.0.0.1:4174/assets/figma/c40be.svg": 925,
-        "http://127.0.0.1:4174/assets/figma/3b81f.svg": 1216,
-        "http://127.0.0.1:4174/assets/figma/b1ba5.svg": 486,
-        "http://127.0.0.1:4174/assets/figma/d5458.svg": 873,
-        "http://127.0.0.1:4174/assets/figma/ca931.svg": 881,
-        "http://127.0.0.1:4174/assets/figma/97351.svg": 934,
-        "http://127.0.0.1:4174/assets/figma/f7581.svg": 746,
-        "http://127.0.0.1:4174/assets/figma/db42b.svg": 795,
-        "http://127.0.0.1:4174/assets/figma/352b3.svg": 1211,
-        "http://127.0.0.1:4174/assets/figma/99dca.svg": 783,
-        "http://127.0.0.1:4174/assets/figma/57141.svg": 265,
-        "http://127.0.0.1:4174/assets/figma/66cfd.svg": 261,
-        "http://127.0.0.1:4174/assets/figma/2ac35.svg": 277,
-        "http://127.0.0.1:4174/assets/figma/7c6d1.svg": 280,
-        "http://127.0.0.1:4174/assets/figma/5053c.svg": 273,
-        "http://127.0.0.1:4174/assets/figma/ba93b.svg": 250,
-        "http://127.0.0.1:4174/assets/figma/7e373.svg": 371,
-        "http://127.0.0.1:4174/assets/figma/364ee.svg": 1938,
-        "http://127.0.0.1:4174/assets/artwork/8f387-640.webp": 362188,
-        "http://127.0.0.1:4174/assets/artwork/83794-640.webp": 369784,
-        "http://127.0.0.1:4174/assets/artwork/9add2-640.webp": 358680,
-        "http://127.0.0.1:4174/assets/artwork/b7cfc-640.webp": 382258
+        "http://127.0.0.1:4173/assets/figma/57141.svg": 265,
+        "http://127.0.0.1:4173/assets/figma/66cfd.svg": 261,
+        "http://127.0.0.1:4173/assets/figma/2ac35.svg": 277,
+        "http://127.0.0.1:4173/assets/figma/7c6d1.svg": 280,
+        "http://127.0.0.1:4173/assets/figma/5053c.svg": 273,
+        "http://127.0.0.1:4173/assets/figma/7e373.svg": 371,
+        "http://127.0.0.1:4173/assets/figma/ba93b.svg": 250,
+        "http://127.0.0.1:4173/assets/figma/bd8c9.svg": 1073,
+        "http://127.0.0.1:4173/assets/figma/c0c08.svg": 1449,
+        "http://127.0.0.1:4173/assets/figma/62554.svg": 786,
+        "http://127.0.0.1:4173/assets/figma/99280.svg": 477,
+        "http://127.0.0.1:4173/assets/figma/d48dd.svg": 1723,
+        "http://127.0.0.1:4173/assets/figma/ce4db.svg": 919,
+        "http://127.0.0.1:4173/assets/figma/ca2da.svg": 1188,
+        "http://127.0.0.1:4173/assets/figma/b8b84.svg": 677,
+        "http://127.0.0.1:4173/assets/figma/b4111.svg": 1288,
+        "http://127.0.0.1:4173/assets/artwork/83794-640.webp": 369784,
+        "http://127.0.0.1:4173/assets/artwork/8f387-640.webp": 362188,
+        "http://127.0.0.1:4173/assets/artwork/9add2-640.webp": 358680,
+        "http://127.0.0.1:4173/assets/artwork/b7cfc-640.webp": 382258
       }
     },
     {
@@ -2476,166 +2308,159 @@
       "screenshot": "docs/assets/detail-1440-dpr2.png",
       "images": [
         {
-          "source": "http://127.0.0.1:4174/assets/figma/bd8c9.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/bd8c9.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/c0c08.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/c0c08.svg",
           "naturalWidth": 24,
           "renderedWidth": 24
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/62554.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/62554.svg",
           "naturalWidth": 18,
           "renderedWidth": 17.765625
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-320.webp",
-          "naturalWidth": 69,
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-320.webp",
+          "naturalWidth": 97,
           "renderedWidth": 98
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-1254.webp",
-          "naturalWidth": 443,
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-960.webp",
+          "naturalWidth": 404,
           "renderedWidth": 404
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/9ae7b.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/9ae7b.svg",
           "naturalWidth": 30,
           "renderedWidth": 30
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/091e2.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/091e2.svg",
           "naturalWidth": 36,
           "renderedWidth": 36
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/a9dab.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/a9dab.svg",
           "naturalWidth": 42,
           "renderedWidth": 42
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/c4842.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/c4842.svg",
           "naturalWidth": 46,
           "renderedWidth": 45.609375
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/7d18c.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/7d18c.svg",
           "naturalWidth": 26,
           "renderedWidth": 26.390625
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/a803c.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/a803c.svg",
           "naturalWidth": 26,
           "renderedWidth": 26.390625
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/d427d.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/d427d.svg",
           "naturalWidth": 20,
           "renderedWidth": 20
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/a4abe.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/a4abe.svg",
           "naturalWidth": 15,
           "renderedWidth": 15
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/bec29.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/bec29.svg",
           "naturalWidth": 18,
           "renderedWidth": 18
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/fbcbd.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/fbcbd.svg",
           "naturalWidth": 16,
           "renderedWidth": 15.953125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-640.webp",
+          "source": "",
+          "naturalWidth": 0,
+          "renderedWidth": 212.796875
+        },
+        {
+          "source": "",
+          "naturalWidth": 0,
+          "renderedWidth": 212.796875
+        },
+        {
+          "source": "",
+          "naturalWidth": 0,
+          "renderedWidth": 212.796875
+        },
+        {
+          "source": "http://127.0.0.1:4173/assets/artwork/8f387-960.webp",
           "naturalWidth": 213,
           "renderedWidth": 212.796875
         },
         {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-640.webp",
-          "naturalWidth": 213,
-          "renderedWidth": 212.796875
-        },
-        {
-          "source": "http://127.0.0.1:4174/assets/artwork/83794-640.webp",
-          "naturalWidth": 213,
-          "renderedWidth": 212.796875
-        },
-        {
-          "source": "http://127.0.0.1:4174/assets/artwork/8f387-1254.webp",
-          "naturalWidth": 213,
-          "renderedWidth": 212.796875
-        },
-        {
-          "source": "http://127.0.0.1:4174/assets/artwork/b7cfc-640.webp",
-          "naturalWidth": 213,
+          "source": "",
+          "naturalWidth": 0,
           "renderedWidth": 212.8125
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/99280.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/99280.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/d48dd.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/d48dd.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b4111.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b4111.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/b8b84.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/b8b84.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         },
         {
-          "source": "http://127.0.0.1:4174/assets/figma/ca2da.svg",
+          "source": "http://127.0.0.1:4173/assets/figma/ca2da.svg",
           "naturalWidth": 32,
           "renderedWidth": 32
         }
       ],
       "overflow": false,
       "errors": [],
-      "requestedImageBytes": 2508959,
+      "requestedImageBytes": 1351966,
       "assets": {
-        "http://127.0.0.1:4174/assets/figma/bd8c9.svg": 1073,
-        "http://127.0.0.1:4174/assets/figma/c0c08.svg": 1449,
-        "http://127.0.0.1:4174/assets/figma/62554.svg": 786,
-        "http://127.0.0.1:4174/assets/figma/99280.svg": 477,
-        "http://127.0.0.1:4174/assets/figma/d48dd.svg": 1723,
-        "http://127.0.0.1:4174/assets/figma/b4111.svg": 1288,
-        "http://127.0.0.1:4174/assets/figma/b8b84.svg": 677,
-        "http://127.0.0.1:4174/assets/figma/ca2da.svg": 1188,
-        "http://127.0.0.1:4174/assets/figma/57141.svg": 265,
-        "http://127.0.0.1:4174/assets/figma/66cfd.svg": 261,
-        "http://127.0.0.1:4174/assets/figma/0e8e8.svg": 450,
-        "http://127.0.0.1:4174/assets/artwork/8f387-320.webp": 95278,
-        "http://127.0.0.1:4174/assets/figma/091e2.svg": 355,
-        "http://127.0.0.1:4174/assets/artwork/8f387-640.webp": 362188,
-        "http://127.0.0.1:4174/assets/figma/a9dab.svg": 539,
-        "http://127.0.0.1:4174/assets/figma/e84fc.svg": 1758,
-        "http://127.0.0.1:4174/assets/figma/9ae7b.svg": 1159,
-        "http://127.0.0.1:4174/assets/figma/c4842.svg": 545,
-        "http://127.0.0.1:4174/assets/figma/a4abe.svg": 534,
-        "http://127.0.0.1:4174/assets/figma/bec29.svg": 1222,
-        "http://127.0.0.1:4174/assets/figma/fbcbd.svg": 1234,
-        "http://127.0.0.1:4174/assets/figma/7d18c.svg": 279,
-        "http://127.0.0.1:4174/assets/figma/dd0fb.svg": 280,
-        "http://127.0.0.1:4174/assets/figma/a803c.svg": 334,
-        "http://127.0.0.1:4174/assets/figma/f8641.svg": 344,
-        "http://127.0.0.1:4174/assets/figma/d427d.svg": 1792,
-        "http://127.0.0.1:4174/assets/figma/3c537.svg": 1211,
-        "http://127.0.0.1:4174/assets/artwork/8f387-1254.webp": 1276290,
-        "http://127.0.0.1:4174/assets/figma/364ee.svg": 1938,
-        "http://127.0.0.1:4174/assets/artwork/83794-640.webp": 369784,
-        "http://127.0.0.1:4174/assets/artwork/b7cfc-640.webp": 382258
+        "http://127.0.0.1:4173/assets/figma/57141.svg": 265,
+        "http://127.0.0.1:4173/assets/figma/66cfd.svg": 261,
+        "http://127.0.0.1:4173/assets/figma/bd8c9.svg": 1073,
+        "http://127.0.0.1:4173/assets/figma/c0c08.svg": 1449,
+        "http://127.0.0.1:4173/assets/figma/62554.svg": 786,
+        "http://127.0.0.1:4173/assets/figma/99280.svg": 477,
+        "http://127.0.0.1:4173/assets/figma/d48dd.svg": 1723,
+        "http://127.0.0.1:4173/assets/figma/b4111.svg": 1288,
+        "http://127.0.0.1:4173/assets/figma/b8b84.svg": 677,
+        "http://127.0.0.1:4173/assets/figma/ca2da.svg": 1188,
+        "http://127.0.0.1:4173/assets/artwork/8f387-960.webp": 808352,
+        "http://127.0.0.1:4173/assets/figma/9ae7b.svg": 1159,
+        "http://127.0.0.1:4173/assets/figma/091e2.svg": 355,
+        "http://127.0.0.1:4173/assets/figma/a9dab.svg": 539,
+        "http://127.0.0.1:4173/assets/figma/c4842.svg": 545,
+        "http://127.0.0.1:4173/assets/figma/7d18c.svg": 279,
+        "http://127.0.0.1:4173/assets/figma/a803c.svg": 334,
+        "http://127.0.0.1:4173/assets/figma/d427d.svg": 1792,
+        "http://127.0.0.1:4173/assets/artwork/8f387-320.webp": 95278,
+        "http://127.0.0.1:4173/assets/figma/a4abe.svg": 534,
+        "http://127.0.0.1:4173/assets/figma/bec29.svg": 1222,
+        "http://127.0.0.1:4173/assets/figma/fbcbd.svg": 1234,
+        "http://127.0.0.1:4173/assets/artwork/83794-480.webp": 210266,
+        "http://127.0.0.1:4173/assets/artwork/b7cfc-480.webp": 220890
       }
     }
   ],
@@ -2648,11 +2473,25 @@
       "bytes": 1380166
     },
     {
+      "path": "public/assets/artwork/83794-160.webp",
+      "format": "webp",
+      "width": 160,
+      "height": 160,
+      "bytes": 25272
+    },
+    {
       "path": "public/assets/artwork/83794-320.webp",
       "format": "webp",
       "width": 320,
       "height": 320,
       "bytes": 90528
+    },
+    {
+      "path": "public/assets/artwork/83794-480.webp",
+      "format": "webp",
+      "width": 480,
+      "height": 480,
+      "bytes": 210266
     },
     {
       "path": "public/assets/artwork/83794-640.webp",
@@ -2662,11 +2501,25 @@
       "bytes": 369784
     },
     {
+      "path": "public/assets/artwork/83794-960.webp",
+      "format": "webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 844008
+    },
+    {
       "path": "public/assets/artwork/8f387-1254.webp",
       "format": "webp",
       "width": 1254,
       "height": 1254,
       "bytes": 1276290
+    },
+    {
+      "path": "public/assets/artwork/8f387-160.webp",
+      "format": "webp",
+      "width": 160,
+      "height": 160,
+      "bytes": 27944
     },
     {
       "path": "public/assets/artwork/8f387-320.webp",
@@ -2676,11 +2529,25 @@
       "bytes": 95278
     },
     {
+      "path": "public/assets/artwork/8f387-480.webp",
+      "format": "webp",
+      "width": 480,
+      "height": 480,
+      "bytes": 207544
+    },
+    {
       "path": "public/assets/artwork/8f387-640.webp",
       "format": "webp",
       "width": 640,
       "height": 640,
       "bytes": 362188
+    },
+    {
+      "path": "public/assets/artwork/8f387-960.webp",
+      "format": "webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 808352
     },
     {
       "path": "public/assets/artwork/9add2-1254.webp",
@@ -2690,11 +2557,25 @@
       "bytes": 1373616
     },
     {
+      "path": "public/assets/artwork/9add2-160.webp",
+      "format": "webp",
+      "width": 160,
+      "height": 160,
+      "bytes": 25188
+    },
+    {
       "path": "public/assets/artwork/9add2-320.webp",
       "format": "webp",
       "width": 320,
       "height": 320,
       "bytes": 89608
+    },
+    {
+      "path": "public/assets/artwork/9add2-480.webp",
+      "format": "webp",
+      "width": 480,
+      "height": 480,
+      "bytes": 202126
     },
     {
       "path": "public/assets/artwork/9add2-640.webp",
@@ -2704,11 +2585,25 @@
       "bytes": 358680
     },
     {
+      "path": "public/assets/artwork/9add2-960.webp",
+      "format": "webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 834786
+    },
+    {
       "path": "public/assets/artwork/b7cfc-1254.webp",
       "format": "webp",
       "width": 1254,
       "height": 1254,
       "bytes": 1357702
+    },
+    {
+      "path": "public/assets/artwork/b7cfc-160.webp",
+      "format": "webp",
+      "width": 160,
+      "height": 160,
+      "bytes": 27872
     },
     {
       "path": "public/assets/artwork/b7cfc-320.webp",
@@ -2718,11 +2613,25 @@
       "bytes": 99350
     },
     {
+      "path": "public/assets/artwork/b7cfc-480.webp",
+      "format": "webp",
+      "width": 480,
+      "height": 480,
+      "bytes": 220890
+    },
+    {
       "path": "public/assets/artwork/b7cfc-640.webp",
       "format": "webp",
       "width": 640,
       "height": 640,
       "bytes": 382258
+    },
+    {
+      "path": "public/assets/artwork/b7cfc-960.webp",
+      "format": "webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 840702
     },
     {
       "path": "public/assets/figma/091e2.svg",
