@@ -59,7 +59,7 @@ Os [contratos completos](API_CONTRACTS.md) especificam os endpoints cobertos, c�
 
 1. Autentique como Alice, revise o carrinho e conecte uma carteira da conta.
 2. Selecione `payment-declined`, recarregue e conclua a revisão: o pedido deve ser recusado e os itens preservados.
-3. Restaure o cenário, autentique novamente e selecione `order-timeout` antes de enviar outro pedido. Depois da falha, use a recuperação oferecida pela interface: ela repete a mesma chave e corpo, sem criar outra compra. Refresh não envia pedidos automaticamente.
+3. Execute o reset acima, recarregue, autentique novamente e prepare outra compra. Selecione `order-timeout` antes de enviar o pedido. Depois da falha, use a recuperação oferecida pela interface: ela repete a mesma chave e corpo, sem criar outra compra. Refresh não envia pedidos automaticamente.
 4. Para preço/estoque, mantenha `nft-001-ed-10` no carrinho e selecione `price-changed` ou `sold-out`. O evento deve refletir a alteração e bloquear uma cotação antiga; novos valores exigem aceite.
 
 `WELCOME10` é o cupom válido de 10%; `EXPIRED` já está expirado. Um código desconhecido exercita a rejeição sem mudar o cenário global.

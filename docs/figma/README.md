@@ -25,7 +25,7 @@ Perfil e carteiras foram capturados no editor; o viewport corta parte dos frames
 | `9add2` | Macaco com paletó e gola verde |
 | `b7cfc` | Macaco dourado com fones verdes |
 
-As fixtures associam essas artes aos NFTs em `src/mocks/data/artwork.ts`. As versões distribuídas estão em `public/assets/artwork`, nos tamanhos 320/640/1254 px. PNGs originais em `assets/originals/figma` são entradas dos scripts de otimização.
+As fixtures associam essas artes aos NFTs em `src/mocks/data/artwork.ts`. As versões distribuídas estão em `public/assets/artwork`, nos tamanhos 160/320/480/640/960/1254 px. PNGs originais em `assets/originals/figma` são entradas dos scripts de otimização.
 
 SVGs e ícones pequenos originais ficam em `public/assets/figma`. Os inventários `assets.json`, `detail-assets.json`, `auth-assets.json`, `cart-assets.json`, `checkout-assets.json` e `account-assets.json` registram os exports. Nomes derivados dos identificadores do Figma são mantidos para rastreabilidade. Os wrappers controlam composição e área de toque sem redesenhar a geometria dos ícones. Não foram geradas artes substitutas.
 

@@ -1,53 +1,53 @@
-# Delivery validation
+# Validação da entrega
 
-Final application build validated on 16 October 2026. The [challenge brief](CHALLENGE_README.md), [contracts](API_CONTRACTS.md), and [architecture](../ARCHITECTURE.md) describe the scope and implementation. This delivery step changes deployment configuration, existing test synchronization, and documentation/evidence. Application source, appearance, functionality, mocks, visual baselines, and Lighthouse profiles are unchanged.
+O build final da aplicação foi validado em **16/10/2026**. O [enunciado](CHALLENGE_README.md), os [contratos](API_CONTRACTS.md) e a [arquitetura](../ARCHITECTURE.md) descrevem o escopo e a implementação. A preparação da entrega atualizou configurações de publicação, sincronização dos testes existentes e documentação/evidências. Código da aplicação, aparência, funcionalidades, mocks, imagens de referência dos testes e perfis Lighthouse foram preservados.
 
-## Production deployment
+## Publicação em produção
 
-- Application: [jungle-nft-marketplace-xi.vercel.app](https://jungle-nft-marketplace-xi.vercel.app).
-- Repository: [joaoteixeirapedro/jungle-nft-marketplace, delivery branch](https://github.com/joaoteixeirapedro/jungle-nft-marketplace/tree/codex/marketplace-delivery).
-- Vercel production deployment: [build details](https://vercel.com/joaoteixeirapedro/jungle-nft-marketplace/BnqMMUXhDhSkVKppViN6QsHrWkLi).
+- Aplicação: [jungle-nft-marketplace-xi.vercel.app](https://jungle-nft-marketplace-xi.vercel.app).
+- Código: [repositório na branch de entrega](https://github.com/joaoteixeirapedro/jungle-nft-marketplace/tree/codex/marketplace-delivery).
+- Deploy de produção na Vercel: [detalhes do build](https://vercel.com/joaoteixeirapedro/jungle-nft-marketplace/BnqMMUXhDhSkVKppViN6QsHrWkLi).
 
-Vercel installed from the lockfile with npm ci, audited 377 packages with zero reported vulnerabilities, and ran npm run build. The Vite preset serves dist with SPA rewrites. The three public VITE variables are configured for Production; credentials and local environment files are excluded from uploads and Git. No backend, private service, wallet extension, or payment gateway is required.
+A Vercel instalou as dependências pelo lockfile com `npm ci`, auditou 377 pacotes sem vulnerabilidades reportadas e executou `npm run build`. O preset Vite serve `dist/` com fallback de rotas da SPA. As três variáveis públicas `VITE_*` estão configuradas para produção; credenciais e arquivos locais de ambiente ficam fora do Git e do envio. Não é necessário backend, serviço privado, extensão de carteira ou gateway de pagamento.
 
-Anonymous checks verified ten main routes and all **161 deployed files**, including artwork, fonts, JavaScript, CSS, and the MSW worker. Every file returned HTTP 200 and matched the local build's SHA-256. Direct routes serve the SPA, and browser tests verify refresh and not-found handling. The worker is served with Cache-Control: no-cache. [Machine-readable results](DELIVERY_RESULTS.json) retain the route checks, hashes, build identity, environment, and execution statistics.
+Verificações sem autenticação validaram dez rotas principais e os **161 arquivos publicados**, incluindo imagens, fontes, JavaScript, CSS e o worker MSW. Todos retornaram HTTP 200 e corresponderam ao SHA-256 do build local. Os acessos diretos entregam a SPA; os testes no navegador verificam refresh e rotas inexistentes. O worker usa `Cache-Control: no-cache`. Os [resultados estruturados](DELIVERY_RESULTS.json) preservam as verificações de rotas, hashes, identificação do build, ambiente e estatísticas de execução.
 
-The public E2E run verifies Home/catalog, registration/login, session recovery after refresh, favorites, cart/coupons, checkout, confirmed receipts, payment failures/idempotency, profile/wallet changes, and Socket.IO updates/reconnection. The Socket.IO client uses WebSocket through MSW and its protocol binding in the browser; no persistent Socket.IO server is hosted on Vercel. State is browser-local, with same-origin tab synchronization through BroadcastChannel.
+A execução E2E pública verificou Home/catálogo, cadastro/login, recuperação de sessão após refresh, favoritos, carrinho/cupons, checkout, recibos confirmados, falhas de pagamento/idempotência, perfil/carteiras e atualizações/reconexão Socket.IO. O cliente Socket.IO usa WebSocket através do MSW e do binding do protocolo no navegador. Não há servidor Socket.IO persistente na Vercel. O estado é local ao navegador, com sincronização entre abas da mesma origem por `BroadcastChannel`.
 
-## Tests
+## Testes
 
-TypeScript, lint, and the production build passed. **13 domain tests passed**, with no failures or skips. The complete final existing E2E suite passed against both targets:
+TypeScript, lint e build de produção foram aprovados. Os **13 testes de domínio passaram**, sem falhas ou testes ignorados. A execução final completa da suíte E2E existente passou nos dois ambientes:
 
-| Target | Desktop | Mobile | Passed | Failed | Skipped | Flaky | Retries |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Local production preview | 59 | 53 | 112 | 0 | 0 | 0 | 0 |
-| Public Vercel URL | 59 | 53 | 112 | 0 | 0 | 0 | 0 |
+| Ambiente | Desktop | Mobile | Aprovados | Falhas | Ignorados | Instáveis | Repetições |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Preview local de produção | 59 | 53 | 112 | 0 | 0 | 0 | 0 |
+| URL pública da Vercel | 59 | 53 | 112 | 0 | 0 | 0 | 0 |
 
-Each run uses Chromium with 1440×900 desktop and 390×844 mobile viewports, two workers, isolated browser contexts, REST/MSW handlers, and the real Socket.IO client. Tests also inspect 768 px and other intermediate widths. Each complete run attaches 26 axe scans and performs two additional contextual-login accessibility checks. The eight existing visual baselines are unchanged. Reports: [local HTML](test-report/index.html) and [public HTML](test-report/public/index.html).
+Cada execução usa Chromium com viewports de 1440×900 no desktop e 390×844 no mobile, dois workers, contextos de navegador isolados, handlers REST/MSW e o cliente Socket.IO real. Os testes também inspecionam 768 px e larguras intermediárias. Cada suíte completa anexa 26 verificações axe e realiza duas verificações adicionais de acessibilidade no login contextual. As oito imagens de referência da regressão visual permanecem inalteradas. Relatórios: [HTML local](test-report/index.html) e [HTML público](test-report/public/index.html).
 
-The first public execution passed 109/112 tests. Three failures exposed tests switching failure scenarios or navigating away before initial Socket.IO/REST reconciliation completed. Existing tests now wait for the rendered account, reconciled state, and the coupon removal response. REST checks after refresh also wait for catalog data; the reconnect helper verifies successful automatic recovery when its optional retry button disappears. Assertions and browser-console checks remain in place, test retries stay at zero, and mocks/application behavior are unchanged. All six initially affected desktop/mobile checks passed before the final complete reruns. Diagnostic traces are retained: [session](test-report/public/initial-failures/session-readiness.zip), [coupon](test-report/public/initial-failures/coupon-readiness.zip), and [navigation](test-report/public/initial-failures/navigation-readiness.zip). Use npx playwright show-trace followed by the trace path.
+A primeira execução pública passou em 109/112 testes. Três falhas mostraram que os testes mudavam cenários ou navegavam antes da reconciliação inicial Socket.IO/REST. Os testes existentes passaram a aguardar a conta renderizada, o estado reconciliado e a resposta da remoção de cupom. As verificações REST após refresh também aguardam o catálogo; o auxiliar de reconexão verifica a recuperação automática quando o botão opcional desaparece. As asserções e verificações do console foram mantidas, as repetições continuam em zero e os mocks/comportamentos da aplicação não foram alterados. As seis verificações desktop/mobile inicialmente afetadas passaram antes das novas execuções completas. Os traces de diagnóstico estão preservados: [sessão](test-report/public/initial-failures/session-readiness.zip), [cupom](test-report/public/initial-failures/coupon-readiness.zip) e [navegação](test-report/public/initial-failures/navigation-readiness.zip). Abra-os com `npx playwright show-trace` seguido do caminho do arquivo.
 
-The historical clean-checkout record was removed because it described an earlier build. The final Vercel clean installation and current build are recorded above and in DELIVERY_RESULTS.json. Older Lighthouse and E2E reports were replaced in their existing directories; only the local/public final HTML reports and three useful failure traces are retained.
+O registro histórico de checkout limpo foi removido por descrever um build anterior. A instalação limpa da Vercel e o build atual estão registrados acima e em `DELIVERY_RESULTS.json`. Relatórios antigos foram substituídos nos diretórios existentes; permanecem os HTML finais local/público e os três traces úteis de diagnóstico.
 
 ## Lighthouse
 
-The existing audit script ran **three measurements per page/profile** against the public production build at https://jungle-nft-marketplace-xi.vercel.app, with fresh browser storage, the default mocks, actual fonts/artwork, and no concurrent E2E runs. The official desktop/mobile profiles and all audit settings are unchanged. After an unexpected browser-driver shutdown following the three Home desktop measurements, the remaining combinations were run in separate invocations of the same script; no successful measurements were discarded or selected by score. All 12 HTML and 12 JSON reports replace the prior build's evidence in [lighthouse/final-delivery](lighthouse/final-delivery/); the [summary](lighthouse/final-delivery/summary.json) records environment, warnings, raw runs, medians, and the matching build hash.
+O script existente executou **três medições por página e perfil** no build público de produção, com armazenamento inicial limpo, mocks padrão, fontes/imagens reais e sem E2E concorrentes. Os perfis oficiais desktop/mobile e todas as configurações de auditoria foram preservados. Após uma interrupção inesperada do driver do navegador depois das três medições de Home desktop, as combinações restantes foram executadas separadamente pelo mesmo script. Nenhuma medição bem-sucedida foi descartada ou escolhida pela pontuação. Os 12 HTML e 12 JSON substituem as evidências anteriores em [lighthouse/final-delivery](lighthouse/final-delivery/); o [resumo](lighthouse/final-delivery/summary.json) registra ambiente, avisos, medições individuais, medianas e o hash correspondente do build.
 
-| Page/profile | Performance | Accessibility | Best practices | SEO | Median LCP | Median CLS | Median TBT |
+| Página / perfil | Performance | Acessibilidade | Boas práticas | SEO | LCP mediano | CLS mediano | TBT mediano |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Home desktop | 100 | 100 | 100 | 92 | 0.56 s | 0.00014 | 1.5 ms |
-| Home mobile | 94 | 100 | 100 | 92 | 2.65 s | 0.00000 | 113.0 ms |
-| NFT details desktop | 100 | 100 | 100 | 92 | 0.59 s | 0.00003 | 0.0 ms |
-| NFT details mobile | 94 | 100 | 100 | 92 | 2.64 s | 0.00000 | 128.0 ms |
+| Home / desktop | 100 | 100 | 100 | 92 | 0,56 s | 0,00014 | 1,5 ms |
+| Home / mobile | 94 | 100 | 100 | 92 | 2,65 s | 0,00000 | 113,0 ms |
+| Detalhe do NFT / desktop | 100 | 100 | 100 | 92 | 0,59 s | 0,00003 | 0,0 ms |
+| Detalhe do NFT / mobile | 94 | 100 | 100 | 92 | 2,64 s | 0,00000 | 128,0 ms |
 
-Environment: Windows 10.0.19045, Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz, 6 logical processors, 16 GiB RAM, Node v24.19.0, Playwright 1.64.1, Lighthouse 13.5.0, Chromium 156.0.0.0. Desktop uses 1350×940, DPR 1, CPU 1×, RTT 40 ms, and 10,240 Kbps; mobile uses 412×823, DPR 1.75, CPU 4×, RTT 150 ms, and 1,638.4 Kbps, with simulated throttling. Full conditions are in each JSON report. The public origin adds real delivery/network conditions to the production build.
+Ambiente: Windows 10.0.19045, Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz, seis processadores lógicos, 16 GiB de RAM, Node v24.19.0, Playwright 1.64.1, Lighthouse 13.5.0 e Chromium 156.0.0.0. Desktop: 1350×940, DPR 1, CPU 1×, RTT 40 ms e 10.240 Kbps. Mobile: 412×823, DPR 1,75, CPU 4×, RTT 150 ms e 1.638,4 Kbps, com limitação simulada. As condições completas estão em cada JSON. A origem pública acrescenta as condições reais de distribuição/rede ao build de produção.
 
-All four page/profile combinations meet the performance target of 90. No assets or functionality were omitted, and no performance or design changes were made during this delivery step. Service Worker interception can undercount network transfer sizes in Lighthouse; the separate public hash manifest verifies that all actual build assets remain available.
+As quatro combinações atingiram as metas do enunciado: performance ≥ 90, acessibilidade ≥ 95, boas práticas ≥ 95 e SEO ≥ 90. Nenhum asset ou funcionalidade foi omitido, e essa etapa de entrega não fez alterações de performance ou design. A interceptação pelo Service Worker pode subestimar transferências de rede no Lighthouse; o manifesto público de hashes confirma a disponibilidade de todos os arquivos reais do build.
 
-## Assets, accessibility, and remaining limitations
+## Assets, acessibilidade e limitações
 
-Original artwork, local fonts, asset pipeline evidence in [assets](assets/), and [Figma references](figma/README.md) are preserved. The final deployed-file comparison replaces reliance on historical asset inventories when identifying the published build. Layout, typography, image variants, and interactions were not edited.
+As artes originais, fontes locais, [evidências de otimização](assets/) e [referências do Figma](figma/README.md) foram preservadas. A comparação dos arquivos publicados identifica o build final; inventários históricos de assets documentam sua preparação. Layout, tipografia, variantes de imagem e interações não foram editados.
 
-Keyboard, focus, forms, reduced motion, zoom/reflow, responsive widths, and automated accessibility checks passed in the recorded E2E scenarios. These checks do not assert complete WCAG certification or pixel equality with every Figma frame; existing adaptations remain documented in ARCHITECTURE.md.
+Teclado, foco, formulários, movimento reduzido, zoom/refluxo, larguras responsivas e verificações automatizadas de acessibilidade passaram nos cenários E2E registrados. Essas verificações não equivalem a certificação WCAG completa nem a igualdade de pixels com todos os frames do Figma. As adaptações estão documentadas em [ARCHITECTURE.md](../ARCHITECTURE.md#figma-acessibilidade-e-assets).
 
-The remaining limitations are OS-specific Windows/Chromium screenshot baselines and browser-local simulation rather than shared multi-device state. Public deployment and the essential public flow checks are complete. Transactions, credentials, wallet connections, and payments are deliberately fictional.
+As limitações são as imagens de referência específicas de Windows/Chromium e a simulação local ao navegador, sem estado compartilhado entre dispositivos. A publicação e as verificações públicas essenciais foram concluídas nas execuções registradas. Transações, credenciais, conexões de carteira e pagamentos são fictícios. Os comandos para reproduzir a validação estão no [README principal](../README.md#comandos-de-validação).

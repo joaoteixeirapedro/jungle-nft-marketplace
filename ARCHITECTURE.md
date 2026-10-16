@@ -20,7 +20,7 @@ Vite usa React e o plugin do Tailwind CSS 4. Os aliases `@/*` estão configurado
 
 ## Bootstrap e navegação
 
-O bootstrap aguarda `worker.start()` antes de importar a aplicação. Socket.IO/Engine.IO captura o construtor WebSocket na importação: apenas configurar `autoConnect: false` não garante a interceptação pelo MSW. Os preloads do build antecipam download e compilação, preservando essa ordem de execução.
+A aplicação renderiza seus estados de carregamento enquanto o MSW inicializa. `initializeMocks()` compartilha uma única promessa de prontidão: o interceptor Axios aguarda sua conclusão antes de enviar requisições, e o módulo de Socket.IO aguarda `worker.start()` antes de importar o cliente. Socket.IO/Engine.IO captura o construtor WebSocket na importação; apenas configurar `autoConnect: false` não garante a interceptação pelo MSW. Essa ordem preserva a interceptação sem bloquear a renderização inicial da interface.
 
 TanStack Router controla rotas, validação de buscas e proteção em `beforeLoad`. Busca, filtros, ordenação e página pertencem à URL; alterações de filtro reiniciam a paginação. O detalhe preserva uma referência validada ao catálogo. Destinos de autenticação são restritos às rotas locais permitidas.
 
@@ -78,7 +78,7 @@ Controles de desconexão e replay exercitam o cliente Socket.IO real. Replay usa
 
 ## Figma, acessibilidade e assets
 
-Referências e inventários originais ficam em [docs/figma](docs/figma/README.md). Roboto Mono, paleta, artes e ícones são locais. Artes WebP têm variantes de 320, 640 e 1254 pixels; a versão completa foi comparada em RGBA com o PNG original. Fontes WOFF2 preservam métricas e contornos; os TTF originais e a licença OFL permanecem disponíveis. Python é necessário apenas para a manutenção opcional das fontes, não para executar ou compilar a aplicação.
+Referências e inventários originais ficam em [docs/figma](docs/figma/README.md). Roboto Mono, paleta, artes e ícones são locais. Artes WebP têm variantes de 160, 320, 480, 640, 960 e 1254 pixels; a versão completa foi comparada em RGBA com o PNG original. Fontes WOFF2 preservam métricas e contornos; os TTF originais e a licença OFL permanecem disponíveis. Python é necessário apenas para a manutenção opcional das fontes, não para executar ou compilar a aplicação.
 
 Adaptações funcionais do layout:
 
