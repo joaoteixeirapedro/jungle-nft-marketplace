@@ -1,0 +1,1301 @@
+{
+  "assets": 10,
+  "results": [
+    {
+      "width": 390,
+      "path": "profile",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/figma/account-profile.png",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-wallets.png",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/account-favorites.png",
+          "loaded": true,
+          "width": 16,
+          "height": 16,
+          "naturalWidth": 16,
+          "naturalHeight": 16
+        },
+        {
+          "src": "/assets/figma/account-shopping.svg",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-shopping.svg",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-logout.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/account-avatar.svg",
+          "loaded": true,
+          "width": 50,
+          "height": 50,
+          "naturalWidth": 50,
+          "naturalHeight": 50
+        },
+        {
+          "src": "/assets/figma/account-password.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/account-password.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/account-password.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/b096d.svg",
+          "loaded": true,
+          "width": 15.8125,
+          "height": 16.640625,
+          "naturalWidth": 16,
+          "naturalHeight": 17
+        },
+        {
+          "src": "/assets/figma/c40be.svg",
+          "loaded": true,
+          "width": 19.984375,
+          "height": 17.765625,
+          "naturalWidth": 20,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/3b81f.svg",
+          "loaded": true,
+          "width": 473.953125,
+          "height": 154.9375,
+          "naturalWidth": 474,
+          "naturalHeight": 155
+        },
+        {
+          "src": "/assets/figma/b1ba5.svg",
+          "loaded": true,
+          "width": 65,
+          "height": 65,
+          "naturalWidth": 65,
+          "naturalHeight": 65
+        },
+        {
+          "src": "/assets/figma/d5458.svg",
+          "loaded": true,
+          "width": 26.703125,
+          "height": 1.78125,
+          "naturalWidth": 27,
+          "naturalHeight": 2
+        },
+        {
+          "src": "/assets/figma/ca931.svg",
+          "loaded": true,
+          "width": 10.375,
+          "height": 10.296875,
+          "naturalWidth": 10,
+          "naturalHeight": 10
+        },
+        {
+          "src": "/assets/figma/97351.svg",
+          "loaded": true,
+          "width": 10.375,
+          "height": 10.296875,
+          "naturalWidth": 10,
+          "naturalHeight": 10
+        },
+        {
+          "src": "/assets/figma/f7581.svg",
+          "loaded": true,
+          "width": 10.328125,
+          "height": 10.296875,
+          "naturalWidth": 10,
+          "naturalHeight": 10
+        },
+        {
+          "src": "/assets/figma/db42b.svg",
+          "loaded": true,
+          "width": 10.296875,
+          "height": 10.234375,
+          "naturalWidth": 10,
+          "naturalHeight": 10
+        },
+        {
+          "src": "/assets/figma/352b3.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/99dca.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        }
+      ],
+      "duplicateIds": [],
+      "account": {
+        "x": 24,
+        "y": 40,
+        "width": 342,
+        "height": 1496
+      },
+      "sidebar": {
+        "x": 24,
+        "y": 40,
+        "width": 342,
+        "height": 189
+      },
+      "firstInput": {
+        "x": 24,
+        "y": 350,
+        "width": 342,
+        "height": 48
+      },
+      "firstField": {
+        "x": 24,
+        "y": 311,
+        "width": 342,
+        "height": 87
+      },
+      "labelFont": {
+        "size": "15px",
+        "lineHeight": "15px"
+      },
+      "labelGap": 10,
+      "passwordIcon": {
+        "x": 330,
+        "y": 1172,
+        "width": 20,
+        "height": 20
+      },
+      "passwordInput": {
+        "x": 24,
+        "y": 1158,
+        "width": 342,
+        "height": 48
+      },
+      "selectBackground": null,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "wallets",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/figma/account-profile-inactive.png",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-wallets-active.png",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/account-favorites.png",
+          "loaded": true,
+          "width": 16,
+          "height": 16,
+          "naturalWidth": 16,
+          "naturalHeight": 16
+        },
+        {
+          "src": "/assets/figma/account-shopping.svg",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-shopping.svg",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-logout.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/b096d.svg",
+          "loaded": true,
+          "width": 15.8125,
+          "height": 16.640625,
+          "naturalWidth": 16,
+          "naturalHeight": 17
+        },
+        {
+          "src": "/assets/figma/c40be.svg",
+          "loaded": true,
+          "width": 19.984375,
+          "height": 17.765625,
+          "naturalWidth": 20,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/3b81f.svg",
+          "loaded": true,
+          "width": 473.953125,
+          "height": 154.9375,
+          "naturalWidth": 474,
+          "naturalHeight": 155
+        },
+        {
+          "src": "/assets/figma/b1ba5.svg",
+          "loaded": true,
+          "width": 65,
+          "height": 65,
+          "naturalWidth": 65,
+          "naturalHeight": 65
+        },
+        {
+          "src": "/assets/figma/d5458.svg",
+          "loaded": true,
+          "width": 26.703125,
+          "height": 1.78125,
+          "naturalWidth": 27,
+          "naturalHeight": 2
+        },
+        {
+          "src": "/assets/figma/ca931.svg",
+          "loaded": true,
+          "width": 10.375,
+          "height": 10.296875,
+          "naturalWidth": 10,
+          "naturalHeight": 10
+        },
+        {
+          "src": "/assets/figma/97351.svg",
+          "loaded": true,
+          "width": 10.375,
+          "height": 10.296875,
+          "naturalWidth": 10,
+          "naturalHeight": 10
+        },
+        {
+          "src": "/assets/figma/f7581.svg",
+          "loaded": true,
+          "width": 10.328125,
+          "height": 10.296875,
+          "naturalWidth": 10,
+          "naturalHeight": 10
+        },
+        {
+          "src": "/assets/figma/db42b.svg",
+          "loaded": true,
+          "width": 10.296875,
+          "height": 10.234375,
+          "naturalWidth": 10,
+          "naturalHeight": 10
+        },
+        {
+          "src": "/assets/figma/352b3.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/99dca.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        }
+      ],
+      "duplicateIds": [],
+      "account": {
+        "x": 24,
+        "y": 40,
+        "width": 342,
+        "height": 2095
+      },
+      "sidebar": {
+        "x": 24,
+        "y": 40,
+        "width": 342,
+        "height": 189
+      },
+      "firstInput": {
+        "x": 24,
+        "y": 398,
+        "width": 342,
+        "height": 48
+      },
+      "firstField": {
+        "x": 24,
+        "y": 359,
+        "width": 342,
+        "height": 87
+      },
+      "labelFont": {
+        "size": "15px",
+        "lineHeight": "15px"
+      },
+      "labelGap": 10,
+      "passwordIcon": null,
+      "passwordInput": null,
+      "selectBackground": "url(\"http://127.0.0.1:4174/assets/figma/account-select.svg\")",
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "orders",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/figma/account-profile-inactive.png",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-wallets.png",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/account-favorites.png",
+          "loaded": true,
+          "width": 16,
+          "height": 16,
+          "naturalWidth": 16,
+          "naturalHeight": 16
+        },
+        {
+          "src": "/assets/figma/account-shopping.svg",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-shopping.svg",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-logout.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/b096d.svg",
+          "loaded": true,
+          "width": 15.8125,
+          "height": 16.640625,
+          "naturalWidth": 16,
+          "naturalHeight": 17
+        },
+        {
+          "src": "/assets/figma/c40be.svg",
+          "loaded": true,
+          "width": 19.984375,
+          "height": 17.765625,
+          "naturalWidth": 20,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/3b81f.svg",
+          "loaded": true,
+          "width": 473.953125,
+          "height": 154.9375,
+          "naturalWidth": 474,
+          "naturalHeight": 155
+        },
+        {
+          "src": "/assets/figma/b1ba5.svg",
+          "loaded": true,
+          "width": 65,
+          "height": 65,
+          "naturalWidth": 65,
+          "naturalHeight": 65
+        },
+        {
+          "src": "/assets/figma/d5458.svg",
+          "loaded": true,
+          "width": 26.703125,
+          "height": 1.78125,
+          "naturalWidth": 27,
+          "naturalHeight": 2
+        },
+        {
+          "src": "/assets/figma/ca931.svg",
+          "loaded": true,
+          "width": 10.375,
+          "height": 10.296875,
+          "naturalWidth": 10,
+          "naturalHeight": 10
+        },
+        {
+          "src": "/assets/figma/97351.svg",
+          "loaded": true,
+          "width": 10.375,
+          "height": 10.296875,
+          "naturalWidth": 10,
+          "naturalHeight": 10
+        },
+        {
+          "src": "/assets/figma/f7581.svg",
+          "loaded": true,
+          "width": 10.328125,
+          "height": 10.296875,
+          "naturalWidth": 10,
+          "naturalHeight": 10
+        },
+        {
+          "src": "/assets/figma/db42b.svg",
+          "loaded": true,
+          "width": 10.296875,
+          "height": 10.234375,
+          "naturalWidth": 10,
+          "naturalHeight": 10
+        },
+        {
+          "src": "/assets/figma/352b3.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/99dca.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        }
+      ],
+      "duplicateIds": [],
+      "account": {
+        "x": 24,
+        "y": 40,
+        "width": 342,
+        "height": 600
+      },
+      "sidebar": {
+        "x": 24,
+        "y": 40,
+        "width": 342,
+        "height": 189
+      },
+      "firstInput": null,
+      "firstField": null,
+      "labelFont": null,
+      "labelGap": null,
+      "passwordIcon": null,
+      "passwordInput": null,
+      "selectBackground": null,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "path": "profile",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/figma/bd8c9.svg",
+          "loaded": true,
+          "width": 19.984375,
+          "height": 19.96875,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/c0c08.svg",
+          "loaded": true,
+          "width": 23.984375,
+          "height": 23.96875,
+          "naturalWidth": 24,
+          "naturalHeight": 24
+        },
+        {
+          "src": "/assets/figma/62554.svg",
+          "loaded": true,
+          "width": 17.765625,
+          "height": 16.890625,
+          "naturalWidth": 18,
+          "naturalHeight": 17
+        },
+        {
+          "src": "/assets/figma/account-profile.png",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-wallets.png",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/account-favorites.png",
+          "loaded": true,
+          "width": 16,
+          "height": 16,
+          "naturalWidth": 16,
+          "naturalHeight": 16
+        },
+        {
+          "src": "/assets/figma/account-shopping.svg",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-shopping.svg",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-logout.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/account-avatar.svg",
+          "loaded": true,
+          "width": 50,
+          "height": 50,
+          "naturalWidth": 50,
+          "naturalHeight": 50
+        },
+        {
+          "src": "/assets/figma/account-password.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/account-password.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/account-password.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        }
+      ],
+      "duplicateIds": [],
+      "account": {
+        "x": 32,
+        "y": 101,
+        "width": 704,
+        "height": 938
+      },
+      "sidebar": {
+        "x": 32,
+        "y": 101,
+        "width": 210,
+        "height": 320
+      },
+      "firstInput": {
+        "x": 266,
+        "y": 188,
+        "width": 225,
+        "height": 40
+      },
+      "firstField": {
+        "x": 266,
+        "y": 149,
+        "width": 225,
+        "height": 79
+      },
+      "labelFont": {
+        "size": "15px",
+        "lineHeight": "15px"
+      },
+      "labelGap": 10,
+      "passwordIcon": {
+        "x": 451,
+        "y": 699,
+        "width": 20,
+        "height": 20
+      },
+      "passwordInput": {
+        "x": 266,
+        "y": 689,
+        "width": 221,
+        "height": 40
+      },
+      "selectBackground": null,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "path": "wallets",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/figma/bd8c9.svg",
+          "loaded": true,
+          "width": 19.984375,
+          "height": 19.96875,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/c0c08.svg",
+          "loaded": true,
+          "width": 23.984375,
+          "height": 23.96875,
+          "naturalWidth": 24,
+          "naturalHeight": 24
+        },
+        {
+          "src": "/assets/figma/62554.svg",
+          "loaded": true,
+          "width": 17.765625,
+          "height": 16.890625,
+          "naturalWidth": 18,
+          "naturalHeight": 17
+        },
+        {
+          "src": "/assets/figma/account-profile-inactive.png",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-wallets-active.png",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/account-favorites.png",
+          "loaded": true,
+          "width": 16,
+          "height": 16,
+          "naturalWidth": 16,
+          "naturalHeight": 16
+        },
+        {
+          "src": "/assets/figma/account-shopping.svg",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-shopping.svg",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-logout.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        }
+      ],
+      "duplicateIds": [],
+      "account": {
+        "x": 32,
+        "y": 101,
+        "width": 704,
+        "height": 1102
+      },
+      "sidebar": {
+        "x": 32,
+        "y": 101,
+        "width": 210,
+        "height": 320
+      },
+      "firstInput": {
+        "x": 266,
+        "y": 224,
+        "width": 225,
+        "height": 40
+      },
+      "firstField": {
+        "x": 266,
+        "y": 187,
+        "width": 225,
+        "height": 77
+      },
+      "labelFont": {
+        "size": "15px",
+        "lineHeight": "15px"
+      },
+      "labelGap": 8,
+      "passwordIcon": null,
+      "passwordInput": null,
+      "selectBackground": "url(\"http://127.0.0.1:4174/assets/figma/account-select.svg\")",
+      "errors": []
+    },
+    {
+      "width": 768,
+      "path": "orders",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/figma/bd8c9.svg",
+          "loaded": true,
+          "width": 19.984375,
+          "height": 19.96875,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/c0c08.svg",
+          "loaded": true,
+          "width": 23.984375,
+          "height": 23.96875,
+          "naturalWidth": 24,
+          "naturalHeight": 24
+        },
+        {
+          "src": "/assets/figma/62554.svg",
+          "loaded": true,
+          "width": 17.765625,
+          "height": 16.890625,
+          "naturalWidth": 18,
+          "naturalHeight": 17
+        },
+        {
+          "src": "/assets/figma/account-profile-inactive.png",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-wallets.png",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/account-favorites.png",
+          "loaded": true,
+          "width": 16,
+          "height": 16,
+          "naturalWidth": 16,
+          "naturalHeight": 16
+        },
+        {
+          "src": "/assets/figma/account-shopping.svg",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-shopping.svg",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-logout.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        }
+      ],
+      "duplicateIds": [],
+      "account": {
+        "x": 32,
+        "y": 101,
+        "width": 704,
+        "height": 850
+      },
+      "sidebar": {
+        "x": 32,
+        "y": 101,
+        "width": 210,
+        "height": 320
+      },
+      "firstInput": null,
+      "firstField": null,
+      "labelFont": null,
+      "labelGap": null,
+      "passwordIcon": null,
+      "passwordInput": null,
+      "selectBackground": null,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "profile",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/figma/bd8c9.svg",
+          "loaded": true,
+          "width": 19.984375,
+          "height": 19.96875,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/c0c08.svg",
+          "loaded": true,
+          "width": 23.984375,
+          "height": 23.96875,
+          "naturalWidth": 24,
+          "naturalHeight": 24
+        },
+        {
+          "src": "/assets/figma/62554.svg",
+          "loaded": true,
+          "width": 17.765625,
+          "height": 16.890625,
+          "naturalWidth": 18,
+          "naturalHeight": 17
+        },
+        {
+          "src": "/assets/figma/account-profile.png",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-wallets.png",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/account-favorites.png",
+          "loaded": true,
+          "width": 16,
+          "height": 16,
+          "naturalWidth": 16,
+          "naturalHeight": 16
+        },
+        {
+          "src": "/assets/figma/account-shopping.svg",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-shopping.svg",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-logout.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/account-avatar.svg",
+          "loaded": true,
+          "width": 50,
+          "height": 50,
+          "naturalWidth": 50,
+          "naturalHeight": 50
+        },
+        {
+          "src": "/assets/figma/account-password.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/account-password.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/account-password.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        }
+      ],
+      "duplicateIds": [],
+      "account": {
+        "x": 120,
+        "y": 101,
+        "width": 1200,
+        "height": 902
+      },
+      "sidebar": {
+        "x": 120,
+        "y": 101,
+        "width": 310,
+        "height": 320
+      },
+      "firstInput": {
+        "x": 458,
+        "y": 188,
+        "width": 417,
+        "height": 40
+      },
+      "firstField": {
+        "x": 458,
+        "y": 149,
+        "width": 417,
+        "height": 79
+      },
+      "labelFont": {
+        "size": "15px",
+        "lineHeight": "15px"
+      },
+      "labelGap": 10,
+      "passwordIcon": {
+        "x": 839,
+        "y": 663,
+        "width": 20,
+        "height": 20
+      },
+      "passwordInput": {
+        "x": 458,
+        "y": 653,
+        "width": 417,
+        "height": 40
+      },
+      "selectBackground": null,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "wallets",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/figma/bd8c9.svg",
+          "loaded": true,
+          "width": 19.984375,
+          "height": 19.96875,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/c0c08.svg",
+          "loaded": true,
+          "width": 23.984375,
+          "height": 23.96875,
+          "naturalWidth": 24,
+          "naturalHeight": 24
+        },
+        {
+          "src": "/assets/figma/62554.svg",
+          "loaded": true,
+          "width": 17.765625,
+          "height": 16.890625,
+          "naturalWidth": 18,
+          "naturalHeight": 17
+        },
+        {
+          "src": "/assets/figma/account-profile-inactive.png",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-wallets-active.png",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/account-favorites.png",
+          "loaded": true,
+          "width": 16,
+          "height": 16,
+          "naturalWidth": 16,
+          "naturalHeight": 16
+        },
+        {
+          "src": "/assets/figma/account-shopping.svg",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-shopping.svg",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-logout.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        }
+      ],
+      "duplicateIds": [],
+      "account": {
+        "x": 120,
+        "y": 101,
+        "width": 1200,
+        "height": 1008
+      },
+      "sidebar": {
+        "x": 120,
+        "y": 101,
+        "width": 310,
+        "height": 320
+      },
+      "firstInput": {
+        "x": 458,
+        "y": 197,
+        "width": 417,
+        "height": 40
+      },
+      "firstField": {
+        "x": 458,
+        "y": 172,
+        "width": 417,
+        "height": 65
+      },
+      "labelFont": {
+        "size": "15px",
+        "lineHeight": "15px"
+      },
+      "labelGap": -4,
+      "passwordIcon": null,
+      "passwordInput": null,
+      "selectBackground": "url(\"http://127.0.0.1:4174/assets/figma/account-select.svg\")",
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "orders",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/figma/bd8c9.svg",
+          "loaded": true,
+          "width": 19.984375,
+          "height": 19.96875,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/c0c08.svg",
+          "loaded": true,
+          "width": 23.984375,
+          "height": 23.96875,
+          "naturalWidth": 24,
+          "naturalHeight": 24
+        },
+        {
+          "src": "/assets/figma/62554.svg",
+          "loaded": true,
+          "width": 17.765625,
+          "height": 16.890625,
+          "naturalWidth": 18,
+          "naturalHeight": 17
+        },
+        {
+          "src": "/assets/figma/account-profile-inactive.png",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-wallets.png",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        },
+        {
+          "src": "/assets/figma/account-favorites.png",
+          "loaded": true,
+          "width": 16,
+          "height": 16,
+          "naturalWidth": 16,
+          "naturalHeight": 16
+        },
+        {
+          "src": "/assets/figma/account-shopping.svg",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-shopping.svg",
+          "loaded": true,
+          "width": 18,
+          "height": 18,
+          "naturalWidth": 18,
+          "naturalHeight": 18
+        },
+        {
+          "src": "/assets/figma/account-logout.svg",
+          "loaded": true,
+          "width": 20,
+          "height": 20,
+          "naturalWidth": 20,
+          "naturalHeight": 20
+        }
+      ],
+      "duplicateIds": [],
+      "account": {
+        "x": 120,
+        "y": 101,
+        "width": 1200,
+        "height": 850
+      },
+      "sidebar": {
+        "x": 120,
+        "y": 101,
+        "width": 310,
+        "height": 320
+      },
+      "firstInput": null,
+      "firstField": null,
+      "labelFont": null,
+      "labelGap": null,
+      "passwordIcon": null,
+      "passwordInput": null,
+      "selectBackground": null,
+      "errors": []
+    }
+  ]
+}

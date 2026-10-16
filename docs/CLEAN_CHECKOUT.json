@@ -1,0 +1,17 @@
+{
+  "sourceTree": "0545027b5a102026a240e299e6f2c295c795d51e",
+  "commands": [
+    "npm ci",
+    "npm run build",
+    "npm run test:data"
+  ],
+  "node": "v24.19.0",
+  "installedPackages": 375,
+  "npmAuditVulnerabilities": 0,
+  "domainTests": 12,
+  "domainPassed": 12,
+  "compiledChunksCompared": 41,
+  "compiledChunkDifferences": [],
+  "lockfileSha256": "89f1d37338fc42d7cef133b7e8d5cae227daf0df48edeb22b0f4061a25aab17a",
+  "note": "Exportação limpa do índice Git; sem node_modules, .env ou serviços privados. O aviso npm 11 sobre postinstall MSW não impede o worker oficial versionado."
+}

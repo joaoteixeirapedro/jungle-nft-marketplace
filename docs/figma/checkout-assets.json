@@ -1,0 +1,10 @@
+{
+  "source": "Frontend Challenge.fig, working copy lrCchkzKTa5nrWJT5nhUMN; inspected in editor after MCP quota limit",
+  "frames": { "desktopPayment": "11:2862", "mobilePayment": "16:748", "desktopReceipt": "11:4385" },
+  "exports": [
+    { "file": "checkout-thank-you.svg", "node": "11:5150", "layer": "thank-you 1, Desktop / Confirmação de Pedido", "width": 80, "height": 80, "method": "SVG export expressly authorized by user; drawing unchanged", "callsite": "src/routes/orders.tsx .receipt-thanks", "verifiedRenderedGeometry": "80 x 80 at 390, 414, 768, 1440" }
+  ],
+  "reused": [{ "file": "0e8e8.svg", "slot": "mobile checkout back button", "intrinsic": "13.1669 x 7.33345", "wrapper": "44 x 44; rotation only" }],
+  "dynamicArtwork": "NFT image from GET /nfts/:id; historical financial data only from API order/receipt snapshot",
+  "substitutions": "Provider identity is a typographic initial; no artificial provider choices"
+}

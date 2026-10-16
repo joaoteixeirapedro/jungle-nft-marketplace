@@ -1,0 +1,159 @@
+{
+  "frames": [
+    "9:115",
+    "9:1022",
+    "16:1022",
+    "16:1228"
+  ],
+  "assets": [
+    {
+      "file": "3c6c3.svg",
+      "label": "imgX"
+    },
+    {
+      "file": "88a3c.svg",
+      "label": "imgVector"
+    },
+    {
+      "file": "75804.svg",
+      "label": "imgVector1"
+    },
+    {
+      "file": "a3c98.svg",
+      "label": "imgGroup"
+    },
+    {
+      "file": "1c266.svg",
+      "label": "imgVector2"
+    },
+    {
+      "file": "1174b.svg",
+      "label": "imgVector3"
+    },
+    {
+      "file": "5f1dc.svg",
+      "label": "imgVector4"
+    },
+    {
+      "file": "e1073.svg",
+      "label": "imgVector5"
+    },
+    {
+      "file": "5561e.svg",
+      "label": "imgFacebook1"
+    },
+    {
+      "file": "5053c.svg",
+      "label": "imgEllipse5"
+    },
+    {
+      "file": "7c6d1.svg",
+      "label": "imgLine6"
+    },
+    {
+      "file": "2ac35.svg",
+      "label": "imgLine5"
+    },
+    {
+      "file": "8f387.png",
+      "label": "imgNftAuthArtwork1"
+    },
+    {
+      "file": "b7cfc.png",
+      "label": "imgNftAuthArtwork3"
+    },
+    {
+      "file": "9add2.png",
+      "label": "imgNftAuthArtwork4"
+    },
+    {
+      "file": "83794.png",
+      "label": "imgNftAuthArtwork6"
+    },
+    {
+      "file": "66cfd.svg",
+      "label": "imgActiveUnderline"
+    },
+    {
+      "file": "bd8c9.svg",
+      "label": "imgSearchIcon"
+    },
+    {
+      "file": "c0c08.svg",
+      "label": "imgCartIcon"
+    },
+    {
+      "file": "aa630.svg",
+      "label": "imgBadge"
+    },
+    {
+      "file": "f74bc.svg",
+      "label": "imgLogout"
+    },
+    {
+      "file": "57141.svg",
+      "label": "imgLine1"
+    },
+    {
+      "file": "29138.svg",
+      "label": "imgGroup4"
+    },
+    {
+      "file": "88722.svg",
+      "label": "imgLine3"
+    },
+    {
+      "file": "a1082.svg",
+      "label": "imgArrowDown2"
+    },
+    {
+      "file": "51942.svg",
+      "label": "imgLine4"
+    },
+    {
+      "file": "3e723.svg",
+      "label": "imgShopping1"
+    },
+    {
+      "file": "149fd.svg",
+      "label": "imgHeart1"
+    },
+    {
+      "file": "dec44.svg",
+      "label": "imgFrame"
+    },
+    {
+      "file": "5cb53.svg",
+      "label": "imgHide"
+    },
+    {
+      "file": "f0bae.svg",
+      "label": "imgLine7"
+    },
+    {
+      "file": "10a7c.svg",
+      "label": "imgLine8"
+    },
+    {
+      "file": "400d7.svg",
+      "label": "imgLogout"
+    },
+    {
+      "file": "feb57.svg",
+      "label": "imgArrowDown2"
+    },
+    {
+      "file": "f5a88.svg",
+      "label": "imgHide"
+    },
+    {
+      "file": "f587b.svg",
+      "label": "imgLine7"
+    },
+    {
+      "file": "76f46.svg",
+      "label": "imgHide"
+    }
+  ],
+  "notes": "Exports oficiais; camadas dos logos preservam dimensões nativas. O fundo reutiliza a Home e imagens dinâmicas da API."
+}

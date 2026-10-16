@@ -1,0 +1,23 @@
+[
+  {
+    "original": "assets/originals/fonts/roboto-mono-regular.ttf",
+    "before": 78948,
+    "optimized": "public/fonts/roboto-mono-regular.woff2",
+    "after": 37608,
+    "cmapMetricsAndOutlinesIdentical": true
+  },
+  {
+    "original": "assets/originals/fonts/roboto-mono-medium.ttf",
+    "before": 78936,
+    "optimized": "public/fonts/roboto-mono-medium.woff2",
+    "after": 38744,
+    "cmapMetricsAndOutlinesIdentical": true
+  },
+  {
+    "original": "assets/originals/fonts/roboto-mono-bold.ttf",
+    "before": 79124,
+    "optimized": "public/fonts/roboto-mono-bold.woff2",
+    "after": 37712,
+    "cmapMetricsAndOutlinesIdentical": true
+  }
+]

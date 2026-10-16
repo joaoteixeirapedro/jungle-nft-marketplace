@@ -1,0 +1,132 @@
+{
+  "pipeline": 1,
+  "encoder": "sharp 0.35.5; libwebp 1.6.0",
+  "lossless": true,
+  "widths": [
+    320,
+    640,
+    1254
+  ],
+  "images": [
+    {
+      "original": "assets/originals/figma/8f387.png",
+      "bytes": 1885435,
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f20b58b99de12b6eceede2090607e4b999275bba95de7674bb14f26b59666b21",
+      "variants": [
+        {
+          "path": "public/assets/artwork/8f387-320.webp",
+          "width": 320,
+          "bytes": 95278,
+          "sha256": "76320a198775a7dbd8a4a1e277fb04277eec4c31ff8780c9db3844c9774a655f",
+          "fullResolutionPixelsIdentical": null
+        },
+        {
+          "path": "public/assets/artwork/8f387-640.webp",
+          "width": 640,
+          "bytes": 362188,
+          "sha256": "085ed4abddb43c5ebc98e3b0713b1a6dea6d4d2dac447c0bb0b769059970b6cd",
+          "fullResolutionPixelsIdentical": null
+        },
+        {
+          "path": "public/assets/artwork/8f387-1254.webp",
+          "width": 1254,
+          "bytes": 1276290,
+          "sha256": "5b412bae6c2955f3efaac2e2d7ec2305e49e726a2ea7c22538ca4fe59da33502",
+          "fullResolutionPixelsIdentical": true
+        }
+      ]
+    },
+    {
+      "original": "assets/originals/figma/83794.png",
+      "bytes": 2068526,
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9b25d8d72395aa62f919f6ad33b95b7ba7bbfee6049e95cf159a319b03ecb8d9",
+      "variants": [
+        {
+          "path": "public/assets/artwork/83794-320.webp",
+          "width": 320,
+          "bytes": 90528,
+          "sha256": "f52675eb96642c96171cb7f72c7e825a6d213807f7d956dd7863407d2e60dbe5",
+          "fullResolutionPixelsIdentical": null
+        },
+        {
+          "path": "public/assets/artwork/83794-640.webp",
+          "width": 640,
+          "bytes": 369784,
+          "sha256": "3407a7c6cd56250ab197020d7e61cf441cb0b4344bc53d0b9d0be874368b5186",
+          "fullResolutionPixelsIdentical": null
+        },
+        {
+          "path": "public/assets/artwork/83794-1254.webp",
+          "width": 1254,
+          "bytes": 1380166,
+          "sha256": "c0052210bd7d9a6d41dfafbf42c40b159d7ba5f78b6eba11444cc09214e59dd3",
+          "fullResolutionPixelsIdentical": true
+        }
+      ]
+    },
+    {
+      "original": "assets/originals/figma/9add2.png",
+      "bytes": 2027336,
+      "width": 1254,
+      "height": 1254,
+      "sha256": "326df4c1c08c31c88b9f407e51be3991e46667183af62aa1501927adc76f52b5",
+      "variants": [
+        {
+          "path": "public/assets/artwork/9add2-320.webp",
+          "width": 320,
+          "bytes": 89608,
+          "sha256": "1922de0ad9e93a28d9daaae4395882c5e4955690ce6bac82b0faa1f2d55b589c",
+          "fullResolutionPixelsIdentical": null
+        },
+        {
+          "path": "public/assets/artwork/9add2-640.webp",
+          "width": 640,
+          "bytes": 358680,
+          "sha256": "1637181ad509c8d548c07a3fd0bd28b187d973790e4a69e2d199ac8187cb7ac3",
+          "fullResolutionPixelsIdentical": null
+        },
+        {
+          "path": "public/assets/artwork/9add2-1254.webp",
+          "width": 1254,
+          "bytes": 1373616,
+          "sha256": "22b2a575454c6742ab0a39f647aea6490f127fe44dc70b4ddd5bffb23ef68e4c",
+          "fullResolutionPixelsIdentical": true
+        }
+      ]
+    },
+    {
+      "original": "assets/originals/figma/b7cfc.png",
+      "bytes": 1978600,
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2a42ba5adc341c3d0e1ad6905058e2762d995fc988113a7cd28b0d15f6a4ba28",
+      "variants": [
+        {
+          "path": "public/assets/artwork/b7cfc-320.webp",
+          "width": 320,
+          "bytes": 99350,
+          "sha256": "8ba3c525a3d4c401c95cec816ac9efe2f8893a9c0ab6feb7733ba7124b756f4e",
+          "fullResolutionPixelsIdentical": null
+        },
+        {
+          "path": "public/assets/artwork/b7cfc-640.webp",
+          "width": 640,
+          "bytes": 382258,
+          "sha256": "a3df03e0c82b51b54a16aaeb36867887a348a14e3dd2da1dc9f2eeb4018166b6",
+          "fullResolutionPixelsIdentical": null
+        },
+        {
+          "path": "public/assets/artwork/b7cfc-1254.webp",
+          "width": 1254,
+          "bytes": 1357702,
+          "sha256": "f2d2d5604c5fb27e2c28c23289d69b62d04e71fa5ec41c2588ebeadffeb8fd09",
+          "fullResolutionPixelsIdentical": true
+        }
+      ]
+    }
+  ]
+}

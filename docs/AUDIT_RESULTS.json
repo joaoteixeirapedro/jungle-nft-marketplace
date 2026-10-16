@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-16",
+  "environment": {
+    "node": "v24.19.0",
+    "platform": "win32",
+    "playwright": "1.64.1",
+    "vite": "8.3.4",
+    "axe": "4.14.0"
+  },
+  "fullRun": {
+    "total": 106,
+    "expected": 105,
+    "unexpected": 1,
+    "flaky": 0,
+    "skipped": 0,
+    "ok": false,
+    "durationMs": 408410.729,
+    "report": "playwright-report/prompt11-regression/index.html"
+  },
+  "recheck": {
+    "total": 10,
+    "expected": 10,
+    "unexpected": 0,
+    "flaky": 0,
+    "skipped": 0,
+    "ok": true,
+    "durationMs": 87126.04699999999,
+    "report": "playwright-report/prompt11-recheck/index.html"
+  },
+  "consolidated": {
+    "total": 106,
+    "passed": 106,
+    "failed": 0,
+    "note": "Union by stable Playwright testId; latest affected recheck replaces previous outcome. This is a summary, not a claim that the full run itself was green."
+  },
+  "resolved": [
+    {
+      "testId": "25ab1bfc84c57e3e3a45-5508eeebe88de070696d",
+      "title": "jornada catálogo até recibo confirmado, clique repetido, histórico imutável e autorização",
+      "project": "chromium-desktop",
+      "reason": "Reviewed 124-pixel footer link change in checkout baseline",
+      "recheckOutcome": "expected"
+    }
+  ],
+  "domain": {
+    "total": 11,
+    "passed": 11,
+    "failed": 0
+  },
+  "technical": {
+    "typecheck": "passed",
+    "lint": "passed",
+    "productionBuild": "passed"
+  },
+  "accessibility": {
+    "scansPerRun": 26,
+    "violations": 0,
+    "tags": [
+      "wcag2a",
+      "wcag2aa",
+      "wcag21a",
+      "wcag21aa",
+      "wcag22aa",
+      "best-practice"
+    ]
+  },
+  "screenshots": {
+    "screens": 24,
+    "extraMobileProof": 1,
+    "widths": [
+      1440,
+      414
+    ],
+    "overflow": 0,
+    "consoleErrors": 0
+  },
+  "notRun": [
+    "Separate full development suite (same cases run against production build)",
+    "Lighthouse 12-run audit (Prompt 12)",
+    "Public deployment audit (Prompt 12)"
+  ]
+}

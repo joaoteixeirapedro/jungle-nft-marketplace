@@ -1,0 +1,9 @@
+{
+  "source": "Frontend Challenge.fig; Desktop 11:1278 and Mobile 16:360, inspected in editor after MCP quota limit",
+  "reference": "cart-desktop.png",
+  "exports": [
+    { "file": "cart-delete.svg", "layer": "Iconly/Curved/Delete, first desktop cart item", "width": 24, "height": 24, "method": "SVG export configuration expressly authorized by user" }
+  ],
+  "reused": ["0e8e8.svg", "7d18c.svg", "a803c.svg"],
+  "dynamicArtwork": "NFT images and collection metadata remain supplied by REST"
+}

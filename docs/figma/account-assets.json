@@ -1,0 +1,25 @@
+{
+  "sourceFileKey": "lrCchkzKTa5nrWJT5nhUMN",
+  "source": "User-supplied Frontend Challenge.fig imported into the working copy; inspected and exported through the Figma browser editor.",
+  "export": "Native PNG 1x or SVG; no redrawing, recoloring, resampling or changes to the design. Export metadata for remaining account icons explicitly authorized by the user in this chat.",
+  "assets": [
+    { "file": "account-profile.png", "nodeId": "70420:4541", "layer": "Desktop / Perfil do Colecionador / Account Sidebar / User", "width": 18, "height": 18, "slot": "Profile link, active" },
+    { "file": "account-profile-inactive.png", "nodeId": "70420:4599", "layer": "Desktop / Carteiras / Account Sidebar / User", "width": 18, "height": 18, "slot": "Profile link, inactive" },
+    { "file": "account-wallets.png", "nodeId": "70420:4544", "layer": "Desktop / Perfil do Colecionador / Account Sidebar / Iconly/Light-Outline/Location", "width": 20, "height": 20, "slot": "Wallets link, inactive" },
+    { "file": "account-wallets-active.png", "nodeId": "70420:4602", "layer": "Desktop / Carteiras / Account Sidebar / Iconly/Light-Outline/Location", "width": 20, "height": 20, "slot": "Wallets link, active" },
+    { "file": "account-favorites.png", "nodeId": "70420:4551", "layer": "Desktop / Perfil do Colecionador / Account Sidebar / heart 1", "width": 16, "height": 16, "slot": "Favorites link" },
+    { "file": "account-shopping.svg", "nodeId": "70420:4547", "layer": "Desktop / Perfil do Colecionador / Account Sidebar / shopping 1", "width": 18, "height": 18, "slot": "Orders and checkout navigation" },
+    { "file": "account-logout.svg", "nodeId": "70420:4565", "layer": "Desktop / Perfil do Colecionador / Account Sidebar / Iconly/Curved/Logout", "width": 20, "height": 20, "slot": "Sign out button" },
+    { "file": "account-avatar.svg", "nodeId": "9:1581", "layer": "Desktop / Perfil do Colecionador / Avatar Controls / Frame 32", "width": 50, "height": 50, "slot": "Empty avatar, including original background, border and Image 2 icon" },
+    { "file": "account-password.svg", "nodeId": "70522:3144", "layer": "Desktop / Perfil do Colecionador / Current Password Field / Iconly/Light-Outline/Hide", "width": 20, "height": 20, "slot": "Password visibility buttons" },
+    { "file": "account-select.svg", "nodeId": "9:1837", "layer": "Desktop / Carteiras / Network Select / Arrow-Down", "width": 20, "height": 20, "slot": "Wallet network and type select backgrounds" }
+  ],
+  "measurements": {
+    "desktopFrame": { "width": 1440, "height": 1080, "paddingX": 120, "paddingY": 24 },
+    "body": { "nodeId": "70386:263", "yWithinTop": 77, "yWithinFrame": 101, "width": 1200, "columnGap": 28, "sidebarWidth": 310, "contentWidth": 862 },
+    "profileFields": { "nodeId": "70386:240", "yWithinForm": 48, "height": 285, "rowGap": 24, "fieldWidth": 417, "fieldHeight": 79, "labelFontSize": 15, "labelLineHeight": 15, "labelGroupHeight": 29, "labelInputGap": 10, "inputHeight": 40 },
+    "walletFields": { "nodeId": "70390:242", "yWithinForm": 71, "height": 421, "rowGap": 24, "fieldWidth": 417, "fieldHeight": 65, "labelFontSize": 15, "labelLineHeight": 15, "labelGroupHeight": 29, "labelInputGap": -4, "inputHeight": 40 },
+    "passwordIcon": { "xWithinInput": 381, "yWithinInput": 10, "inputWidth": 417 },
+    "selectIcon": { "xWithinInput": 389, "yWithinInput": 10, "inputWidth": 417 }
+  }
+}

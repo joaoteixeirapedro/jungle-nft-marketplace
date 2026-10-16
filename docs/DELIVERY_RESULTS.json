@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-16",
+  "typecheck": "passed",
+  "lint": "passed",
+  "build": "passed",
+  "dataTests": {
+    "passed": 12,
+    "failed": 0
+  },
+  "playwright": {
+    "startTime": "2026-10-16T16:43:48.239Z",
+    "duration": 422387.471,
+    "expected": 106,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0,
+    "projects": {
+      "desktop": 56,
+      "mobile": 50
+    },
+    "axeScans": 26
+  },
+  "assets": {
+    "inventory": 114,
+    "browserPixelComparisons": 4,
+    "differingChannels": 0,
+    "responsiveCaptures": 15,
+    "originalArtworkBytes": 7959897,
+    "fullResolutionWebpBytes": 5387774,
+    "allResponsiveArtworkBytes": 7235448
+  },
+  "lighthouse": {
+    "runs": 12,
+    "medians": [
+      {
+        "page": "home",
+        "profile": "desktop",
+        "runs": 3,
+        "scores": {
+          "performance": 83,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 92
+        },
+        "metrics": {
+          "largest-contentful-paint": 2426.249424999999,
+          "first-contentful-paint": 1200.86945,
+          "total-blocking-time": 19.5,
+          "cumulative-layout-shift": 0.0006722062250062153,
+          "speed-index": 1316.0603619330577,
+          "total-byte-weight": 315164
+        }
+      },
+      {
+        "page": "home",
+        "profile": "mobile",
+        "runs": 3,
+        "scores": {
+          "performance": 67,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 92
+        },
+        "metrics": {
+          "largest-contentful-paint": 5591.0448000000015,
+          "first-contentful-paint": 3255.338775,
+          "total-blocking-time": 282,
+          "cumulative-layout-shift": 0.0000854297950772858,
+          "speed-index": 3255.338775,
+          "total-byte-weight": 315164
+        }
+      },
+      {
+        "page": "detail",
+        "profile": "desktop",
+        "runs": 3,
+        "scores": {
+          "performance": 96,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 92
+        },
+        "metrics": {
+          "largest-contentful-paint": 1337.7367499999998,
+          "first-contentful-paint": 795.868375,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.00008974371027370461,
+          "speed-index": 795.868375,
+          "total-byte-weight": 315164
+        }
+      },
+      {
+        "page": "detail",
+        "profile": "mobile",
+        "runs": 3,
+        "scores": {
+          "performance": 75,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 92
+        },
+        "metrics": {
+          "largest-contentful-paint": 4620.0689999999995,
+          "first-contentful-paint": 3086.90715,
+          "total-blocking-time": 183,
+          "cumulative-layout-shift": 0,
+          "speed-index": 3086.90715,
+          "total-byte-weight": 315164
+        }
+      }
+    ],
+    "indexSha256": "be3d40d43a39498b0c88c5d26d84d564843d796419f0627e83ee08fd0f4b9a55"
+  },
+  "deployment": {
+    "published": false,
+    "reason": "User requested local evaluation before Vercel publication",
+    "publicUrl": null
+  },
+  "repository": "https://github.com/joaoteixeirapedro/jungle-nft-marketplace"
+}
