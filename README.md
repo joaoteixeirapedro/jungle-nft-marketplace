@@ -6,6 +6,16 @@ Marketplace de NFTs desenvolvido para o desafio técnico de frontend da **Jungle
 - **Código da entrega:** [repositório na branch `main`](https://github.com/joaoteixeirapedro/jungle-nft-marketplace/tree/main).
 - **Referências:** [enunciado do desafio](docs/CHALLENGE_README.md) e [layout no Figma](https://www.figma.com/design/Ff0SksUi7UFtPWUO8kyNtw/Frontend-Challenge?node-id=0-1).
 
+## Demonstração visual
+
+As imagens abaixo são capturas da aplicação geradas pelos testes E2E. A [demonstração online](https://jungle-nft-marketplace-xi.vercel.app) permite conferir a interface em funcionamento.
+
+| Catálogo — desktop | Checkout — mobile |
+| --- | --- |
+| ![Catálogo de NFTs na versão desktop](tests/e2e/audit.spec.ts-snapshots/home-chromium-desktop-win32.png) | ![Checkout na versão mobile](tests/e2e/checkout.spec.ts-snapshots/checkout-chromium-mobile-win32.png) |
+
+Outras capturas de catálogo, detalhe e carrinho estão em [testes E2E](tests/e2e/audit.spec.ts-snapshots).
+
 ## Guia rápido para avaliação
 
 1. Acesse a aplicação publicada e explore busca, filtros, ordenação, paginação e detalhes dos NFTs. Os parâmetros do catálogo permanecem na URL.
