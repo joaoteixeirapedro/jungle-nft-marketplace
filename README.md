@@ -241,3 +241,7 @@ A Vercel usa o preset Vite, `npm ci`, `npm run build` e a saída `dist/`. As tr�
 O Socket.IO usa o cliente real com transporte WebSocket, interceptado pelo MSW e pelo binding do protocolo. O endereço `.test` é intencional: não existe um servidor Socket.IO hospedado na Vercel. O `BroadcastChannel` sincroniza abas da mesma origem; a simulação não compartilha dados entre dispositivos.
 
 Valores em ETH usam strings decimais e cálculos inteiros em wei. O checkout revalida a cotação e preserva chaves de idempotência para recuperar a mesma compra após timeout. Eventos versionados descartam duplicatas e atualizações antigas; a reconexão reconcilia os dados com REST. As políticas completas, adaptações do Figma e limites da avaliação visual/acessível estão em [ARCHITECTURE.md](ARCHITECTURE.md).
+
+## Licença
+
+O código autoral está disponível sob a [licença MIT](LICENSE). O layout, as marcas e os assets recebidos para o desafio podem ter direitos de terceiros; a licença deste repositório não transfere esses direitos.
